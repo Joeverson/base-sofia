@@ -1,4 +1,4 @@
-* # CMS Sophia .::. #
+* # .::. CMS Sophia .::. #
 
 CMS Sophia desenvolvido por joerverson Santos
 
