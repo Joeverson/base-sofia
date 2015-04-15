@@ -11,14 +11,13 @@ class DB{
     public function __construct(){
         try{
             $this->conn = new PDO($this->socket.":host=".$this->host.";dbname=".$this->bdname, $this->user, $this->pass);
-        }catch(Exception$e){
-            echo "Deu algum erro na conexão";
+        }catch(Exception $e){
+            echo "Deu algum erro na conexão - ".$e->getMessage();
         }
     }
 
     public function auth($pass){ // Busca a senha no bd e retorna true se tiver ou retorna false caso não tenha
         $rs = $this->conn->query("SELECT pass,name FROM u WHERE pass = '".$pass."'");
-
         if($result = $rs->fetch(PDO::FETCH_ASSOC))
             return $result;
 
@@ -30,6 +29,7 @@ class DB{
         try{
             $stmt = $this->conn->prepare("INSERT INTO u(name, pass, pass2) VALUES(:nome, :pass, :pass2)");
             $stmt->execute($array);
+            return true;
         }catch(Exception $e){
             return $e->getMessage();
         }

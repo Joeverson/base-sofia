@@ -3,6 +3,7 @@
 
      public function __construct(){
          include_once 'libs/cms.session.php'; // inclue o arquivo - quando for instanciado o control o session vai junto
+         SESSION::on(); // inicia a class de session - nivel Obrigatorio
      }
 
      public function _DB(){

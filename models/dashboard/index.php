@@ -1,7 +1,4 @@
-<?php
-echo SESSION::user('pass');
-
-?>
+<?=SESSION::user('pass');?>
 <!doctype html>
 <html lang="pt-br">
 <head>

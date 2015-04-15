@@ -5,12 +5,11 @@ include_once "libs/pkw.function.php";
 $class = new control(); // instancia da classe de controle
 $action = new ACTIONS();
 
-SESSION::on(); // inicia a class de session - nivel Obrigatorio
 
 // instanciações de libs --
 $app = $class->_SLIM();
 $signIn = $class->_LOGIN();
-
+$user = $class->_USER();
 
 //resolve o login
 $app->post('/login', function () use($signIn) {
@@ -45,14 +44,18 @@ $app->get('/:page', function ($page) use($app, $action) {
 
 // diretorio inicial ou aparencia padrão
 
-$app->get('/', function () use($app, $action) {
-    //try{
-        $app->render('dashboard/index.php');
-    //}catch (\Exception $e){
-      //  $app->render('404.html');
-    //}
+$app->get('/', function () use($app, $action, $user) {
+    try{
+        $app->render('admin/index.php');
+    }catch (\Exception $e){
+        $app->render('404.html');
+    }
 });
 
+
+$app->get('/a', function () use($app, $action, $user) {
+        $app->render('includes/index.html');
+});
 /*---------------- end ------------------------*/
 
 
