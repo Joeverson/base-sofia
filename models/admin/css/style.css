@@ -49,7 +49,7 @@ html { height: 100%;}
 
 #page-content-wrapper {
     width: 100%;
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -217,7 +217,7 @@ html { height: 100%;}
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-    background-color: #1a1a1a;
+    background-color: #e6e7e8;
 }
 .hamburger.is-closed .hamb-top {
     top: 5px;
@@ -305,3 +305,5 @@ html { height: 100%;}
 .navbar{
     padding: 10px 0 !important;
 }
+
+.nopadding{padding: 0px !important;}
