@@ -9,7 +9,7 @@ class FILES{
 				da apresentação grafica deles no browser
 		*/
 
-        $caminho = 'arquivos/';
+        $caminho = 'models/';
         $dir = opendir($caminho);
         $n = 0;
         //$leituraFiles = readdir($dir);
@@ -31,6 +31,11 @@ class FILES{
         closedir($dir);
 
         return $fileM;
+    }
+
+    public function includeModel($file){
+        $path = 'models/';
+        return include_once $path.$file;
     }
 
 
