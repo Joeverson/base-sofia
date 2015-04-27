@@ -18,17 +18,11 @@ $app->post('/login', function () use($signIn) {
 });
 /*---------------- end ------------------------*/
 
-
-
-
-
-
-
 //*&% colocar qualquer outra uri importante antes deste cod abaixo pois ele ira emviar para as pastas em models.
 
 // carregar paginas extras.. outras aparencias.
 
-/*------------ router main ------------------*/
+
 $app->get('/:page', function ($page) use($app, $action) {
     try{
         $app->render($page.'/index.php',$action->BPath($page));
@@ -36,6 +30,19 @@ $app->get('/:page', function ($page) use($app, $action) {
         $app->render('404.html');
     }
 })->conditions(array('page' => '[a-z]{2,}'));
+
+
+
+//A seguir as subpaginas
+
+/*------------ router main ------------------*/
+$app->get('/:page/:subpage', function ($page, $subpage) use($app, $action) {
+    try{
+            $app->render($page.'/'.$subpage.'.php',$action->BPath($page));
+    }catch (\Exception $e){
+        $app->render('404.html');
+    }
+})->conditions(array('page' => '[a-z]{2,}','subpage' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
 
 
