@@ -1,4 +1,4 @@
-<?
+<?php
 class LOGIN extends control{
 
     public function __construct(){}

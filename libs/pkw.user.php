@@ -1,4 +1,4 @@
-<?
+<?php
 class USER extends control{
     public function newUser($nome,$pass,$pass2){
         $bd = parent::_DB();

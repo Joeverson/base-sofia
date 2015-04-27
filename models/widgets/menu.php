@@ -1,7 +1,4 @@
-<?php
-$app = new \Slim\Slim();
-$base_url = $app->request->getHost()."/cms";
-?>
+
 <!-- Sidebar -->
 <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
     <ul class="nav sidebar-nav">
@@ -11,12 +8,12 @@ $base_url = $app->request->getHost()."/cms";
             </a>
         </li>
         <li>
-            <a href="http://<?= $base_url ?>">Início</a>
+            <a href="http://<?= $path ?>">Início</a>
         </li>
 
         <hr>
         <li>
-            <a href="http://<?= $base_url ?>/usuarios" id="ultimosnoticias" data-toggle="offcanvas">Usuários</a>
+            <a href="http://<?= $path?>usuarios" id="ultimosnoticias" data-toggle="offcanvas">Usuários</a>
         </li>
         <li>
             <a href="#" id="ultimosnoticias" data-link='models/admin/pages/dashboard.html' data-toggle="offcanvas">Configurações</a>

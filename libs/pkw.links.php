@@ -1,4 +1,4 @@
-<?
+<?php
 class LINKS extends SC{
 
     public function __construct(){}

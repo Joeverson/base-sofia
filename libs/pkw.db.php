@@ -1,4 +1,4 @@
-<?
+<?php
 class DB{
     private $user = 'root';
     private $pass = '';
