@@ -1,12 +1,12 @@
 <?
-include_once "controller/control.php";
+include_once "controller/cms.control.php";
 include_once "libs/pkw.function.php";
 
 $class = new control(); // instancia da classe de controle
 $action = new ACTIONS();
 
 
-// instanciações de libs --
+// instanciações de libs
 $app = $class->_SLIM();
 $signIn = $class->_LOGIN();
 $user = $class->_USER();
@@ -28,10 +28,12 @@ $app->post('/login', function () use($signIn) {
 
 // carregar paginas extras.. outras aparencias.
 
-/*------------ router main ------------------*/
-$app->get('/:page/:subpage', function ($page, $subpage) use($app, $action) {
+
+
+/*------------ router main ------------------
+$app->get('/:page', function ($page) use($app, $action,$class) {
     try{
-            $app->render($page.'/'.$subpage.'.php',$action->BPath($page));
+        $app->render($page.'/index.php',array('path' => $action->BPath($page), 'file'=>$class->_FILE()));
     }catch (\Exception $e){
         $app->render('404.html');
     }
@@ -40,13 +42,21 @@ $app->get('/:page/:subpage', function ($page, $subpage) use($app, $action) {
 
 
 
-
+/*------------ router sub path ------------------*/
+$app->get('/:page/:subpage', function ($page, $subpage) use($app, $action,$class) {
+    try{
+    $app->render($page.'/'.$subpage.'.php',array('path' => $action->BPath($page), 'file'=>$class->_FILE()));
+    }catch (\Exception $e){
+        //$app->render('404.html');
+    }
+})->conditions(array('page' => '[a-z]{2,}'));
+/*---------------- end ------------------------*/
 
 // diretorio inicial ou aparencia padrão
 
-$app->get('/', function () use($app, $action, $user) {
+$app->get('/', function () use($app, $action, $user, $class) {
     try{
-        $app->render('admin/index.php');
+        $app->render('admin/index.php', array('path' => $action->BPath('admin'), 'file'=>$class->_FILE()));
     }catch (\Exception $e){
         $app->render('404.html');
     }
@@ -62,3 +72,11 @@ $app->get('/a', function () use($app, $action, $user) {
 
 
 $app->run();
+
+
+
+
+
+_____________________________________________
+
+

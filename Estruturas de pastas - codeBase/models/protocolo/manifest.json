@@ -1,0 +1,12 @@
+{
+  "dad": "projetos",
+  "submenu" :[
+    {
+    "url" : "protocolar.php",
+    "title" : "Protocolar"
+  },{
+      "url" : "qrcode.php",
+      "title" : "QRcode"
+    }
+  ]
+}

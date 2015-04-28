@@ -1,0 +1,18 @@
+{
+  "dad": "this",
+  "dadsName": "declaracao",
+  "title": "Declaracãos",
+  "url": "declaracao.php",
+  "submenu": [{
+    "url": "emitir.php",
+    "title": "Emitir"
+  },
+    {
+      "ur": "verificar.php",
+      "title": "Verificar"
+    }]
+}
+
+
+
+
