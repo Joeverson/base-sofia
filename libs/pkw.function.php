@@ -1,16 +1,38 @@
 <?php
 class ACTIONS extends control{
-    private $basePath;
 
-    public function __construct(){
-       $this->basePath = $_SERVER['DOCUMENT_ROOT'].$_SERVER['REQUEST_URI'];
-        //$this->basePath = parent::_SLIM()->request->getHost()."/sophiacms/";
-    }
+    public function __construct(){ }
 
     public function BPath($page = ''){
         if($page == '')
-            return $this->basePath;
+            return "http://".$_SERVER['SERVER_NAME']."/models/";
 
-        return $this->basePath.$page;
+        return "http://".$_SERVER['SERVER_NAME']."/models/".$page.'/';
+    }
+
+    public function urlPath(){
+        return "http://".$_SERVER['SERVER_NAME']."/Dropbox/sophiacms/models/";
+    }
+
+    public function makeMenu(){
+        foreach(scandir('models/admin') as $k)
+            if(($k != '.') && ($k != '..') && (!preg_match("/([.])/",$k))){
+                $obj = json_decode(file_get_contents('models/admin/'.$k.'/manifest.json'), true);
+
+                if ($obj['dad'] == "this"){
+                    $masters[$obj['dadsName']] = $obj;
+                }else{
+                    $subs[$obj['dad']] = $obj;
+                }
+            }
+
+       if(!empty($subs)){
+           foreach ($subs as $sub){
+               foreach($sub['submenu'] as $s)
+                   $masters[$sub['dad']]['submenu'][] = $s;
+           }
+       }
+
+        return $masters;
     }
 }

@@ -20,7 +20,7 @@ $file->includeModel("widgets/sidebar.php");
         <div class="row">
             <div class="container">
                 <div class="col-md-12">
-                    eita gota
+                    criar
                 </div>
             </div>
         </div>
@@ -30,5 +30,6 @@ $file->includeModel("widgets/sidebar.php");
 </div>
 
 <?php
+
 $file->includeModel("widgets/rodape.php");
 ?>
