@@ -30,7 +30,7 @@
          require 'Slim/Slim.php';
          \Slim\Slim::registerAutoloader();
 
-         $app = new \Slim\Slim(array('templates.path' => '/home/Windows/Users/Brunno Hofmann/Copy/Sites Backup/cms/models')); // retorna a instancia
+         $app = new \Slim\Slim(array('templates.path' => 'c:\xampp\htdocs\cms\models')); // retorna a instancia
 
          $app->add(new \Slim\Middleware\SessionCookie(array(
              'expires' => '20 minutes',
