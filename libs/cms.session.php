@@ -5,7 +5,6 @@
 class SESSION{
     private static $instance = null;
     private static $open;
-    private static $auth;
 
 
     private function __construct(){
@@ -32,8 +31,8 @@ class SESSION{
     }
 
     public static function setAuth($auth){
-        self::$auth = $auth;
-        $_SESSION['auth'] = $auth;
+        if(self::$open)
+            $_SESSION['user'] = $auth;
     }
 
 
@@ -48,8 +47,8 @@ class SESSION{
     }
 
     public static function auth(){
-        $_SESSION['auth'] = self::$auth;
-        return $_SESSION['auth'];
+        if(self::$open)
+            return $_SESSION['auth'];
     }
 
     public static function user($str = null){

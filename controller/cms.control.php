@@ -2,10 +2,7 @@
  class control{
      protected $slim = null;
 
-     public function __construct(){
-         include_once 'libs/cms.session.php'; // inclue o arquivo - quando for instanciado o control o session vai junto
-         SESSION::on(); // inicia a class de session - nivel Obrigatorio
-     }
+     public function __construct(){ }
 
      public function _DB(){
          include_once 'libs/pkw.db.php'; // inclue o arquivo
@@ -15,6 +12,11 @@
      public function _FILE(){
          include_once 'libs/pkw.file.php'; // inclue o arquivo
          return new FILES(); // retorna a instancia
+     }
+
+     public function _ACTIONS(){
+         include_once 'libs/pkw.function.php'; // inclue o arquivo
+         return new ACTIONS(); // retorna a instancia
      }
 
      public function _LOGIN(){
@@ -32,7 +34,7 @@
              require 'Slim/Slim.php';
              \Slim\Slim::registerAutoloader();
 
-             $app = new \Slim\Slim(array('templates.path' => 'c:/xampp/htdocs/Dropbox/sophiacms/models')); // retorna a instancia
+             $app = new \Slim\Slim(array('templates.path' => '/opt/lampp/htdocs/sophiacms/models')); // retorna a instancia
 
              $app->add(new \Slim\Middleware\SessionCookie(array(
                  'expires' => '20 minutes',

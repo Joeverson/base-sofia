@@ -1,8 +1,11 @@
 <?php
 include_once 'libs/pkw.function.php';
+
 $m = new ACTIONS();
 
+
 ?>
+
 
 <!-- Sidebar -->
 <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">

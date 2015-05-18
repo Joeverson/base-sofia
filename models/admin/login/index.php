@@ -2,6 +2,8 @@
 include_once 'libs/pkw.function.php';
 $action  = new ACTIONS();
 $endereco = $action->urlPath();
+
+
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0041)http://airtheme.net/demo/loginform/black/ -->
@@ -52,7 +54,7 @@ $endereco = $action->urlPath();
 
         <div class="inputs">
             <input name="user" type="text" required="" placeholder="Usuário">
-            <input name="pass" type="password" required="" placeholder="Senha">
+            <input name="pass" type="password" required="" placeholder="Senha" values="ironmonkey">
 
 
             <div class="link-1">

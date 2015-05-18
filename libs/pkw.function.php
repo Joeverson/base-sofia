@@ -11,7 +11,7 @@ class ACTIONS extends control{
     }
 
     public function urlPath(){
-        return "http://".$_SERVER['SERVER_NAME']."/Dropbox/sophiacms/models/";
+        return "http://".$_SERVER['SERVER_NAME']."/sophiacms/models/";
     }
 
     public function makeMenu(){
@@ -34,5 +34,22 @@ class ACTIONS extends control{
        }
 
         return $masters;
+    }
+
+    public function baseUrlAjax(){
+       return "http://".$_SERVER['SERVER_NAME']."/sophiacms/";
+    }
+
+
+    public function prepareArrayDoublePointer($array){
+        if(!is_array($array) || empty($array))
+            return null;
+
+        foreach($array as $key => $val){
+            if(!empty($val))
+                $newArray[':'.$key] = $val;
+        }
+
+        return $newArray;
     }
 }

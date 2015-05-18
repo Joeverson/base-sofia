@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 body,
-html { height: 100%;}
+html { height: 100%; padding-top: 40px; }
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {background-color: transparent;}
@@ -312,3 +312,77 @@ html { height: 100%;}
 }
 
 .nopadding{padding: 0px !important;}
+
+
+/*-------- pricing -----------*/
+.pricing li,.price-title{
+    border-radius: 0px !important;
+}
+.pricing li{
+    padding:0;
+}
+.price-body .input-group{
+    margin: 10px 0;
+}
+.price-body input[type=text]{
+
+}
+::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+:-moz-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
+}
+
+
+/*-----------------------------*/
+.progress{
+    display: none;
+}
+.list-group i{
+    text-align: right;
+    font-size: 20px;
+}
+
+.trash:hover{
+    color: red !important;
+    transform: scale(1.8);
+}
+.edit:hover{
+    color: limegreen !important;
+    transform: scale(1.8);
+}
+
+.modal-dialog{
+    z-index: 100000000000;
+}
+.list-group {
+    margin-top: 20px;
+}
+
+
+.price-title span{
+    display: none;
+}
+  /*----------------------------*/
+ /*---- notification ----------*/
+/*----------------------------*/
+
+.notification{
+    display: none;
+    z-index: 10000000000000000;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}

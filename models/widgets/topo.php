@@ -13,6 +13,7 @@ $endereco = $action->urlPath();
     <!--link global-->
     <link href="<?=$endereco ?>includes/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=$endereco ?>includes/bootflat/css/bootflat.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
     <!-- link especifico -->
@@ -24,6 +25,7 @@ $endereco = $action->urlPath();
     <script src="<?=$endereco ?>includes/bootflat/js/icheck.min.js"></script>
     <script src="<?=$endereco ?>includes/bootflat/js/jquery.fs.selecter.min.js"></script>
     <script src="<?=$endereco ?>includes/bootflat/js/jquery.fs.stepper.min.js"></script>
+    <script src="<?=$endereco ?>includes/js/cms.notifications.js"></script>
     <!-- Bootstrap >
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>

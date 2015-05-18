@@ -1,0 +1,1 @@
+- qual o melhor? carregar os dodas do usuario em um sessão ou ficar chamando do banco?
