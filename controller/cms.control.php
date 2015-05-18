@@ -1,5 +1,6 @@
-<?
- class Control{
+<?php
+ class control{
+     protected $slim = null;
 
      public function __construct(){
          include_once 'libs/cms.session.php'; // inclue o arquivo - quando for instanciado o control o session vai junto
@@ -27,26 +28,30 @@
      }
 
      public function _SLIM(){
-         require 'Slim/Slim.php';
-         \Slim\Slim::registerAutoloader();
+         if($this->slim == null){
+             require 'Slim/Slim.php';
+             \Slim\Slim::registerAutoloader();
 
-         $app = new \Slim\Slim(array('templates.path' => 'c:\xampp\htdocs\cms\models')); // retorna a instancia
+             $app = new \Slim\Slim(array('templates.path' => 'c:/xampp/htdocs/cms/models')); // retorna a instancia
 
-         $app->add(new \Slim\Middleware\SessionCookie(array(
-             'expires' => '20 minutes',
-             'path' => '/',
-             'domain' => null,
-             'secure' => false,
-             'httponly' => false,
-             'name' => 'slim_session',
-             'secret' => 'CHANGE_ME',
-             'cipher' => MCRYPT_RIJNDAEL_256,
-             'cipher_mode' => MCRYPT_MODE_CBC
-         )));
+             $app->add(new \Slim\Middleware\SessionCookie(array(
+                 'expires' => '20 minutes',
+                 'path' => '/',
+                 'domain' => null,
+                 'secure' => false,
+                 'httponly' => false,
+                 'name' => 'slim_session',
+                 'secret' => 'CHANGE_ME',
+                 'cipher' => MCRYPT_RIJNDAEL_256,
+                 'cipher_mode' => MCRYPT_MODE_CBC
+             )));
 
-         $app->config(array('debug'=>'true'));
+             $app->config(array('debug'=>'true'));
 
-         return $app;
+             $this->slim = $app;
+         }
+
+         return $this->slim;
      }
 
  }

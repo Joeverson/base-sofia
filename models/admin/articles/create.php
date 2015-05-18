@@ -20,8 +20,7 @@ $file->includeModel("widgets/sidebar.php");
         <div class="row">
             <div class="container">
                 <div class="col-md-12">
-                    <h4>Easdasdasdadsdsse é o seu painel administrativo. Para acessar as opções clique no ícone de menu no lado esquerdo</h4>
-                    <p>Por meio desse painel você pode alterar as principais informações do seu site. </p>
+                    criar
                 </div>
             </div>
         </div>
@@ -31,5 +30,6 @@ $file->includeModel("widgets/sidebar.php");
 </div>
 
 <?php
+
 $file->includeModel("widgets/rodape.php");
 ?>

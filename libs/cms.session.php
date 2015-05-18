@@ -5,6 +5,8 @@
 class SESSION{
     private static $instance = null;
     private static $open;
+    private static $auth;
+
 
     private function __construct(){
         self::$open = session_start();
@@ -13,6 +15,8 @@ class SESSION{
     public static function on(){// tecnica para não instanciar varias vezes esse objeto
         if(self::$instance == null)
             self::$instance = new SESSION();
+
+        self::setAuth(false);
 
         return self::$instance;
     }
@@ -26,6 +30,13 @@ class SESSION{
             }
 
     }
+
+    public static function setAuth($auth){
+        self::$auth = $auth;
+        $_SESSION['auth'] = $auth;
+    }
+
+
     public static function setData($array){
         if(self::$open)
             $_SESSION[array_keys($array)[0]] = array_values($array)[0];
@@ -34,6 +45,11 @@ class SESSION{
     public static function setUser($array){
         if(self::$open)
            $_SESSION['user'] = $array;
+    }
+
+    public static function auth(){
+        $_SESSION['auth'] = self::$auth;
+        return $_SESSION['auth'];
     }
 
     public static function user($str = null){

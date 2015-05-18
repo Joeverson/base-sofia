@@ -1,14 +1,12 @@
 <?php
+$file->includeModel("widgets/topo.php");
+$file->includeModel("widgets/sidebar.php");
 
-$control = new Control();
-$control->_FILE()->includeModel("widgets/topo.php");
-$control->_FILE()->includeModel("widgets/sidebar.php");
-//include "../widgets/topo.php";
 ?>
 <body>
     <div id="wrapper">
         <div class="overlay"></div>
-        <?php $control->_FILE()->includeModel("widgets/menu.php"); ?>
+        <?php $file->includeModel("widgets/menu.php"); ?>
 
 
         <!-- Page Content -->
@@ -30,5 +28,5 @@ $control->_FILE()->includeModel("widgets/sidebar.php");
     </div>
 
 <?php
-$control->_FILE()->includeModel("widgets/rodape.php")
+$file->includeModel("widgets/rodape.php")
 ?>

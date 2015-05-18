@@ -1,7 +1,9 @@
 <?php
-$app = new \Slim\Slim();
-$base_url = $app->request->getHost()."/cms";
+include_once 'libs/pkw.function.php';
+$m = new ACTIONS();
+
 ?>
+
 <!-- Sidebar -->
 <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
     <ul class="nav sidebar-nav">
@@ -10,20 +12,19 @@ $base_url = $app->request->getHost()."/cms";
                 MENU
             </a>
         </li>
-        <li>
-            <a href="http://<?= $base_url ?>">Início</a>
-        </li>
+        <?php foreach($m->makeMenu() as $k){?>
+            <li class="title">
+                <?=$k['title']?>
 
-        <hr>
-        <li>
-            <a href="http://<?= $base_url ?>/usuarios" id="ultimosnoticias" data-toggle="offcanvas">Usuários</a>
-        </li>
-        <li>
-            <a href="#" id="ultimosnoticias" data-link='models/admin/pages/dashboard.html' data-toggle="offcanvas">Configurações</a>
-        </li>
-        <li>
-            <a href="#" id="ultimosnoticias" data-link='models/admin/pages/dashboard.html' data-toggle="offcanvas">Sair</a>
-        </li>
+            <?php foreach($k['submenu'] as $v){?>
+                <li>
+                    <a href="#" data-toggle="offcanvas"><?=$v['title']?></a>
+                </li>
+            <?}?>
+                
+            </li>
+        <?php } ?>
     </ul>
 </nav>
 <!-- /#sidebar-wrapper -->
+

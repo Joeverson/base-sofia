@@ -1,67 +1,92 @@
 <?
-include_once "controller/control.php";
+include_once "controller/cms.control.php";
 include_once "libs/pkw.function.php";
+include_once "libs/cms.session.php";
+SESSION::on();
 
 $class = new control(); // instancia da classe de controle
 $action = new ACTIONS();
 
 
-// instanciações de libs --
+// instanciações de libs
 $app = $class->_SLIM();
 $signIn = $class->_LOGIN();
 $user = $class->_USER();
 
+
+$data = array('path' => $action->BPath(), 'file'=>$class->_FILE(), 'url' => $action->urlModels());
+
+
+
+// mandados por post pelos formularios e enviado as informações p seus controllers
 //resolve o login
-$app->post('/login', function () use($signIn) {
+$app->post('/login', function () use($signIn, $app) {
     if(!empty($_POST['pass']))
-        $signIn->singIn('ironmonkey');
+        if($info = $signIn->singIn($_POST['pass'])){
+            SESSION::setUser($info); // guardando dados do usuario
+            SESSION::setAuth(true); // guardando dados do usuario
+            header("location: /admin");
+
+        }else{
+            $app->render('admin/login/index.php');
+        }
 });
 /*---------------- end ------------------------*/
+
+
+
+
+
+
 
 //*&% colocar qualquer outra uri importante antes deste cod abaixo pois ele ira emviar para as pastas em models.
 
 // carregar paginas extras.. outras aparencias.
 
-
-$app->get('/:page', function ($page) use($app, $action) {
-    try{
-        $app->render($page.'/index.php',$action->BPath($page));
-    }catch (\Exception $e){
-        $app->render('404.html');
-    }
+/*------------ router sub path - principal ------------------*/
+$app->get('/:page/:subpage', function ($page, $subpage) use($app, $data, $action) {
+  if(SESSION::auth()){
+       try{
+          $data['path'] = $action->BPath($page);
+          $app->render($page.'/'.$subpage.'/index.php', $data);
+      }catch (\Exception $e){
+         $app->render('404.html');
+      }
+  }else{
+      $app->render('admin/login/index.php');
+  }
 })->conditions(array('page' => '[a-z]{2,}'));
-
-
-
-//A seguir as subpaginas
-
-/*------------ router main ------------------*/
-$app->get('/:page/:subpage', function ($page, $subpage) use($app, $action) {
-    try{
-            $app->render($page.'/'.$subpage.'.php',$action->BPath($page));
-    }catch (\Exception $e){
-        $app->render('404.html');
-    }
-})->conditions(array('page' => '[a-z]{2,}','subpage' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
 
-
+/*------------ router sub path - principal ------------------*/
+$app->get('/:page/:subpage/:file', function ($page, $subpage,$file) use($app, $data, $action) {
+    if(SESSION::auth()){
+        try{
+            $data['path'] = $action->BPath($page);
+            $app->render($page.'/'.$subpage.'/'.$file.'.php', $data);
+        }catch (\Exception $e){
+            $app->render('404.html');
+        }
+    }else{
+        $app->render('admin/login/index.php');
+    }
+})->conditions(array('page' => '[a-z]{2,}', 'file' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+/*---------------- end ------------------------*/
 
 
 
 // diretorio inicial ou aparencia padrão
 
-$app->get('/', function () use($app, $action, $user) {
-    try{
-        $app->render('admin/index.php');
-    }catch (\Exception $e){
-        $app->render('404.html');
+$app->get('/', function () use($app, $data) {
+    if(SESSION::auth()){
+        try{
+            $app->render('admin/index.php', $data);
+        }catch (\Exception $e){
+            $app->render('404.html');
+        }
+    }else{
+        $app->render('admin/login/index.php');
     }
-});
-
-
-$app->get('/a', function () use($app, $action, $user) {
-        $app->render('includes/index.html');
 });
 /*---------------- end ------------------------*/
 

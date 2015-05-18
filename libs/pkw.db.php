@@ -1,9 +1,9 @@
-<?
+<?php
 class DB{
     private $user = 'root';
     private $pass = '';
     private $host = 'localhost';
-    private $bdname = 'kraytosCMS';
+    private $bdname = 'cms';
     private $socket = 'mysql';
     private $conn;
 
@@ -17,7 +17,7 @@ class DB{
     }
 
     public function auth($pass){ // Busca a senha no bd e retorna true se tiver ou retorna false caso não tenha
-        $rs = $this->conn->query("SELECT pass,name FROM u WHERE pass = '".$pass."'");
+        $rs = $this->conn->query("SELECT pass FROM u WHERE pass = '".$pass."'");
         if($result = $rs->fetch(PDO::FETCH_ASSOC))
             return $result;
 

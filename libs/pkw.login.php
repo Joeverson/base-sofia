@@ -1,4 +1,4 @@
-<?
+<?php
 class LOGIN extends control{
 
     public function __construct(){}
@@ -8,11 +8,10 @@ class LOGIN extends control{
     public function singIn($pass){
         $db = parent::_DB();
         if($r = $db->auth($pass)) {
-            SESSION::setUser($r); // guardando dados do usuario
-            return json_encode($r); // retorno para ajax
+            return $r; // retorno para ajax
         }
 
-        return json_decode('{"error":"Erro na autenticação"}'); // retorno para ajax
+        return false; // retorno para ajax
     }
 
 
