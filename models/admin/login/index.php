@@ -1,8 +1,7 @@
 <?php
 include_once 'libs/pkw.function.php';
 $action  = new ACTIONS();
-$endereco = $action->urlModels();
-$patch = $action->urlPath();
+$endereco = $action->urlPath();
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0041)http://airtheme.net/demo/loginform/black/ -->
@@ -28,7 +27,7 @@ $patch = $action->urlPath();
 
 <div id="wrapper">
 
-    <form action="<?= $patch ?>login" class="form-login" method="post">
+    <form action="<?= $endereco ?>login" class="form-login" method="post">
 
         <div class="header">
             <a href="#" class="link-head-left"><i class="fa fa-bed"></i></a>
@@ -53,7 +52,7 @@ $patch = $action->urlPath();
 
         <div class="inputs">
             <input name="user" type="text" required="" placeholder="Usuário">
-            <input name="pass" type="password" required="" placeholder="Senha">
+            <input name="pass" type="password" required="" placeholder="Senha" values="ironmonkey">
 
 
             <div class="link-1">

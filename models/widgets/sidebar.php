@@ -1,8 +1,17 @@
 <?php
 include_once 'libs/pkw.function.php';
+
 $action  = new ACTIONS();
 $url = $action->urlPath();
+
 ?>
+
+<!-- div de notificações -->
+<div class="alert alert-success alert-dismissable notification">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <strong></strong>.
+</div>
+<!-- /div de notificações -->
 
 <!--top menu-->
 <div class="row">
@@ -22,12 +31,12 @@ $url = $action->urlPath();
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <p class="navbar-text navbar-right"><span class="text-success">Gerenciador de Conteúdo</span>Usuário logado - <a class="navbar-link" href=""><b>Sair</b></a></p>
 
-                    <!-- <form class="navbar-form navbar-right" role="search">
+                    <!--form class="navbar-form navbar-right" role="search">
                           <div class="form-search search-only">
                               <i class="search-icon glyphicon glyphicon-search"></i>
                               <input class="form-control search-query">
                           </div>
-                      </form> -->
+                      </form-->
                 </div>
             </div>
         </nav>

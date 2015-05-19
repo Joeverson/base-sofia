@@ -10,12 +10,8 @@ class ACTIONS extends control{
         return "http://".$_SERVER['SERVER_NAME']."/models/".$page.'/';
     }
 
-    public function urlModels(){
-        return "http://".$_SERVER['SERVER_NAME']."/cms/models/";
-    }
-
     public function urlPath(){
-        return "http://".$_SERVER['SERVER_NAME']."/cms/";
+        return "http://".$_SERVER['SERVER_NAME']."/sophiacms/models/";
     }
 
     public function makeMenu(){
@@ -38,5 +34,22 @@ class ACTIONS extends control{
        }
 
         return $masters;
+    }
+
+    public function baseUrlAjax(){
+       return "http://".$_SERVER['SERVER_NAME']."/sophiacms/";
+    }
+
+
+    public function prepareArrayDoublePointer($array){
+        if(!is_array($array) || empty($array))
+            return null;
+
+        foreach($array as $key => $val){
+            if(!empty($val))
+                $newArray[':'.$key] = $val;
+        }
+
+        return $newArray;
     }
 }
