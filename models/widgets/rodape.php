@@ -1,3 +1,6 @@
+</div>
+
+</div>
 <!-- /#wrapper -->
 <script type="text/javascript">
     $(document).ready(function () {

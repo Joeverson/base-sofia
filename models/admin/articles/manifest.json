@@ -9,11 +9,11 @@
       "title": "Adicionar"
     },
     {
-      "ur": "remover.php",
+      "url": "remover.php",
       "title": "Remover"
     },
     {
-      "ur": "editar.php",
+      "url": "editar.php",
       "title": "Editar"
     }
   ]

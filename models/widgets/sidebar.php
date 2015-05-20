@@ -25,7 +25,7 @@ $url = $action->urlPath();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand nopadding" href="#"><img src="<?=$url?>includes/img/marca.png" style="width: 40%" alt=""/></a>
+                    <a class="navbar-brand nopadding" href="#"><img src="<?= $endereco ?>includes/img/marca.png" style="width: 40%" alt=""/></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -42,3 +42,18 @@ $url = $action->urlPath();
         </nav>
     </div>
 </div>
+<body>
+<div id="wrapper">
+    <div class="overlay"></div>
+    <?php
+        include "models/widgets/menu.php";
+    ?>
+
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>

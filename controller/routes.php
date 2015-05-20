@@ -45,10 +45,16 @@ $app->post('/login', function () use($signIn, $app, $data) {
 
 /*------------ router sub path - principal ------------------*/
 $app->get('/:page/:subpage', function ($page, $subpage) use($app, $data, $action, $auth) {
-  if(true){
+    $caminho = $page.'/'.$subpage;
+    if(true){
        try{
-          $data['path'] = $action->BPath($page);
-          $app->render($page.'/'.$subpage.'/index.php', $data);
+           if ($action->checkAcess($caminho))
+           {
+               $data['path'] = $action->BPath($page);
+               $app->render($caminho . '/index.php', $data);
+           }else{
+               $app->render('404.html');
+           }
       }catch (\Exception $e){
          $app->render('404.html');
       }

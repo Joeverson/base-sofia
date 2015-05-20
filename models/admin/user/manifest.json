@@ -1,20 +1,9 @@
 {
   "dad": "this",
-  "dadsName": "usuarios",
+  "dadsName": "master",
+  "acessLevel": "0,1",
   "title": "Usuários",
-  "url": "index.php",
-  "submenu": [
-    {
-      "url": "criar.php",
-      "title": "Adicionar"
-    },
-    {
-      "ur": "remover.php",
-      "title": "Remover"
-    },
-    {
-      "ur": "editar.php",
-      "title": "Editar"
-    }
-  ]
+  "url": "user",
+  "submenu": []
+
 }

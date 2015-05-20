@@ -56,7 +56,7 @@ class DB{
     }
 
     public function selectAllUser(){ // retorna um array com as informações de acordo com o mês
-       $rs = $this->conn->query("SELECT * FROM usuarios inner JOIN tipos on usuarios.id_tipo = tipos.id_tipo");
+       $rs = $this->conn->query("SELECT *, DATE_FORMAT(last_login,'%d.%m.%Y - %h.%i.%s') as last_login FROM allusers order by name ASC");
        if(($rs == false) || ($rs == NULL))
            return false;
 

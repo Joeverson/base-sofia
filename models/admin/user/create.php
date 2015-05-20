@@ -1,11 +1,9 @@
 <?php
-$file->includeModel("widgets/topo.php");
-$file->includeModel("widgets/sidebar.php");
-
+include "models/widgets/topo.php";
+include "models/widgets/sidebar.php";
 ?>
-<body>
+<div class="row">
     <div class="container">
-        <div class="row">
             <div class="col-md-6">
                 <div class="pricing">
                     <ul>
@@ -73,9 +71,9 @@ $file->includeModel("widgets/sidebar.php");
             </div>
 
 
-        </div>
-    </div>
 
+    </div>
+</div>
 
     <!-- Modal -->
     <div class="modal fade modalUsers" id="modalUsers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -101,7 +99,7 @@ $file->includeModel("widgets/sidebar.php");
 
 
 
-</body>
+
 <script>
     $(function(){
         $("#formCreateUser").on("submit",function(){
@@ -211,4 +209,7 @@ $file->includeModel("widgets/sidebar.php");
         });
     });
 </script>
+<?php
+include "models/widgets/rodape.php";
+?>
 </html>

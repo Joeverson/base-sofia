@@ -1,9 +1,9 @@
 <?php
 include_once 'libs/pkw.function.php';
-
 $m = new ACTIONS();
+$url = $m->urlPath();
 
-
+$_SESSION['acessLevel'] = 1;
 ?>
 
 
@@ -15,19 +15,23 @@ $m = new ACTIONS();
                 MENU
             </a>
         </li>
-        <?php foreach($m->makeMenu() as $k){?>
-            <li class="title">
-                <?=$k['title']?>
+        <?php foreach($m->makeMenu() as $k){
+            ?>
 
-            <?php foreach($k['submenu'] as $v){?>
+            <li>
+                <a href="<?= $url.$k['url'] ?>" class="title"><?=$k['title']?></a>
+
+            <?php foreach($k['submenu'] as $v){
+                ?>
+
                 <li>
-                    <a href="#" data-toggle="offcanvas"><?=$v['title']?></a>
+                    <a href="<?php if (!empty($v['url'])) echo $v['url'] ?> " data-toggle="offcanvas"><?=$v['title']?></a>
                 </li>
             <?}?>
-                
+
             </li>
         <?php } ?>
     </ul>
 </nav>
-<!-- /#sidebar-wrapper -->
+
 
