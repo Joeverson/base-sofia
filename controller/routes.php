@@ -84,7 +84,8 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($app, $data, $action) {
     $caminho = $page.'/'.$subpage;
     try{
-         if ($action->checkAcess($caminho))
+         //if ($action->checkAcess($caminho))
+        if(true)
          {
              $data['path'] = $action->BPath($page);
              $app->render($caminho . '/index.php', $data);

@@ -2,19 +2,12 @@
   "dad": "this",
   "dadsName": "artigo",
   "title": "Artigos",
-  "url": "index.php",
+  "acessLevel": "0,1",
+  "url": "admin/articles",
   "submenu": [
     {
       "url": "criar.php",
-      "title": "Adicionar"
-    },
-    {
-      "url": "remover.php",
-      "title": "Remover"
-    },
-    {
-      "url": "editar.php",
-      "title": "Editar"
+      "title": "Apagar"
     }
   ]
 }

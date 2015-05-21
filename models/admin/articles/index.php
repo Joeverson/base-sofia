@@ -1,37 +1,63 @@
 <?php
-$file->includeModel("widgets/topo.php");
-$file->includeModel("widgets/sidebar.php");
-//include "../widgets/topo.php";
+include "models/widgets/topo.php";
+include "models/widgets/sidebar.php";
 ?>
-    <body>
+
 <div id="wrapper">
     <div class="overlay"></div>
-    <?php $file->includeModel("widgets/menu.php"); ?>
-
-
     <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-            <span class="hamb-top"></span>
-            <span class="hamb-middle"></span>
-            <span class="hamb-bottom"></span>
-        </button>
-
         <div class="row">
             <div class="container">
                 <div class="col-md-12">
-                    <div class="title">Criando Artigo...</div>
-
-                    <div class="publicar col-md-4">
-                        <h4 class="publicar col-md-8">Publicar?</h4>
-                        <div class="col-md-4">
-                            <label class="toggle">
-                                <input type="checkbox" checked="">
-                                <span class="handle"></span>
-                            </label>
+                    <div class="modal-dialog notice">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Notícias</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Vamos lá, preparado para adicionar uma nova notícia?</p>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <!--label>Name</label-->
+                                        <input type="text" name="title" class="form-control" placeholder="Titulo" required="">
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <!--label>Email</label-->
+                                        <input type="text" name="subtitle" class="form-control" placeholder="Subtitulo" required="">
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 10px 0 0 0;">
+                                    <div class="col-xs-6">
+                                        <label>Upload de Imagem</label>
+                                        <input type="file" name="img" class="form-control" placeholder="Subtitulo" required="">
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 30px 0 0 0;">
+                                    <div class="col-xs-12">
+                                        <select name="Cat" id="cat" class="form-control">
+                                            <option value="-1">Selecione uma Categoria</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 20px 0 0 0;">
+                                    <div class="col-xs-12">
+                                        <label>Resumo</label>
+                                        <textarea class="form-control col-md-12" rows="3" placeholder="Breve resumo..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 30px 0 50px 0;">
+                                    <div class="col-xs-12">
+                                        <label>Noticia</label>
+                                        <textarea class="form-control col-md-12" rows="13" placeholder="Notícia"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer save-in-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-success">Salvar</button>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -41,6 +67,5 @@ $file->includeModel("widgets/sidebar.php");
 </div>
 
 <?php
-
-$file->includeModel("widgets/rodape.php");
+include "models/widgets/rodape.php";
 ?>

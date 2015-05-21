@@ -243,7 +243,7 @@ html { height: 100%; padding-top: 40px; border-radius: 0px !important; }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
-    background-color: #1a1a1a;
+    background-color: #fff;
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {
@@ -306,9 +306,11 @@ html { height: 100%; padding-top: 40px; border-radius: 0px !important; }
 /*-------------------------------*/
 .navbar-header{
     margin-left:4.5% !important;
+
 }
 .navbar{
     padding: 10px 0 !important;
+
 }
 
 .nopadding{padding: 0px !important;}
@@ -395,4 +397,19 @@ html { height: 100%; padding-top: 40px; border-radius: 0px !important; }
     background-color: #3bafda;
     color: #fff;
     font-weight: lighter !important;
+}
+
+/*--------------------------------*/
+/*---------  artigos  ------------*/
+/*--------------------------------*/
+
+.save-in-footer{
+    position: fixed;
+    bottom:0;
+    background: white;
+    width: 45%;
+    box-shadow: 0px -5px 7px -6px #1c1c1c;
+}
+.notice{
+    z-index: 1 !important;
 }

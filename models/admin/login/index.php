@@ -74,7 +74,7 @@ $endereco = $action->urlPath();
 <script>
 
     <?php if(isset($notAceppt) && $notAceppt){?>
-        $(function(){notification.error('Senha ou email invalido!!');});
+        $(function(){notification.error('Senha ou E-mail inválido');});
     <?php } ?>
 
 </script>

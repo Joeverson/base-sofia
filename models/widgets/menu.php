@@ -2,6 +2,7 @@
 include_once 'libs/pkw.function.php';
 $m = new ACTIONS();
 $url = $m->urlPath();
+$baseUrl = $m->baseUrlAjax();
 
 $_SESSION['acessLevel'] = 1;
 ?>
@@ -19,13 +20,13 @@ $_SESSION['acessLevel'] = 1;
             ?>
 
             <li>
-                <a href="<?= $url.$k['url'] ?>" class="title"><?=$k['title']?></a>
+                <a href="<?= $baseUrl.$k['url'] ?>" class="title"><?=$k['title']?></a>
 
             <?php foreach($k['submenu'] as $v){
                 ?>
 
                 <li>
-                    <a href="<?php if (!empty($v['url'])) echo $v['url'] ?> " data-toggle="offcanvas"><?=$v['title']?></a>
+                    <a href="<?php if (!empty($v['url'])) echo $baseUrl.$v['url'] ?> " data-toggle="offcanvas"><?=$v['title']?></a>
                 </li>
             <?}?>
 

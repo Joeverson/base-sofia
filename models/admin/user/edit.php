@@ -1,6 +1,6 @@
 <?php
-$file->includeModel("widgets/topo.php");
-$file->includeModel("widgets/sidebar.php");
+include "models/widgets/topo.php";
+include "models/widgets/sidebar.php";
 
 ?>
 <body>
@@ -70,14 +70,14 @@ $file->includeModel("widgets/sidebar.php");
                 <a href="#" class="list-group-item active">
                     <h4 class="list-group-item-heading">Clique no usuário para edita-lo</h4>
                 </a>
-                <?php foreach($user->selectAllUser() as $u){ ?>
-                    <a href="#" class="list-group-item" data-id="<?=$u['id']?>">
-                        <h4 class="list-group-item-heading"><?=$u['name']?> <i class="fa fa-trash-o trash fn" data-title="Apagando usuário..." data-url="user/delete" data-id="<?=$u['id']?>" data-toggle="modal" data-target=".modalUsers"></i>
+                <?php //foreach($user->selectAllUser() as $u){ ?>
+                    <a href="#" class="list-group-item" data-id="<?//=$u['id']?>">
+                        <h4 class="list-group-item-heading"><?//=$u['name']?> <i class="fa fa-trash-o trash fn" data-title="Apagando usuário..." data-url="user/delete" data-id="<?//=$u['id']?>" data-toggle="modal" data-target=".modalUsers"></i>
                         </h4>
-                        <p class="list-group-item-text">Tipo de Usuário: <?=$u['name_cat']?></p>
+                        <p class="list-group-item-text">Tipo de Usuário: <?//=$u['name_cat']?></p>
 
                     </a>
-                <?php } ?>
+                <?php //} ?>
             </div>
         </div>
 
@@ -199,4 +199,7 @@ $file->includeModel("widgets/sidebar.php");
         });
     });
 </script>
-</html>
+
+<?php
+include "models/widgets/rodape.php";
+?>

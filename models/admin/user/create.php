@@ -1,6 +1,6 @@
 <?php
-$file->includeModel("widgets/topo.php");
-$file->includeModel("widgets/sidebar.php");
+include "models/widgets/topo.php";
+include "models/widgets/sidebar.php";
 
 ?>
 <div class="row">
@@ -223,4 +223,3 @@ $file->includeModel("widgets/sidebar.php");
 <?php
 include "models/widgets/rodape.php";
 ?>
-</html>
