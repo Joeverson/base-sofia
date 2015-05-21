@@ -1,6 +1,7 @@
 <?php
-include "models/widgets/topo.php";
-include "models/widgets/sidebar.php";
+$file->includeModel("widgets/topo.php");
+$file->includeModel("widgets/sidebar.php");
+
 ?>
 <div class="row">
     <div class="container">
@@ -13,7 +14,7 @@ include "models/widgets/sidebar.php";
                                     <h3>Criar Usuário</h3>
                                     <p>Adicionar novo usuário</p>
                                     <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"  style="width: 20%">
                                             <span class="sr-only">40% Complete (success)</span>
                                         </div>
                                     </div>
@@ -22,25 +23,36 @@ include "models/widgets/sidebar.php";
                                     <div class="col-md-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                            <input type="text" id="name" class="form-control" placeholder="Usuário" required="">
+                                            <input type="text" id="name" name="name" value="hy"class="form-control" placeholder="Usuário" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="input-group">
                                             <span class="input-group-addon">@</span>
-                                            <input type="email" id="email" class="form-control" placeholder="E-mail" required="">
+                                            <input type="email" id="email" name="email" value="hy@oi.com" class="form-control" placeholder="E-mail" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-briefcase"></i></span>
+                                            <select name="cat" class="form-control">
+                                                <option value="-1">Defina os privilegios do usuário</option>
+                                                <?php foreach($cat as $c){?>
+                                                    <option value="<?=$c["id_tipo"]?>"><?=$c["name_cat"]?></option>
+                                                <?}?>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                                            <input type="password" id='pass2' class="form-control" placeholder="Senha" required="">
+                                            <input type="password" id='pass2' value="123" class="form-control" placeholder="Senha" required="">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                                            <input type="password" id="pass" class="form-control" placeholder="Re-Senha" required="">
+                                            <input type="password" id="pass" name="pass" value="123" class="form-control" placeholder="Re-Senha" required="">
                                         </div>
                                     </div>
                                 </div>
@@ -59,14 +71,14 @@ include "models/widgets/sidebar.php";
                     <a href="#" class="list-group-item active">
                         <h4 class="list-group-item-heading">Usuários Ativos</h4>
                     </a>
-                    <?php foreach($user->selectAllUser() as $u){ ?>
-                        <a href="#" class="list-group-item">
-                            <h4 class="list-group-item-heading"><?=$u['name']?> <i class="fa fa-pencil edit fn" data-title="Editando usuário..." data-id="<?=$u['id']?>" data-url="user/edit" data-toggle="modal" data-target="#modalUsers"></i> <i class="fa fa-trash-o trash fn" data-title="Apagando usuário..." data-url="user/d" data-id="<?=$u['id']?>" data-toggle="modal" data-target=".modalUsers"></i>
+                    <?php //foreach($user->selectAllUser() as $u){ ?>
+                        <!--a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading"><?//=$u['name']?> <i class="fa fa-pencil edit fn" data-title="Editando usuário..." data-id="<?//=$u['id']?>" data-url="user/edit" data-toggle="modal" data-target="#modalUsers"></i> <i class="fa fa-trash-o trash fn" data-title="Apagando usuário..." data-url="user/d" data-id="<?//=$u['id']?>" data-toggle="modal" data-target=".modalUsers"></i>
                                 </h4>
-                            <p class="list-group-item-text">Tipo de Usuário: <?=$u['name_cat']?></p>
+                            <p class="list-group-item-text">Tipo de Usuário: <?//=$u['name_cat']?></p>
 
-                        </a>
-                    <?php } ?>
+                        </a-->
+                    <?php //} ?>
                 </div>
             </div>
 
@@ -104,32 +116,30 @@ include "models/widgets/sidebar.php";
     $(function(){
         $("#formCreateUser").on("submit",function(){
             event.preventDefault();
-            var data = jQuery( this ).serialize();
+            var data = $( this ).serialize();
 
             var pass = $("#pass");
             var pass2 = $("#pass2");
 
 
             if((pass.val() != pass2.val())){
-                alert("error");
+                console.log(data);
             }else{
                 $.ajax({
-                    url: '<?=$baseUrlAjax?>user/create',
                     type: 'post',
+                    url: '<?=$baseUrlAjax?>user/create',
                     data: data,
-                    datatype: 'html',
-                    beforeSend: function(){
-                        $('.progress-bar').show();
-                    },
-                    complete: function() {
-                        $('.progress-bar').fadeOut();
-                    },
-                    success: function(e){
-                        $('body').prepend(e);
-                        name.val('');
+                    datatype: 'json',
+                    success: function(t){
+                        $('body').prepend(t);
+                        /*name.val('');
                         email.val('');
                         pass.val('');
-                        pass2.val('');
+                        pass2.val('');*/
+                        notification.ok('Enviado com Sucesso!!');
+                    },
+                    error: function(){
+                        notification.ok('Error ao salvar o usuário!!');
                     }
                 });
             }
@@ -209,6 +219,7 @@ include "models/widgets/sidebar.php";
         });
     });
 </script>
+
 <?php
 include "models/widgets/rodape.php";
 ?>

@@ -1,24 +1,13 @@
 <?php
 include_once 'libs/pkw.function.php';
+$file->includeModel("widgets/topo.php");
+
 $action  = new ACTIONS();
 $endereco = $action->urlPath();
+
 ?>
-<!DOCTYPE html>
-<!-- saved from url=(0041)http://airtheme.net/demo/loginform/black/ -->
-<html lang="en" class="body-error"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Dom</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link href="<?=$endereco ?>admin/login/css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link href="<?=$endereco ?>admin/login/css/style.css" rel="stylesheet">
 
 
 </head>
@@ -27,7 +16,7 @@ $endereco = $action->urlPath();
 
 <div id="wrapper">
 
-    <form action="<?= $endereco ?>login" class="form-login" method="post">
+    <form action="<?=$baseUrlAjax?>login" method='post' class="form-login">
 
         <div class="header">
             <a href="#" class="link-head-left"><i class="fa fa-bed"></i></a>
@@ -51,18 +40,18 @@ $endereco = $action->urlPath();
         <div class="avatar"><img src="<?=$endereco ?>includes/img/marca.png" alt=""></div>
 
         <div class="inputs">
-            <input name="user" type="text" required="" placeholder="Usuário">
-            <input name="pass" type="password" required="" placeholder="Senha" values="ironmonkey">
+            <input name="name" type="text" required="" placeholder="Usuário">
+            <input name="pass" type="password" required="" placeholder="Senha">
 
 
             <div class="link-1">
-                <input type="checkbox" id="c2" name="cc" checked="checked">
+                <input type="checkbox" id="c2" name="" checked="checked">
                 <label for="c2"><span></span> Lembre-me</label>
             </div>
             <div class="link-2"><a href="http://airtheme.net/demo/loginform/black/forgot-password.html">Esqueceu sua Senha?</a></div>
             <div class="clear"></div>
 
-            <div class="button-login"><input type="submit" value="Sign in"></div>
+            <div class="button-login"><input type="submit" value="Entrar"></div>
         </div>
 
         <div class="footer-login">
@@ -82,17 +71,15 @@ $endereco = $action->urlPath();
 </div>
 
 
+<script>
 
+    <?php if(isset($notAceppt) && $notAceppt){?>
+        $(function(){notification.error('Senha ou email invalido!!');});
+    <?php } ?>
 
+</script>
 
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="jquery.min.js"></script>
-<script src="styleswitcher.js"></script>
-
-
-
-
-
-</body></html>
+</body>
+<?php
+$file->includeModel("widgets/rodape.php");
+?>

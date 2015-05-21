@@ -5,9 +5,9 @@ class LOGIN extends control{
 
     // pega a senha e verifica se existe no banco de dados
 
-    public function singIn($pass){
+    public function singIn($array){
         $db = parent::_DB();
-        if($r = $db->auth($pass)) {
+        if($r = $db->auth($array)) {
             return $r; // retorno para ajax
         }
 

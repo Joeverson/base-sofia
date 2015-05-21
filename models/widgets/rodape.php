@@ -2,6 +2,12 @@
 
 </div>
 <!-- /#wrapper -->
+<!-- div de notificações -->
+<div class="alert alert-success alert-dismissable notification">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <strong></strong>.
+</div>
+<!-- /div de notificações -->
 <script type="text/javascript">
     $(document).ready(function () {
 

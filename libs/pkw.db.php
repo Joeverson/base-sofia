@@ -20,19 +20,20 @@ class DB{
         return md5(sha1($pass));
     }
 
-    public function auth($pass){ // Busca a senha no bd e retorna true se tiver ou retorna false caso não tenha
-        $rs = $this->conn->query("SELECT pass FROM u WHERE pass = '".$pass."'");
-        if($result = $rs->fetch(PDO::FETCH_ASSOC))
-            return $result;
+    public function auth($array){ // Busca a senha no bd e retorna true se tiver ou retorna false caso não tenha
+        $rs = $this->conn->query("SELECT id, name, email, id_tipo FROM usuarios WHERE pass = '".$this->segPassEncript($array['pass'])."' and name = '".$array['name']."'");
+        if(($rs == false) || ($rs == NULL))
+            return false;
 
-        return false;
+        foreach($rs as $k)
+            return $k;
     }
 
 
     public function insertUser($array){
         try{
             $keys = array_keys($array);
-            $stmt = $this->conn->prepare("INSERT INTO usuarios(name, pass, email) VALUES(".$keys[0].",".$keys[1].",".$keys[2].")");
+            $stmt = $this->conn->prepare("INSERT INTO usuarios(name, email, pass, id_tipo) VALUES(".$keys[0].",".$keys[1].",".$keys[3].",".$keys[2].")");
             $stmt->execute($array);
             return true;
         }catch(Exception $e){

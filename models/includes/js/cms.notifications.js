@@ -8,7 +8,7 @@ var notification = {
         }, 5000);
     },
     "error": function(sms){
-        $('.notification').css({backgroundColor: 'red', color: 'white'}).fadeIn('slow');
+        $('.notification').css({backgroundColor: '#F44336', color: 'white'}).fadeIn('slow');
         $('.notification strong').html(sms);
 
         setTimeout(function(){

@@ -1,7 +1,6 @@
 <?php
 $file->includeModel("widgets/topo.php");
 $file->includeModel("widgets/sidebar.php");
-
 ?>
 <body>
 <div class="container">
@@ -172,7 +171,7 @@ $file->includeModel("widgets/sidebar.php");
                     $('.progress-bar').show();
                 },
                 complete: function() {
-                    $('.progress-bar').fadeOut();3
+                    $('.progress-bar').fadeOut();
                 },
                 success: function(e){
                     $('body').prepend(e);

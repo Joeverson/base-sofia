@@ -10,10 +10,9 @@ class USER extends control{
 
     public function newUser($args){
         $array = $this->fcn->prepareArrayDoublePointer($args);
-
         $array[':pass'] = $this->bd->segPassEncript($array[':pass']);
-        //return $this->bd->insertUser($array);
-        return "a";
+
+        return $this->bd->insertUser($array);
     }
 
 
