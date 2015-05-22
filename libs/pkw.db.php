@@ -1,9 +1,9 @@
 <?php
 class DB{
-    private $user = 'u674988961_cms';
-    private $pass = 'vitoriadom';
-    private $host = 'www.domagencia.com';
-    private $bdname = 'u674988961_cms';
+    private $user = 'root';
+    private $pass = '';
+    private $host = 'localhost';
+    private $bdname = 'cms';
     private $socket = 'mysql';
     private $conn;
 
@@ -17,7 +17,7 @@ class DB{
     }
 
     public function segPassEncript($pass){
-        return sha1($pass);
+        return md5(sha1($pass));
     }
 
     public function auth($array){ // Busca a senha no bd e retorna true se tiver ou retorna false caso não tenha

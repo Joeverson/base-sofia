@@ -11,10 +11,10 @@ class ACTIONS extends control{
     }
 
     public function urlPath(){
-        return "http://".$_SERVER['SERVER_NAME']."/cms/models/";
+        return "http://".$_SERVER['SERVER_NAME']."/sophiacms/models/";
     }
     public function urlModels(){
-        return "http://".$_SERVER['SERVER_NAME']."/cms/models/";
+        return "http://".$_SERVER['SERVER_NAME']."/sophiacms/models/";
     }
 
 
@@ -51,7 +51,7 @@ class ACTIONS extends control{
     }
 
     public function baseUrlAjax(){
-       return "http://".$_SERVER['SERVER_NAME']."/cms/";
+       return "http://".$_SERVER['SERVER_NAME']."/sophiacms/";
     }
 
 
