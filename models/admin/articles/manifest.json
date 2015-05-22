@@ -3,13 +3,8 @@
   "dadsName": "artigo",
   "title": "Artigos",
   "acessLevel": "0,1",
-  "url": "articles",
-  "submenu": [
-    {
-      "url": "criar.php",
-      "title": "Apagar"
-    }
-  ]
+  "url": "admin/articles",
+  "submenu": []
 }
 
 

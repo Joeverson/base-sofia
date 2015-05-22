@@ -159,9 +159,18 @@ $app->post('/user/edit', function() use ($user, $app){
 
     $app->render("admin/user/pages/edit.php", $array);
 });
+
+$app->post('/user/delete', function() use ($user, $app){
+    $app->render("admin/user/pages/delete.php", ['id' => $_POST['id']]);
+});
+
+$app->post('/user/delete/:id', function($id) use ($user, $app){
+    $user->deleteUser($id);
+});
+
+
 $app->post('/user/edit/:id', function($id) use ($user, $app){
     $user->updateUser($_POST, $id);
-
 });
 
 

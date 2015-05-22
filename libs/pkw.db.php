@@ -29,7 +29,7 @@ class DB{
             return $k;
     }
 
-
+// crud User:::
     public function insertUser($array){
         try{
             $keys = array_keys($array);
@@ -56,6 +56,19 @@ class DB{
         }
     }
 
+
+    public function deleteUser($id){
+        try{
+            $stmt = $this->conn->prepare("DELETE FROM usuarios WHERE id = '".$id."'");
+            $stmt->execute();
+
+            return true;
+        }catch(Exception $e){
+            return $e->getMessage();
+        }
+    }
+
+
     public function selectAllUser(){ // retorna um array com as informações de acordo com o mês
        $rs = $this->conn->query("SELECT *, DATE_FORMAT(last_login,'%d.%m.%Y - %h.%i.%s') as last_login FROM allusers order by name ASC");
        if(($rs == false) || ($rs == NULL))
@@ -73,6 +86,8 @@ class DB{
             return $k;
 
     }
+//:: crud user finished::
+
 
     public function selectAllCategory(){ // retorna um array com as informações de acordo com o mês
         $rs = $this->conn->query("SELECT * FROM tipos");

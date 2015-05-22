@@ -12,13 +12,13 @@
     <div class="col-md-12">
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-user"></i></span>
-            <input type="text" id="name2" class="form-control" placeholder="Usuário" required="" value="<?=$name?>">
+            <input type="text" id="name2" name="name" class="form-control" placeholder="Usuário" required="" value="<?=$name?>">
         </div>
     </div>
     <div class="col-md-12">
         <div class="input-group">
             <span class="input-group-addon">@</span>
-            <input type="email" id="email2" class="form-control" placeholder="E-mail" required="" value="<?=$email?>">
+            <input type="email" id="email2" name="email" class="form-control" placeholder="E-mail" required="" value="<?=$email?>">
         </div>
     </div>
     <div class="col-md-12">
@@ -30,7 +30,7 @@
     <div class="col-md-12">
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-key"></i></span>
-            <input type="password" id="pass4" class="form-control" placeholder="Re-Senha" >
+            <input type="password" id="pass4" name="pass" class="form-control" placeholder="Re-Senha" >
         </div>
     </div>
 </div>

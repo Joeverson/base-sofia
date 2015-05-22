@@ -18,10 +18,11 @@ class USER extends control{
 
     public function updateUser($array, $id){
         return $this->bd->updateUser($this->fcn->prepareArrayDoublePointer($array), $id);
-        //return $this->fcn->prepareArrayDoublePointer($array);
     }
 
-    public function deletUser(){}
+    public function deleteUser($id){
+        return $this->bd->deleteUser($id);
+    }
 
     public function selectAllUser(){
         return $this->bd->selectAllUser();

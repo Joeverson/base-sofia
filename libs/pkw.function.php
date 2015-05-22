@@ -55,13 +55,18 @@ class ACTIONS extends control{
     }
 
 
+    /**
+     * @param $array
+     * @return null
+     */
     public function prepareArrayDoublePointer($array){
         if(!is_array($array) || empty($array))
             return null;
 
         foreach($array as $key => $val){
-            if(!empty($val))
-                $newArray[':'.$key] = $val;
+            if( $val === "" ) continue;
+
+            $newArray[':'.$key] = $val;
         }
 
         return $newArray;

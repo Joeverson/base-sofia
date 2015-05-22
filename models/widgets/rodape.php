@@ -24,7 +24,6 @@
         // responsavel por carregar na pagina as pages...
         $('a').click(function(){
             ajaxUrl($(this).data('link'));
-            hamburger_cross();
         });
 
 

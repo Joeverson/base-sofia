@@ -3,16 +3,7 @@
   "dadsName": "master",
   "acessLevel": "0,1",
   "title": "Usuários",
-  "url": "#",
-  "submenu": [
-    {
-      "url": "admin/user/create",
-      "title": "Novo Usuário"
-    },
-    {
-      "url": "admin/user/edit",
-      "title": "Edtar Usuário"
-    }
-  ]
+  "url": "admin/user/create",
+  "submenu": []
 
 }

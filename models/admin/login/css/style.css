@@ -32,7 +32,7 @@ body {
     text-align:center;
     font-size:18px;
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:capitalize;
     color:#4d4d4d;
 }
 i{
@@ -79,12 +79,8 @@ i{
     text-align:center;
 }
 .avatar img{
-    width:180px;
-    height:180px;
-    border:15px solid #1b1b1b;
-    -webkit-border-radius: 180px;
-    -moz-border-radius: 180px;
-    border-radius: 180px;
+    width:300px;
+    padding: 40px 0;
 }
 /* inputs */
 .inputs {
