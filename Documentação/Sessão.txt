@@ -1,0 +1,3 @@
+As sessões são identificas por:
+
+acessLevel-> armazena o ID_TI-PE do usuário logado.
