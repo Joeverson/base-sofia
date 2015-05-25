@@ -171,7 +171,7 @@ include "models/widgets/sidebar.php";
                     $('.progress-bar').fadeOut();
                 },
                 success: function(e){
-                    console.log(e);
+                    window.location.reload();
                 }
             });
         });

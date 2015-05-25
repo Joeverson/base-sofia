@@ -2,10 +2,7 @@
 session_cache_limiter(false);
 session_start();
 
-
-
 include_once "controller/cms.control.php";
-
 $class = new control(); // instancia da classe de controle
 
 // instanciações de libs
@@ -14,33 +11,27 @@ $signIn = $class->_LOGIN();
 $user = $class->_USER();
 $action = $class->_ACTIONS();
 
-
 $data = array('path' => $action->BPath(), 'file'=>$class->_FILE(),"user" => $user, 'url' => $action->urlPath(), "baseUrlAjax" => $action->baseUrlAjax(), 'cat' => $user->selectAllCategory());
-
-
-
 
 // funções anonymas para as rotas:.
 
 $authentication = function() use ($data){
     $app = \Slim\Slim::getInstance();
+    $control = new control();
 
     //iniciaizando a session para false
     if(!isset($_SESSION["auth"]))
         $_SESSION['auth'] = false;
 
     if (isset( $_SESSION["auth"]) && $_SESSION['auth'] == false){
-        $app->render("admin/login/index.php", $data);
-        continue;
+       $app->redirect($control->_ACTIONS()->adminUrl());
+       exit;
     }
 };
 
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&//
-
-
-
 
 
 //// mandados por post pelos formularios e enviado as informações p seus controllers.
@@ -103,7 +94,7 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
 
 //router sub path - principal
 $app->get('/:page', $authentication, function ($page) use($app) {
-    $app->render('404.html');
+    //$app->render('404.html');
 })->conditions(array('page' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
 
@@ -126,12 +117,12 @@ $app->get('/:page/:subpage/:file', $authentication,  function ($page, $subpage, 
 
 // diretorio inicial ou aparencia padrão
 
-$app->get('/' , $authentication,function () use($app, $data) {
+$app->get('/' , function () use($app, $data) {
     try{
-        $app->render('admin/index.php', $data);
+        $app->render('site/home/index.php', $data);
     }catch (\Exception $e){
-        $app->render('404.html');
-    }
+      $app->render('404.html');
+   }
 });
 /*---------------- end ------------------------*/
 
