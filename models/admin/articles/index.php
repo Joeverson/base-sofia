@@ -42,13 +42,13 @@ include "models/widgets/sidebar.php";
                                 <div class="row" style="padding: 20px 0 0 0;">
                                     <div class="col-xs-12">
                                         <label>Resumo</label>
-                                        <textarea class="form-control col-md-12" rows="3" placeholder="Breve resumo..."></textarea>
+                                        <textarea class="form-control textEdit col-md-12" rows="3" placeholder="Breve resumo..."></textarea>
                                     </div>
                                 </div>
                                 <div class="row" style="padding: 30px 0 50px 0;">
                                     <div class="col-xs-12">
                                         <label>Noticia</label>
-                                        <textarea class="form-control col-md-12" rows="13" placeholder="Notícia"></textarea>
+                                        <textarea class="form-control textEdit col-md-12" rows="13" placeholder="Notícia"></textarea>
                                     </div>
                                 </div>
                             </div>
