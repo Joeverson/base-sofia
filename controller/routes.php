@@ -1,4 +1,11 @@
 <?
+/*
+ * Definições basicas usadas em rotas:
+ *  - pacote : area onde possue o admin ou site, é a raiz de uma parte importante do fluxo do sistema
+ *  - pagina : tela index de modulo
+ *  - modulo : conjunto de paginas fom funções especificas ou gerais para o funcionamento do sistema.
+ *
+ * */
 session_cache_limiter(false);
 session_start();
 
@@ -11,21 +18,27 @@ $signIn = $class->_LOGIN();
 $user = $class->_USER();
 $action = $class->_ACTIONS();
 
-$data = array('path' => $action->BPath(), 'file'=>$class->_FILE(),"user" => $user, 'url' => $action->urlPath(), "baseUrlAjax" => $action->baseUrlAjax(), 'cat' => $user->selectAllCategory());
+
+// dados que é enviado comummente para todos as paginas renderizadas
+$data = array('actions' => $action, 'file'=>$class->_FILE(), "user" => $user);
 
 // funções anonymas para as rotas:.
 
-$authentication = function() use ($data){
+$authentication = function(\Slim\Route $route) use ($data, $action){
     $app = \Slim\Slim::getInstance();
-    $control = new control();
 
-    //iniciaizando a session para false
-    if(!isset($_SESSION["auth"]))
-        $_SESSION['auth'] = false;
+    if($action->filterRoutes($route->getParams()['page'])){
+        //iniciaizando a session para false
+        if(!isset($_SESSION["auth"]))
+            $_SESSION['auth'] = false;
 
-    if (isset( $_SESSION["auth"]) && $_SESSION['auth'] == false){
-       $app->redirect($control->_ACTIONS()->adminUrl());
-       exit;
+        if (isset( $_SESSION["auth"]) && $_SESSION['auth'] == false){
+            $app->render("admin/login/index.php", $data);
+            exit;
+        }else if(!array_key_exists('subpage', $route->getParams())){
+            $app->render("admin/index.php", $data);
+            exit;
+        }
     }
 };
 
@@ -61,17 +74,34 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 
 
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
+//*&*&*&*&*&*&*&*&*&*  quatro bases de rotas principais dentro do fluxo   *&*&*&*&*&*&*&*&*&*&*&*&**&*&*&&*//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
-//*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
+
+
+// rota inicial - direcionada para o site (preferencialmente);
+$app->get('/' , function () use($app, $data) {
+    try{
+        $app->render('site/home/index.php', $data);
+    }catch (\Exception $e){
+        $app->render('404.html');
+    }
+});
+/*---------------- end ------------------------*/
+
+
+// segunda nivel de rota - ideal para navegar entre paginas ( rota voltada para o site )
+$app->get('/:page', $authentication, function ($page) use($app, $data) {
+    try{
+        $app->render('site/'.$page.'/index.php', $data);
+    }catch(\Exception $e){
+        $app->render('404.html');
+    }
+})->conditions(array('page' => '[a-z]{2,}'));
+/*---------------- end ------------------------*/
 
 
 
-//*&% colocar qualquer outra uri importante antes deste cod abaixo pois ele ira emviar para as pastas em models.
-// carregar paginas extras.. outras aparencias.
-
-
-
-// router sub path - principal
+// rota entre pacotes (site, admin... por exemplo) - recebe pacote e pagina.
 $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($app, $data, $action) {
     $caminho = $page.'/'.$subpage;
     try{
@@ -92,19 +122,9 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
 
 
 
-//router sub path - principal
-$app->get('/:page', $authentication, function ($page) use($app) {
-    //$app->render('404.html');
-})->conditions(array('page' => '[a-z]{2,}'));
-/*---------------- end ------------------------*/
-
-
-
-
-//router sub path - principal
-$app->get('/:page/:subpage/:file', $authentication,  function ($page, $subpage, $file) use($app, $data, $action) {
+// rota que leva a subModulos de um determinado pacote.
+$app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, $data) {
         try{
-            $data['path'] = $action->BPath($page);
             $app->render($page.'/'.$subpage.'/'.$file.'.php', $data);
         }catch (\Exception $e){
             $app->render('404.html');
@@ -113,18 +133,6 @@ $app->get('/:page/:subpage/:file', $authentication,  function ($page, $subpage, 
 /*---------------- end ------------------------*/
 
 
-
-
-// diretorio inicial ou aparencia padrão
-
-$app->get('/' , function () use($app, $data) {
-    try{
-        $app->render('site/home/index.php', $data);
-    }catch (\Exception $e){
-      $app->render('404.html');
-   }
-});
-/*---------------- end ------------------------*/
 
 
 

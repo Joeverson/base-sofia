@@ -1,6 +1,6 @@
 <?php
-include "models/widgets/topo.php";
-include "models/widgets/menu.php";
+include "models/site/widgets/topo.php";
+include "models/site/widgets/menu.php";
 ?>
     <section class="container clearfix">
         <div class="page-header">
@@ -8,8 +8,8 @@ include "models/widgets/menu.php";
         </div>
 
         <div class="one-third destaque">
-            <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-4.jpg">
+            <a class="single-image" href="#">
+                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
                 <span class="curtain">&nbsp;</span>
             </a>
         </div><!--/ .two-thirds-->
@@ -34,7 +34,7 @@ include "models/widgets/menu.php";
                     <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
                 </a>
             <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-4.jpg">
+                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
                 <span class="curtain">&nbsp;</span></a>
 
             <p>
@@ -48,8 +48,8 @@ include "models/widgets/menu.php";
             <a href="single-post.html">
                 <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
             </a>
-            <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-4.jpg">
+            <a class="single-image" href="#">
+                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
                 <span class="curtain">&nbsp;</span></a>
 
             <p>
@@ -64,7 +64,7 @@ include "models/widgets/menu.php";
                 <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
             </a>
             <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-4.jpg">
+                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
                 <span class="curtain">&nbsp;</span></a>
             <p>
                 Lorem ipsum dolor amet, consectetur adipidunt malesuada. Aenean metus lorem, cus imperdiet.
@@ -127,5 +127,5 @@ include "models/widgets/menu.php";
 
     </section><!--/.container -->
 <?php
-include "models/widgets/rodape.php";
+include "models/site/widgets/rodape.php";
 ?>

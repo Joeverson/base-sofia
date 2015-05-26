@@ -7,7 +7,7 @@
 
     <header id="header" class="clearfix">
 
-        <a href="<?= $base_url ?>" id="logo"><img src="<?= $base_url ?>includes/images/governo.png" alt="" title="Logo" /></a>
+        <a href="/cms" id="logo"><img src="<?= $base_url ?>includes/images/governo.png" alt="" title="Logo" /></a>
 
         <ul class="social-links clearfix">
             <li class="vine"><a href="#">Portal da Trasparência<span></span></a></li>
@@ -17,13 +17,12 @@
         <nav id="navigation" class="navigation">
 
             <ul>
-                <li class="current"><a href="<?= $endereco ?>">Início</a></li>
-                <li><a href="<?= $endereco ?>/camara">A Camara</a></li>
-                <li><a href="<?= $base_url ?>/noticias">Notícias</a></li>
-                <li><a href="events.html">Mídias</a></li>
+                <li class="current"><a href="/cms/home">Início</a></li>
+                <li><a href="/cms/camara">A Camara</a></li>
+                <li><a href="/cms/noticias">Notícias</a></li>
+                <li><a href="/cms/galeria">Galeria</a></li>
             </ul>
-
-            <a href="<?= $base_url ?>/contato" class="donate">Contato</a>
+            <a href="/cms/contato" class="donate">Contato</a>
 
         </nav><!--/ #navigation-->
 

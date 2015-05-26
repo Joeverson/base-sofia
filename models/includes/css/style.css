@@ -407,8 +407,8 @@ html { height: 100%; padding-top: 40px; border-radius: 0px !important; }
     position: fixed;
     bottom:0;
     background: white;
-    width: 45%;
     box-shadow: 0px -5px 7px -6px #1c1c1c;
+    z-index: 200;
 }
 .notice{
     z-index: 1 !important;

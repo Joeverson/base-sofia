@@ -1,6 +1,6 @@
 <?php
-include "models/widgets/topo.php";
-include "models/widgets/menu.php";
+include "models/site/widgets/topo.php";
+include "models/site/widgets/menu.php";
 ?>
 <section class="container sbr clearfix">
         <section id="content">
@@ -11,7 +11,7 @@ include "models/widgets/menu.php";
                     </h3>
                 </a>
                 <a class="single-image" href="images/gallery/fullscreen/04.jpg">
-                    <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-1.jpg">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-1.jpg">
                 </a>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing tincidunt malesuada. Aenean metus lorem, lacinia est.
@@ -22,7 +22,7 @@ include "models/widgets/menu.php";
 </section>
 <aside id="sidebar">
     <?php
-    include "models/widgets/facebook.php";
+    include "models/site/widgets/facebook.php";
     ?>
 </aside><!--/ #sidebar-->
 
@@ -33,5 +33,5 @@ include "models/widgets/menu.php";
 
     <!-- - - - - - - - - - - - - end Container - - - - - - - - - - - - - - - - -->
 <?php
-include "models/widgets/rodape.php";
+include "models/site/widgets/rodape.php";
 ?>

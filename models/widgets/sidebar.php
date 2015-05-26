@@ -2,7 +2,10 @@
 include_once 'libs/pkw.function.php';
 
 $action  = new ACTIONS();
-$url = $action->urlPath();
+$url = $action->urlModels();
+$urlAjax = $action->baseUrlAjax();
+
+$name = $_SESSION['user']['name'];
 
 ?>
 
@@ -25,11 +28,11 @@ $url = $action->urlPath();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand nopadding" href="#"><img src="<?= $endereco ?>includes/img/marca.png" style="width: 40%" alt=""/></a>
+                    <a class="navbar-brand nopadding" href="<?=$action->adminUrl()?>"><img src="<?=$url?>includes/img/marca.png" style="width: 40%" alt=""/></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <p class="navbar-text navbar-right"><span class="text-success">Gerenciador de Conteúdo </span> <?=$_SESSION['user']['name']?> logado - <a class="navbar-link" href="<?=$action->baseUrlAjax()?>logout"><b>Sair</b></a></p>
+                    <p class="navbar-text navbar-right"><span class="text-success">Gerenciador de Conteúdo </span> <?=$name?> logado - <a class="navbar-link" href="<?=$urlAjax?>logout"><b>Sair</b></a></p>
 
                     <!--form class="navbar-form navbar-right" role="search">
                           <div class="form-search search-only">
@@ -57,3 +60,4 @@ $url = $action->urlPath();
             <span class="hamb-middle"></span>
             <span class="hamb-bottom"></span>
         </button>
+    </div>

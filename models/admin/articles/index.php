@@ -52,13 +52,16 @@ include "models/widgets/sidebar.php";
                                     </div>
                                 </div>
                             </div>
-                            <div class="modal-footer save-in-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                                <button type="button" class="btn btn-success">Salvar</button>
-                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="modal-footer save-in-footer col-md-12">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-success">Salvar</button>
             </div>
         </div>
 

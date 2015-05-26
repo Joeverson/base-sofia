@@ -1,9 +1,7 @@
 <?php
-include_once 'libs/pkw.function.php';
 $file->includeModel("widgets/topo.php");
 
-$action  = new ACTIONS();
-$endereco = $action->urlPath();
+$endereco = $actions->urlPath();
 
 ?>
 
@@ -15,7 +13,7 @@ $endereco = $action->urlPath();
 
 <div id="wrapper">
 
-    <form action="<?=$baseUrlAjax?>login" method='post' class="form-login">
+    <form action="<?=$actions->baseUrlAjax()?>login" method='post' class="form-login">
 
         <div class="header">
             <a href="#" class="link-head-left"></a>

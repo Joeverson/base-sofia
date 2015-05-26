@@ -1,6 +1,6 @@
 <?php
-include "models/widgets/topo.php";
-include "models/widgets/sidebar.php";
+$file->includeModel("widgets/topo.php");
+$file->includeModel("widgets/sidebar.php");
 ?>
 
     <div class="row">
@@ -54,6 +54,9 @@ include "models/widgets/sidebar.php";
 
             </div>
         </div>
+
+
+
     <!-- Modal -->
     <div class="modal fade addUsers" id="modalUsers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -85,7 +88,12 @@ include "models/widgets/sidebar.php";
             </div>
         </div>
     </div>
-    <script src="<?= $endereco ?>admin/user/js/actions.php"></script>
+    <script>
+        $('.add_user').click(function(){
+            $('.addUsers').modal('show');
+        });
+    </script>
 <?php
-include "models/widgets/rodape.php";
+$file->includeModel("widgets/rodape.php");
+
 ?>

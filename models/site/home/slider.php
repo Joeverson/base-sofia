@@ -1,10 +1,14 @@
+<?php
+include_once 'libs/pkw.function.php';
+$actions  = new ACTIONS();
+?>
 <!-- - - - - - - - - - - Slider - - - - - - - - - - - - - -->
 
 <div id="slider" class="flexslider clearfix">
 
     <ul class="slides">
         <li>
-            <img src="<?= $base_url ?>/models/site/includes/images/sliders/slide-1.jpg" alt="" />
+            <img src="<?= $actions->sitePath() ?>includes/images/sliders/slide-1.jpg" alt="" />
             <div class="caption">
                 <div class="caption-entry">
                     <div class="caption-title"><h2>Welcome</h2></div>
@@ -16,7 +20,7 @@
             </div><!--/ .caption-->
         </li>
         <li>
-            <img src="<?= $base_url ?>/models/includes/images/sliders/slide-2.jpg" alt="" />
+            <img src="<?= $actions->sitePath() ?>includes/images/sliders/slide-2.jpg" alt="" />
             <div class="caption">
                 <div class="caption-entry">
                     <div class="caption-title"><h2>Welcome</h2></div>
@@ -28,7 +32,7 @@
             </div><!--/ .caption-->
         </li>
         <li>
-            <img src="<?= $base_url ?>/models/includes/images/sliders/slide-3.jpg" alt="" />
+            <img src="<?= $actions->sitePath() ?>includes/images/sliders/slide-3.jpg" alt="" />
             <div class="caption">
                 <div class="caption-entry">
                     <div class="caption-title"><h2>Welcome</h2></div>
@@ -40,7 +44,7 @@
             </div><!--/ .caption-->
         </li>
         <li>
-            <img src="<?= $base_url ?>/models/includes/images/sliders/slide-4.jpg" alt="" />
+            <img src="<?= $actions->sitePath() ?>/includes/images/sliders/slide-4.jpg" alt="" />
             <div class="caption">
                 <div class="caption-entry">
                     <div class="caption-title"><h2>Welcome</h2></div>
@@ -52,7 +56,7 @@
             </div><!--/ .caption-->
         </li>
         <li>
-            <img src="<?= $base_url ?>/models/includes/images/sliders/slide-5.jpg" alt="" />
+            <img src="<?= $actions->sitePath() ?>/includes/images/sliders/slide-5.jpg" alt="" />
             <div class="caption">
                 <div class="caption-entry">
                     <div class="caption-title"><h2>Welcome</h2></div>

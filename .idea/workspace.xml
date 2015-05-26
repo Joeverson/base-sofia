@@ -1,422 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/controller/routes.php" line="26" mnemonic="4" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d571958-ffe7-43ed-8a3b-8c6dd652b174" name="Default" comment="Site inserido">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/php/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/arrow-comments-entry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/arrow-comments-entry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/arrow-comments-entry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/arrowclass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/arrowclass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/arrowclass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/bgs/bg-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/bgs/bg-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/bgs/bg-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/birds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/birds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/birds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderBottomCenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderBottomLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderBottomRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderMiddleLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderMiddleRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderTopCenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderTopLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderTopRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/closelabel.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/collapse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/collapse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/collapse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/direction-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/direction-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/direction-nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/divider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/divider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/divider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/event-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/event-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/event-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/governo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gravatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gravatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gravatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/images/icon-earth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/loadidfng.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/loadidfng.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/loadidfng.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/loading_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/nav-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/nav-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/nav-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/nextlabel.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/blog/post-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/blog/post-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/post-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/post-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/post-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/prevlabel.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/prevnext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/prevnext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/prevnext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/quotes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/quotes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/quotes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/social-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/social-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/social-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sprite-block-icons - Copia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sprite-block-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sprite-block-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sprite-block-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sprite-style.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/sprite-style.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/sprite-style.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/stars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/stars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/stars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/images/video.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/MafiaShare.net.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/MafiaShare.net.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/README.url" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/README.url" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/usuarios/articles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/blog-style-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/blog-style-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/blog-style-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/blog-style-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/capcha_page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/php/capcha_page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/categorias.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/colorbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/columns.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/columns.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/contact-send.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/php/contact-send.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/controller/control.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/usuarios/dashboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/demo9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/elements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/elements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/eventos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/facebook.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/flexslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/php/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/index.PHP" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/camara/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/contato/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/dashboard/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/galeria/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/home/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/noticias/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/usuarios/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/jquery.colorbox-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.cycle.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery.cycle.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery.cycle.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.easing-1.3.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/fancybox/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/fancybox/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/jquery.flexslider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/jquery.flexslider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/jquery.flexslider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.gmap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery.gmap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery.gmap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery.isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery.isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.jigowatt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery.jigowatt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery.jigowatt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.mousewheel-3.0.6.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.pwi-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.pwi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/jquery.slimbox2-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/jquery.slimbox2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/jquery.slimbox2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.touchSwipe-1.2.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/jquery.touchSwipe-1.2.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/jquery.touchSwipe-1.2.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/private/private.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/nbproject/private/private.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/private/private.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/nbproject/private/private.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/nbproject/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/nbproject/project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/pwi/css/pwi.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/rodape.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/controller/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/selectivizr-and-extra-selectors.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/selectivizr-and-extra-selectors.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/selectivizr-and-extra-selectors.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sidebar-left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/sidebar-left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/sidebar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/single-events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/single-events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/single-post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/single-post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/home/slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/galeria/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/home/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/topo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/twitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/includes/js/twitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/js/twitter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/typography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/tema/typography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/site/widgets/videos.php" />
+    <list default="true" id="9d571958-ffe7-43ed-8a3b-8c6dd652b174" name="Default" comment="textarea modificado, inserçao de tinymce">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/user/create.php" afterPath="$PROJECT_DIR$/models/admin/user/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/index.php" afterPath="$PROJECT_DIR$/models/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/articles/index.php" afterPath="$PROJECT_DIR$/models/admin/articles/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/login/index.php" afterPath="$PROJECT_DIR$/models/admin/login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/user/index.php" afterPath="$PROJECT_DIR$/models/admin/user/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/camara/index.php" afterPath="$PROJECT_DIR$/models/site/camara/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/galeria/index.php" afterPath="$PROJECT_DIR$/models/site/galeria/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/home/index.php" afterPath="$PROJECT_DIR$/models/site/home/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/noticias/index.php" afterPath="$PROJECT_DIR$/models/site/noticias/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/widgets/menu.php" afterPath="$PROJECT_DIR$/models/site/widgets/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/pkw.file.php" afterPath="$PROJECT_DIR$/libs/pkw.file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/pkw.function.php" afterPath="$PROJECT_DIR$/libs/pkw.function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/routes.php" afterPath="$PROJECT_DIR$/controller/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/widgets/sidebar.php" afterPath="$PROJECT_DIR$/models/widgets/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/home/slider.php" afterPath="$PROJECT_DIR$/models/site/home/slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/includes/css/style.css" afterPath="$PROJECT_DIR$/models/includes/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/widgets/topo.php" afterPath="$PROJECT_DIR$/models/widgets/topo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="33d91f65-77e0-4cfe-95a1-08edbafde3f5" name="Rejected commit: Default" comment="Ajustes em toda a estrutura.&#10;O objetivo da versão é prover um CMS base para qualquer projeto de site.&#10;Foi retirada a opção que inseria todas as página por ajax.&#10;" />
     <list id="38ff8393-af83-42b8-acdf-bf38d018166d" name="Failed commit: Default" comment="implementação de controle de acesso" />
+    <list id="3420a98b-b994-47ca-99a0-d28f137c74bc" name="comit do crud user" comment="o commit do crud de user esta completo, esta rodando e o login tbm esta de boa" />
     <ignored path="ysadoraCMS.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -449,28 +57,18 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11764706" vertical-offset="153" max-vertical-offset="3196">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.14720812" vertical-offset="291" max-vertical-offset="3528">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/site/home/index.php">
+        <entry file="file://$PROJECT_DIR$/models/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3383">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/site/contato/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="765">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state vertical-scroll-proportion="2.7777777" vertical-offset="93" max-vertical-offset="684">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -479,49 +77,8 @@
       <file leaf-file-name="pkw.function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/pkw.function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1632">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <marker date="1432485429501" expanded="true" signature="2317:2365" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pkw.login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/pkw.login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pkw.db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/pkw.db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2346">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-              <folding>
-                <marker date="1432325787775" expanded="true" signature="695:829" placeholder="SELECT id, n..usuarios..." />
-                <marker date="1432325787775" expanded="true" signature="1112:1220" placeholder="INSERT INTO ..." />
-                <marker date="1432325787775" expanded="true" signature="1524:1688" placeholder="UPDATE usuar..." />
-                <marker date="1432325787775" expanded="true" signature="1797:1932" placeholder="UPDATE usuar..." />
-                <marker date="1432325787775" expanded="true" signature="2192:2233" placeholder="DELETE FROM ..." />
-                <marker date="1432325787775" expanded="true" signature="2507:2608" placeholder="SELECT *, DA..allusers..." />
-                <marker date="1432325787775" expanded="true" signature="2836:2965" placeholder="SELECT name,..usuarios..." />
-                <marker date="1432325787775" expanded="true" signature="3259:3278" placeholder="SELECT * FRO..tipos..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/admin/login/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="969">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="1926">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -530,18 +87,8 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/site/widgets/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="595">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cms.notifications.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/includes/js/cms.notifications.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="391">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -563,33 +110,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models/admin/pages/dashboard" />
-        <option value="$PROJECT_DIR$/models/admin/pages/articles.html" />
-        <option value="$PROJECT_DIR$/models/admin/css/style.css" />
-        <option value="$PROJECT_DIR$/models/admin/pages/dashboard.html" />
-        <option value="$PROJECT_DIR$/models/usuarios/index.php" />
-        <option value="$PROJECT_DIR$/libs/pkw.links.php" />
-        <option value="$PROJECT_DIR$/controller/control.php" />
-        <option value="$PROJECT_DIR$/models/admin/ae.php" />
-        <option value="$USER_HOME$/teste/teste.php" />
-        <option value="$PROJECT_DIR$/libs/pkw.file.php" />
-        <option value="$PROJECT_DIR$/models/admin/articles.php" />
-        <option value="$PROJECT_DIR$/models/admin/manifest.json" />
-        <option value="$PROJECT_DIR$/models/admin/usuarios/index.php" />
-        <option value="$PROJECT_DIR$/models/admin/usuarios/manifest.json" />
-        <option value="$PROJECT_DIR$/models/admin/articles/criar.php" />
-        <option value="$PROJECT_DIR$/models/admin/articles/manifest.json" />
-        <option value="$PROJECT_DIR$/models/admin/articles/index.php" />
-        <option value="$PROJECT_DIR$/models/admin/login/index.html" />
-        <option value="$PROJECT_DIR$/models/admin/login/style.css" />
-        <option value="$PROJECT_DIR$/models/admin/login/css/style.css" />
-        <option value="$PROJECT_DIR$/libs/cms.session.php" />
         <option value="$PROJECT_DIR$/Documentação/types.sessions.txt" />
         <option value="$PROJECT_DIR$/Documentação/ajax.controller.txt" />
         <option value="$PROJECT_DIR$/controller/ajax.controller.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/models/admin/user/pages/edit.html" />
-        <option value="$PROJECT_DIR$/models/admin/user/pages/edit.php" />
         <option value="$PROJECT_DIR$/models/includes/js/application.js" />
         <option value="$PROJECT_DIR$/Documentação/cms.notifications.txt" />
         <option value="$PROJECT_DIR$/controller/cms.control.php" />
@@ -597,22 +122,44 @@
         <option value="$PROJECT_DIR$/models/widgets/menu.php" />
         <option value="$PROJECT_DIR$/models/admin/user/edit.php" />
         <option value="$PROJECT_DIR$/models/admin/articles/create.php" />
-        <option value="$PROJECT_DIR$/models/admin/index.php" />
-        <option value="$PROJECT_DIR$/models/widgets/topo.php" />
         <option value="$PROJECT_DIR$/models/includes/js/cms.notifications.js" />
-        <option value="$PROJECT_DIR$/libs/pkw.user.php" />
         <option value="$PROJECT_DIR$/libs/pkw.login.php" />
         <option value="$PROJECT_DIR$/models/widgets/sidebar.php" />
-        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
-        <option value="$PROJECT_DIR$/models/widgets/rodape.php" />
-        <option value="$PROJECT_DIR$/models/admin/login/index.php" />
         <option value="$PROJECT_DIR$/Documentação/questoes.txt" />
+        <option value="$PROJECT_DIR$/models/admin/user/pages/edit.php" />
         <option value="$PROJECT_DIR$/libs/pkw.db.php" />
-        <option value="$PROJECT_DIR$/models/site/widgets/menu.php" />
+        <option value="$PROJECT_DIR$/models/admin/user/pages/delete.html" />
+        <option value="$PROJECT_DIR$/models/admin/user/pages/delete.php" />
+        <option value="$PROJECT_DIR$/libs/pkw.user.php" />
+        <option value="$PROJECT_DIR$/models/admin/user/manifest.json" />
+        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
+        <option value="$PROJECT_DIR$/models/admin/articles/manifest.json" />
+        <option value="$PROJECT_DIR$/models/admin/login/index.php" />
+        <option value="$PROJECT_DIR$/models/admin/login/css/style.css" />
+        <option value="$PROJECT_DIR$/models/widgets/rodape.php" />
+        <option value="$PROJECT_DIR$/models/admin/articles/index.php" />
+        <option value="$PROJECT_DIR$/Documentação/musicas para baixar" />
+        <option value="$PROJECT_DIR$/libs/pkw.file.php" />
+        <option value="$PROJECT_DIR$/models/admin/login/index.php" />
+        <option value="$PROJECT_DIR$/models/admin/user/js/actions.php" />
+        <option value="$PROJECT_DIR$/models/admin/user/index.php" />
+        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
+        <option value="$PROJECT_DIR$/models/includes/css/style.css" />
+        <option value="$PROJECT_DIR$/models/admin/articles/index.php" />
+        <option value="$PROJECT_DIR$/models/widgets/sidebar.php" />
+        <option value="$PROJECT_DIR$/models/widgets/topo.php" />
+        <option value="$PROJECT_DIR$/models/widgets/topo.php" />
+        <option value="$PROJECT_DIR$/models/admin/index.php" />
+        <option value="$PROJECT_DIR$/models/admin/index.php" />
+        <option value="$PROJECT_DIR$/models/site/camara/index.php" />
+        <option value="$PROJECT_DIR$/models/site/noticias/index.php" />
+        <option value="$PROJECT_DIR$/models/site/galeria/index.php" />
         <option value="$PROJECT_DIR$/libs/pkw.function.php" />
+        <option value="$PROJECT_DIR$/libs/pkw.function.php" />
+        <option value="$PROJECT_DIR$/models/site/home/slider.php" />
         <option value="$PROJECT_DIR$/models/site/home/index.php" />
-        <option value="$PROJECT_DIR$/models/site/contato/index.php" />
-        <option value="$PROJECT_DIR$/models/site/widgets/topo.php" />
+        <option value="$PROJECT_DIR$/models/site/widgets/menu.php" />
+        <option value="$PROJECT_DIR$/controller/routes.php" />
         <option value="$PROJECT_DIR$/controller/routes.php" />
       </list>
     </option>
@@ -622,10 +169,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-1" />
+    <option name="y" value="30" />
+    <option name="width" value="1368" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -650,7 +197,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -669,8 +215,121 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -703,14 +362,20 @@
       <recent name="$PROJECT_DIR$/models/usuarios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/site/home" />
+      <recent name="$PROJECT_DIR$/models/site" />
       <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\admin\user\ajax" />
       <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\admin\login\css" />
       <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\includes\css" />
-      <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\admin\articles" />
-      <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\admin" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -718,20 +383,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -752,6 +411,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9d571958-ffe7-43ed-8a3b-8c6dd652b174" name="Default" comment="" />
+      <changelist id="3420a98b-b994-47ca-99a0-d28f137c74bc" name="comit do crud user" comment="o commit do crud de user esta completo, esta rodando e o login tbm esta de boa" />
       <created>1428426484327</created>
       <option name="number" value="Default" />
       <updated>1428426484327</updated>
@@ -768,13 +428,25 @@
       <option name="project" value="LOCAL" />
       <updated>1431969888703</updated>
     </task>
-    <task id="LOCAL-00003" summary="Site inserido">
-      <created>1432586426400</created>
+    <task id="LOCAL-00003" summary="alteraçoes de auth.. subindo de novo">
+      <created>1432318160724</created>
       <option name="number" value="00003" />
       <option name="project" value="LOCAL" />
-      <updated>1432586426400</updated>
+      <updated>1432318160724</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="crud de usuarios completo, login rodando de boa">
+      <created>1432325594270</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1432325594270</updated>
+    </task>
+    <task id="LOCAL-00005" summary="textarea modificado, inserçao de tinymce">
+      <created>1432586654533</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1432586654533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -798,30 +470,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1" y="30" width="1368" height="739" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.49973363" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34573644" sideWeight="0.5002664" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6883721" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.49973363" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.49973363" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34573644" sideWeight="0.5002664" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6883721" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -842,38 +536,17 @@
     <MESSAGE value="atualização sem nenhuma mudança" />
     <MESSAGE value="implementação de controle de acesso" />
     <MESSAGE value="crud user with fails" />
-    <MESSAGE value="Site inserido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Site inserido" />
+    <MESSAGE value="alteraçoes de auth.. subindo de novo" />
+    <MESSAGE value="crud de usuarios completo, login rodando de boa" />
+    <MESSAGE value="textarea modificado, inserçao de tinymce" />
+    <option name="LAST_COMMIT_MESSAGE" value="textarea modificado, inserçao de tinymce" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.36579573" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/pkw.db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Documentação/estrutura de pastas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34504792" vertical-offset="0" max-vertical-offset="626">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1368">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Documentação/cms.sessions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.822186" vertical-offset="0" max-vertical-offset="702">
@@ -916,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/articles/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.807693" vertical-offset="219" max-vertical-offset="867">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/cms.session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1275">
@@ -930,24 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/login/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3448819" vertical-offset="1481" max-vertical-offset="4743">
-          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08199357" vertical-offset="0" max-vertical-offset="622">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/user/pages/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -965,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/includes/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5934" max-vertical-offset="7074">
-          <caret line="353" column="4" selection-start-line="353" selection-start-column="4" selection-end-line="353" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/admin/articles/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
@@ -986,38 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/articles/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36548224" vertical-offset="0" max-vertical-offset="591">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/user/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="270">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/widgets/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="774">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/admin/articles/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40484428" vertical-offset="0" max-vertical-offset="3924">
           <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.666667" vertical-offset="324" max-vertical-offset="1278">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1028,17 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.user.php">
+    <entry file="file://$PROJECT_DIR$/models/includes/js/cms.notifications.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/widgets/topo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="799">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1049,31 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/user/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3808" max-vertical-offset="3927">
-          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/widgets/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1105">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/widgets/rodape.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1224">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Documentação/questoes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1091,142 +680,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/cms.control.php">
+    <entry file="file://$PROJECT_DIR$/libs/pkw.login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1152">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="504">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/pkw.db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2346">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding>
-            <marker date="1432325787775" expanded="true" signature="695:829" placeholder="SELECT id, n..usuarios..." />
-            <marker date="1432325787775" expanded="true" signature="1112:1220" placeholder="INSERT INTO ..." />
-            <marker date="1432325787775" expanded="true" signature="1524:1688" placeholder="UPDATE usuar..." />
-            <marker date="1432325787775" expanded="true" signature="1797:1932" placeholder="UPDATE usuar..." />
-            <marker date="1432325787775" expanded="true" signature="2192:2233" placeholder="DELETE FROM ..." />
-            <marker date="1432325787775" expanded="true" signature="2507:2608" placeholder="SELECT *, DA..allusers..." />
-            <marker date="1432325787775" expanded="true" signature="2836:2965" placeholder="SELECT name,..usuarios..." />
-            <marker date="1432325787775" expanded="true" signature="3259:3278" placeholder="SELECT * FRO..tipos..." />
-          </folding>
+        <state vertical-scroll-proportion="-7.111111" vertical-offset="870" max-vertical-offset="2484">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.login.php">
+    <entry file="file://$PROJECT_DIR$/models/admin/user/pages/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/includes/js/cms.notifications.js">
+    <entry file="file://$PROJECT_DIR$/libs/pkw.user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="792">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Slim/Http/Request.php">
+    <entry file="file://$PROJECT_DIR$/models/admin/user/pages/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4065744" vertical-offset="6718" max-vertical-offset="10081">
-          <caret line="473" column="20" selection-start-line="473" selection-start-column="20" selection-end-line="473" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/login/index.php">
+    <entry file="file://$PROJECT_DIR$/models/admin/articles/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="969">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="324">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/login/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="4950">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/user/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="270">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/widgets/rodape.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-40.0" vertical-offset="0" max-vertical-offset="1314">
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/cms.control.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.962963" vertical-offset="82" max-vertical-offset="1152">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentação/musicas para baixar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slim/Slim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34775087" vertical-offset="11155" max-vertical-offset="24140">
-          <caret line="698" column="20" selection-start-line="698" selection-start-column="20" selection-end-line="698" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.3650519" vertical-offset="2957" max-vertical-offset="26100">
+          <caret line="176" column="23" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/index.php">
+    <entry file="file://$PROJECT_DIR$/models/widgets/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31641287" vertical-offset="0" max-vertical-offset="591">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="54" max-vertical-offset="792">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223" vertical-offset="75" max-vertical-offset="990">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/pkw.file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="216" max-vertical-offset="1260">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.routes.protect.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/user/js/actions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15228426" vertical-offset="0" max-vertical-offset="591">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/user/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3079585" vertical-offset="1728" max-vertical-offset="3870">
+          <caret line="138" column="41" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/includes/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6924" max-vertical-offset="7560">
+          <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/articles/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.0" vertical-offset="594" max-vertical-offset="1440">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/admin/user/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="1632">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state vertical-scroll-proportion="-28.555555" vertical-offset="957" max-vertical-offset="1872">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.function.php">
+    <entry file="file://$PROJECT_DIR$/models/widgets/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1632">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <marker date="1432485429501" expanded="true" signature="2317:2365" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.031141868" vertical-offset="108" max-vertical-offset="1242">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/site/camara/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.096885815" vertical-offset="178" max-vertical-offset="756">
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/site/noticias/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.074074" vertical-offset="1870" max-vertical-offset="2448">
+          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/site/galeria/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5916955" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/widgets/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060913704" vertical-offset="0" max-vertical-offset="900">
+          <caret line="2" column="25" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7777777" vertical-offset="93" max-vertical-offset="684">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/site/home/slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.062283736" vertical-offset="0" max-vertical-offset="1404">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/site/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3383">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state vertical-scroll-proportion="1.2456747" vertical-offset="810" max-vertical-offset="3582">
+          <caret line="85" column="86" selection-start-line="85" selection-start-column="86" selection-end-line="85" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/site/contato/index.php">
+    <entry file="file://$PROJECT_DIR$/libs/pkw.function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="765">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="1926">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/site/widgets/topo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37394246" vertical-offset="0" max-vertical-offset="595">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/site/widgets/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="595">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="4896">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11764706" vertical-offset="153" max-vertical-offset="3196">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.14720812" vertical-offset="291" max-vertical-offset="3528">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
           <folding />
         </state>
       </provider>

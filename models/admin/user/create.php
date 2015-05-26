@@ -1,7 +1,6 @@
 <?php
-include "models/widgets/topo.php";
-include "models/widgets/sidebar.php";
-
+$file->includeModel("widgets/topo.php");
+$file->includeModel("widgets/sidebar.php");
 ?>
 <div class="row">
     <div class="container">
@@ -32,7 +31,7 @@ include "models/widgets/sidebar.php";
                                             <span class="input-group-addon"><i class="fa fa-briefcase"></i></span>
                                             <select name="cat" class="form-control">
                                                 <option value="-1">Defina os privilegios do usuário</option>
-                                                <?php foreach($cat as $c){?>
+                                                <?php foreach($user->selectAllCategory() as $c){?>
                                                     <option value="<?=$c["id_tipo"]?>"><?=$c["name_cat"]?></option>
                                                 <?}?>
                                             </select>
@@ -134,15 +133,10 @@ include "models/widgets/sidebar.php";
             }else{
                 $.ajax({
                     type: 'post',
-                    url: '<?=$baseUrlAjax?>user/create',
+                    url: '<?=$actions->baseUrlAjax()?>user/create',
                     data: data,
                     datatype: 'json',
                     success: function(t){
-                        $('body').prepend(t);
-                        /*name.val('');
-                        email.val('');
-                        pass.val('');
-                        pass2.val('');*/
                         notification.ok('Enviado com Sucesso!!');
                     },
                     error: function(){
@@ -157,10 +151,10 @@ include "models/widgets/sidebar.php";
         $("#formEditUser").on("submit",function(){
             event.preventDefault();
             var url = $(".editForm").data('url');
-            console.log('<?=$baseUrlAjax?>'+url);
+            console.log('<?=$actions->baseUrlAjax()?>'+url);
 
             $.ajax({
-                url: '<?=$baseUrlAjax?>'+url,
+                url: '<?=$actions->baseUrlAjax()?>'+url,
                 type: 'post',
                 data: $(this).serialize(),
                 datatype: 'html',
@@ -190,7 +184,7 @@ include "models/widgets/sidebar.php";
 
 
             $.ajax({
-                url: '<?=$baseUrlAjax?>'+url,
+                url: '<?=$actions->baseUrlAjax()?>'+url,
                 type: 'post',
                 data: "id="+id,
                 datatype: 'html',
@@ -211,5 +205,5 @@ include "models/widgets/sidebar.php";
 </script>
 
 <?php
-include "models/widgets/rodape.php";
+$file->includeModel("widgets/rodape.php");
 ?>

@@ -1,7 +1,6 @@
 <?php
-$control = new Control();
-include "models/widgets/topo.php";
-include "models/widgets/menu.php";
+include "models/site/widgets/topo.php";
+include "models/site/widgets/menu.php";
 ?>
     <!-- - - - - - - - - - - - - - - Container - - - - - - - - - - - - - - - - -->
 
@@ -18,13 +17,13 @@ include "models/widgets/menu.php";
     <!-- - - - - - - - - - - - - end Container - - - - - - - - - - - - - - - - -->
 
 <?php
-include "models/widgets/rodape.php";
+include "models/site/widgets/rodape.php";
 ?>
-<link   href="<?= $base_url ?>/models/includes/pwi/js/jquery.fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
-    <script src="<?= $base_url ?>/models/includes/pwi/js/jquery.fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <script src="<?= $base_url ?>/models/includes/pwi/js/jquery.blockUI.js" type="text/javascript"></script>
-    <link   href="<?= $base_url ?>/models/includes/pwi/css/pwi.css" rel="stylesheet" type="text/css"/>
-    <script src="<?= $base_url ?>/models/includes/pwi/js/jquery.pwi-min.js" type="text/javascript"></script>
+<link   href="<?= $actions->sitePath() ?>/includes/pwi/js/jquery.fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
+    <script src="<?= $actions->sitePath() ?>/includes/pwi/js/jquery.fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="<?= $actions->sitePath() ?>/includes/pwi/js/jquery.blockUI.js" type="text/javascript"></script>
+    <link   href="<?= $actions->sitePath() ?>/includes/pwi/css/pwi.css" rel="stylesheet" type="text/css"/>
+    <script src="<?= $actions->sitePath() ?>/includes/pwi/js/jquery.pwi-min.js" type="text/javascript"></script>
     <script type="text/javascript">
 
       $(document).ready(function ($) {

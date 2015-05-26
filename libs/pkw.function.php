@@ -20,10 +20,13 @@ class ACTIONS extends control{
         return "http://".$_SERVER['SERVER_NAME']."/cms/";
     }
     public function adminUrl(){
-        return "http://".$_SERVER['SERVER_NAME']."/cms/admin/";
+        return "/cms/admin";
     }
     public function urlModels(){
         return "http://".$_SERVER['SERVER_NAME']."/cms/models/";
+    }
+    public function baseUrlAjax(){
+        return "http://".$_SERVER['SERVER_NAME']."/cms/";
     }
 
 
@@ -59,9 +62,6 @@ class ACTIONS extends control{
         return $masters;
     }
 
-    public function baseUrlAjax(){
-       return "http://".$_SERVER['SERVER_NAME']."/cms/";
-    }
 
 
     /**
@@ -86,6 +86,17 @@ class ACTIONS extends control{
         $caminho = $this->urlModels().$caminho."/manifest.json";
         $autorizacao = explode(",",json_decode(file_get_contents($caminho))->acessLevel); //autorizações da página acessada
         if (in_array($acessLevel, $autorizacao)) return true;
+        return false;
+    }
+
+    public function filterRoutes($path){
+        $Protects = array( // futuramente essas permissões seram em um arquivo separado ou no esquema no manifest.json -- obs: essa são permissoes de altenticação de pacote, não de modulo
+            'admin'
+        );
+
+        foreach($Protects as $p)
+            if( $p == $path )
+                return true;
         return false;
     }
 }

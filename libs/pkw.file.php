@@ -34,8 +34,7 @@ class FILES{
     }
 
     public function includeModel($file){
-        $path = 'models/';
-        return include_once $path.$file;
+        include_once 'models/'.$file;
     }
 
 

@@ -52,8 +52,8 @@ include "models/site/widgets/menu.php";
 
                 </section><!--/ .post-meta-->
 
-                <a class="single-image" href="images/gallery/fullscreen/04.jpg">
-                    <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-1.jpg">
+                <a class="single-image" href="#">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-1.jpg">
                 </a>
 
                 <p>
@@ -83,7 +83,7 @@ include "models/site/widgets/menu.php";
                 </section><!--/ .post-meta-->
 
                 <a class="single-image" href="images/gallery/fullscreen/02.jpg">
-                    <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-2.jpg">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath(); ?>/includes/images/blog/post-2.jpg">
                 </a>
 
                 <p>
@@ -112,7 +112,7 @@ include "models/site/widgets/menu.php";
                 </section><!--/ .post-meta-->
 
                 <a class="single-image" href="images/gallery/fullscreen/05.jpg">
-                    <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-3.jpg">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-3.jpg">
                 </a>
 
                 <p>
@@ -141,7 +141,7 @@ include "models/site/widgets/menu.php";
                 </section><!--/ .post-meta-->
 
                 <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                    <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-4.jpg">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
                 </a>
 
                 <p>
@@ -170,7 +170,7 @@ include "models/site/widgets/menu.php";
                 </section><!--/ .post-meta-->
 
                 <a class="single-image" href="images/gallery/fullscreen/03.jpg">
-                    <img class="custom-frame" alt="" src="<?= $base_url ?>/models/includes/images/blog/post-5.jpg">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-5.jpg">
                 </a>
 
                 <p>
