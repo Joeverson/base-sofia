@@ -8,6 +8,33 @@
     <strong></strong>.
 </div>
 <!-- /div de notificações -->
+
+
+
+<!-- Modal -->
+<div class="modal fade modalUsers" id="modalUsers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">...</h4>
+            </div>
+            <form id="formEditUser">
+                <!--body-->
+                <div class="modal-body"></div>
+                <!--/body-->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-hdd-o"></i> Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
 <script type="text/javascript">
     $(document).ready(function () {
 
@@ -61,6 +88,60 @@
             $('.pages').html(e.responseText);
         })
     }
+</script>
+<script>
+
+    $(function(){
+        // ajax of actions
+
+        $(".fn").on("click", function(){
+            var url = $(this).data('url');
+            var title = $(this).data('title');
+            var id = $(this).data('id');
+            console.log("<?=$actions->baseUrlAjax()?>");
+
+            $.ajax({
+                url: '<?=$actions->baseUrlAjax()?>'+url,
+                type: 'post',
+                data: "id="+id,
+                datatype: 'html',
+                beforeSend: function(){
+                    //$('.progress-bar').show();
+                },
+                complete: function() {
+                    //$('.progress-bar').fadeOut();
+                },
+                success: function(e){
+                    $('.modal-title').html(title);
+                    $('.modal-body').html(e);
+                    $('#modalUses').modal('show');
+                }
+            });
+        });
+    });
+
+    $("#formEditUser").on("submit",function(){
+        event.preventDefault();
+        var url = $(".editForm").data('url');
+        console.log('<?=$actions->baseUrlAjax()?>'+url);
+
+        $.ajax({
+            url: '<?=$actions->baseUrlAjax()?>'+url,
+            type: 'post',
+            data: $(this).serialize(),
+            datatype: 'html',
+            beforeSend: function(){
+                $('.progress-bar').show();
+            },
+            complete: function() {
+                $('.progress-bar').fadeOut();
+            },
+            success: function(e){
+                window.location.reload();
+            }
+        });
+    });
+
 </script>
 <script src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
 <script>tinymce.init({selector:'.textEdit'});</script>

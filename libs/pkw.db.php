@@ -5,7 +5,7 @@ class DB{
     private $host = 'localhost';
     private $bdname = 'cms';
     private $socket = 'mysql';
-    private $conn;
+    protected $conn;
 
 
     public function __construct(){

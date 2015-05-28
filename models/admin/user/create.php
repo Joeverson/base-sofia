@@ -93,31 +93,6 @@ $file->includeModel("widgets/sidebar.php");
     </div>
 </div>
 
-    <!-- Modal -->
-    <div class="modal fade modalUsers" id="modalUsers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">...</h4>
-                </div>
-                <form id="formEditUser">
-                    <!--body-->
-                    <div class="modal-body"></div>
-                    <!--/body-->
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-                        <button type="submit" class="btn btn-primary"><i class="fa fa-hdd-o"></i> Salvar</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-
-
-
 <script>
     $(function(){
         $("#formCreateUser").on("submit",function(){
@@ -147,63 +122,8 @@ $file->includeModel("widgets/sidebar.php");
         });
 
 
-
-        $("#formEditUser").on("submit",function(){
-            event.preventDefault();
-            var url = $(".editForm").data('url');
-            console.log('<?=$actions->baseUrlAjax()?>'+url);
-
-            $.ajax({
-                url: '<?=$actions->baseUrlAjax()?>'+url,
-                type: 'post',
-                data: $(this).serialize(),
-                datatype: 'html',
-                beforeSend: function(){
-                    $('.progress-bar').show();
-                },
-                complete: function() {
-                    $('.progress-bar').fadeOut();
-                },
-                success: function(e){
-                    window.location.reload();
-                }
-            });
-        });
-
-
-
-
-
-
-        // ajax of actions
-
-        $(".fn").on("click", function(){
-            var url = $(this).data('url');
-            var title = $(this).data('title');
-            var id = $(this).data('id');
-
-
-            $.ajax({
-                url: '<?=$actions->baseUrlAjax()?>'+url,
-                type: 'post',
-                data: "id="+id,
-                datatype: 'html',
-                beforeSend: function(){
-                    //$('.progress-bar').show();
-                },
-                complete: function() {
-                    //$('.progress-bar').fadeOut();
-                },
-                success: function(e){
-                    $('.modal-title').html(title);
-                    $('.modal-body').html(e);
-                    $('#modalUses').modal('show');
-                }
-            });
-        });
-    });
 </script>
 
 <?php
-$file->includeModel("widgets/rodape.php");
+include "models/widgets/rodape.php";
 ?>

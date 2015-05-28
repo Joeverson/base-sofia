@@ -114,7 +114,9 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
              $app->render('404.html');
          }
     }catch (\Exception $e){
-       $app->render('404.html');
+       //$app->render('404.html');
+        $data['path'] = $action->BPath($page);
+        $app->render($caminho . '/index.php', $data);
     }
 })->conditions(array('page' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
@@ -145,7 +147,7 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
 
 
-// users ajax
+// users ajax -- user
 $app->post('/user/create', function() use($user){
     echo $user->newUser($_POST);
 });
@@ -173,7 +175,36 @@ $app->post('/user/edit/:id', function($id) use ($user, $app){
 });
 
 
+// vereadores
 
+$app->post('/vereadores/create', function() use($user){
+    echo $user->newUser($_POST);
+});
+
+$app->post('/vereadores/viewcreate', function() use($user, $app){
+    $app->render("admin/vereadores/pages/create.php");
+});
+
+
+$app->post('/vereadores/edit', function() use ($user, $app){
+    /*$array = $user->selectUser($_POST['id']);
+    $array['id'] = $_POST['id'];
+    $array['cat'] = $user->selectAllCategory();*/
+    $app->render("admin/vereadores/pages/edit.php");
+});
+
+$app->post('/vereadores/delete', function() use ($user, $app){
+    $app->render("admin/user/pages/delete.php", ['id' => $_POST['id']]);
+});
+
+$app->post('/vereadores/delete/:id', function($id) use ($user, $app){
+    $user->deleteUser($id);
+});
+
+
+$app->post('/vereadores/edit/:id', function($id) use ($user, $app){
+    $user->updateUser($_POST, $id);
+});
 
 //&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
 //*&*&*&*&*&*&*&*&   Serviços - requisisoes post  *&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&

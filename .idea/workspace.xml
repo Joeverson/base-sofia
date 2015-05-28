@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d571958-ffe7-43ed-8a3b-8c6dd652b174" name="Default" comment="textarea modificado, inserçao de tinymce">
+    <list default="true" id="9d571958-ffe7-43ed-8a3b-8c6dd652b174" name="Default" comment="iniciando com o crud de vereadores no cms">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/admin/vereadores/pages/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/admin/vereadores/pages/edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/admin/vereadores/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/admin/vereadores/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/admin/vereadores/model/vereador.db.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/user/create.php" afterPath="$PROJECT_DIR$/models/admin/user/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/index.php" afterPath="$PROJECT_DIR$/models/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/articles/index.php" afterPath="$PROJECT_DIR$/models/admin/articles/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/login/index.php" afterPath="$PROJECT_DIR$/models/admin/login/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/admin/user/index.php" afterPath="$PROJECT_DIR$/models/admin/user/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/camara/index.php" afterPath="$PROJECT_DIR$/models/site/camara/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/galeria/index.php" afterPath="$PROJECT_DIR$/models/site/galeria/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/home/index.php" afterPath="$PROJECT_DIR$/models/site/home/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/noticias/index.php" afterPath="$PROJECT_DIR$/models/site/noticias/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/widgets/menu.php" afterPath="$PROJECT_DIR$/models/site/widgets/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/pkw.file.php" afterPath="$PROJECT_DIR$/libs/pkw.file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/pkw.function.php" afterPath="$PROJECT_DIR$/libs/pkw.function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/pkw.db.php" afterPath="$PROJECT_DIR$/libs/pkw.db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/widgets/rodape.php" afterPath="$PROJECT_DIR$/models/widgets/rodape.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/routes.php" afterPath="$PROJECT_DIR$/controller/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/widgets/sidebar.php" afterPath="$PROJECT_DIR$/models/widgets/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/site/home/slider.php" afterPath="$PROJECT_DIR$/models/site/home/slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/includes/css/style.css" afterPath="$PROJECT_DIR$/models/includes/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/widgets/topo.php" afterPath="$PROJECT_DIR$/models/widgets/topo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="33d91f65-77e0-4cfe-95a1-08edbafde3f5" name="Rejected commit: Default" comment="Ajustes em toda a estrutura.&#10;O objetivo da versão é prover um CMS base para qualquer projeto de site.&#10;Foi retirada a opção que inseria todas as página por ajax.&#10;" />
@@ -54,42 +45,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14720812" vertical-offset="291" max-vertical-offset="3528">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            <state vertical-scroll-proportion="-11.888889" vertical-offset="1767" max-vertical-offset="4086">
+              <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/admin/index.php">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/admin/vereadores/pages/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7777777" vertical-offset="93" max-vertical-offset="684">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="774">
+              <caret line="0" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pkw.function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/pkw.function.php">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/admin/vereadores/pages/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="1926">
-              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+            <state vertical-scroll-proportion="-19.333334" vertical-offset="162" max-vertical-offset="936">
+              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/site/widgets/menu.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/admin/vereadores/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.43598616" vertical-offset="108" max-vertical-offset="864">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vereador.db.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/admin/vereadores/model/vereador.db.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="234">
+              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+              <folding>
+                <marker date="1432830503595" expanded="true" signature="115:139" placeholder="select * fro..vereadores..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pkw.db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/pkw.db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0" vertical-offset="1080" max-vertical-offset="2484">
+              <caret line="72" column="32" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="32" />
+              <folding>
+                <marker date="1432830023039" expanded="true" signature="697:831" placeholder="SELECT id, n..usuarios..." />
+                <marker date="1432830023039" expanded="true" signature="1114:1222" placeholder="INSERT INTO ..." />
+                <marker date="1432830023039" expanded="true" signature="1526:1690" placeholder="UPDATE usuar..." />
+                <marker date="1432830023039" expanded="true" signature="1799:1934" placeholder="UPDATE usuar..." />
+                <marker date="1432830023039" expanded="true" signature="2194:2235" placeholder="DELETE FROM ..." />
+                <marker date="1432830023039" expanded="true" signature="2509:2610" placeholder="SELECT *, DA..allusers..." />
+                <marker date="1432830023039" expanded="true" signature="2838:2967" placeholder="SELECT name,..usuarios..." />
+                <marker date="1432830023039" expanded="true" signature="3261:3280" placeholder="SELECT * FRO..tipos..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,12 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Documentação/types.sessions.txt" />
-        <option value="$PROJECT_DIR$/Documentação/ajax.controller.txt" />
-        <option value="$PROJECT_DIR$/controller/ajax.controller.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/models/admin/user/pages/edit.html" />
-        <option value="$PROJECT_DIR$/models/includes/js/application.js" />
         <option value="$PROJECT_DIR$/Documentação/cms.notifications.txt" />
         <option value="$PROJECT_DIR$/controller/cms.control.php" />
         <option value="$PROJECT_DIR$/models/includes/css/style.css" />
@@ -127,23 +143,19 @@
         <option value="$PROJECT_DIR$/models/widgets/sidebar.php" />
         <option value="$PROJECT_DIR$/Documentação/questoes.txt" />
         <option value="$PROJECT_DIR$/models/admin/user/pages/edit.php" />
-        <option value="$PROJECT_DIR$/libs/pkw.db.php" />
         <option value="$PROJECT_DIR$/models/admin/user/pages/delete.html" />
         <option value="$PROJECT_DIR$/models/admin/user/pages/delete.php" />
         <option value="$PROJECT_DIR$/libs/pkw.user.php" />
         <option value="$PROJECT_DIR$/models/admin/user/manifest.json" />
-        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
         <option value="$PROJECT_DIR$/models/admin/articles/manifest.json" />
         <option value="$PROJECT_DIR$/models/admin/login/index.php" />
         <option value="$PROJECT_DIR$/models/admin/login/css/style.css" />
-        <option value="$PROJECT_DIR$/models/widgets/rodape.php" />
         <option value="$PROJECT_DIR$/models/admin/articles/index.php" />
         <option value="$PROJECT_DIR$/Documentação/musicas para baixar" />
         <option value="$PROJECT_DIR$/libs/pkw.file.php" />
         <option value="$PROJECT_DIR$/models/admin/login/index.php" />
         <option value="$PROJECT_DIR$/models/admin/user/js/actions.php" />
         <option value="$PROJECT_DIR$/models/admin/user/index.php" />
-        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
         <option value="$PROJECT_DIR$/models/includes/css/style.css" />
         <option value="$PROJECT_DIR$/models/admin/articles/index.php" />
         <option value="$PROJECT_DIR$/models/widgets/sidebar.php" />
@@ -159,8 +171,18 @@
         <option value="$PROJECT_DIR$/models/site/home/slider.php" />
         <option value="$PROJECT_DIR$/models/site/home/index.php" />
         <option value="$PROJECT_DIR$/models/site/widgets/menu.php" />
+        <option value="$PROJECT_DIR$/models/admin/vereadores/manifest.json" />
+        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
+        <option value="$PROJECT_DIR$/models/admin/user/create.php" />
+        <option value="$PROJECT_DIR$/models/widgets/rodape.php" />
+        <option value="$PROJECT_DIR$/models/admin/vereadores/pages/edit.php" />
+        <option value="$PROJECT_DIR$/models/admin/vereadores/pages/create.php" />
+        <option value="$PROJECT_DIR$/libs/pkw.db.php" />
+        <option value="$PROJECT_DIR$/models/admin/vereadores/model/vereador.db.php" />
         <option value="$PROJECT_DIR$/controller/routes.php" />
         <option value="$PROJECT_DIR$/controller/routes.php" />
+        <option value="$PROJECT_DIR$/models/admin/vereadores/model/vereador.db.inc" />
+        <option value="$PROJECT_DIR$/models/admin/vereadores/index.php" />
       </list>
     </option>
   </component>
@@ -197,6 +219,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,51 +284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,15 +305,84 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vereadores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vereadores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vereadores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../remar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
@@ -359,14 +407,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/admin/vereadores" />
+      <recent name="$PROJECT_DIR$/models/admin/articles" />
       <recent name="$PROJECT_DIR$/models/usuarios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/admin/vereadores" />
       <recent name="$PROJECT_DIR$/models/site/home" />
       <recent name="$PROJECT_DIR$/models/site" />
       <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\admin\user\ajax" />
       <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\admin\login\css" />
-      <recent name="C:\xampp\htdocs\Dropbox\sophiacms\models\includes\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -446,7 +496,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432586654533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rotas funciionando plenamente, e site rodando tbm de boa com as rotas, alterçao no controle de acesso(otimizado), criaçao tbm de um filtro de acesso para pacotes">
+      <created>1432607558549</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1432607558549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -474,8 +530,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23572475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.49973363" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34573644" sideWeight="0.5002664" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -484,7 +541,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.49973363" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -539,7 +595,9 @@
     <MESSAGE value="alteraçoes de auth.. subindo de novo" />
     <MESSAGE value="crud de usuarios completo, login rodando de boa" />
     <MESSAGE value="textarea modificado, inserçao de tinymce" />
-    <option name="LAST_COMMIT_MESSAGE" value="textarea modificado, inserçao de tinymce" />
+    <MESSAGE value="rotas funciionando plenamente, e site rodando tbm de boa com as rotas, alterçao no controle de acesso(otimizado), criaçao tbm de um filtro de acesso para pacotes" />
+    <MESSAGE value="iniciando com o crud de vereadores no cms" />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciando com o crud de vereadores no cms" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.36579573" />
   </component>
   <component name="XDebuggerManager">
@@ -547,41 +605,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Documentação/cms.sessions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.822186" vertical-offset="0" max-vertical-offset="702">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.links.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.tst.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Estruturas de pastas - codeBase/models/declaracao/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19131833" vertical-offset="0" max-vertical-offset="622">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Estruturas de pastas - codeBase/teste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26234567" vertical-offset="0" max-vertical-offset="648">
@@ -628,13 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/articles/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40484428" vertical-offset="0" max-vertical-offset="3924">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -687,20 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/pkw.db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.111111" vertical-offset="870" max-vertical-offset="2484">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/user/pages/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/pkw.user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="792">
@@ -715,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/articles/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="324">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/admin/login/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="4950">
@@ -733,13 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="270">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/widgets/rodape.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-40.0" vertical-offset="0" max-vertical-offset="1314">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -775,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.2222223" vertical-offset="75" max-vertical-offset="990">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,32 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/user/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3079585" vertical-offset="1728" max-vertical-offset="3870">
-          <caret line="138" column="41" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/includes/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6924" max-vertical-offset="7560">
           <caret line="410" column="16" selection-start-line="410" selection-start-column="16" selection-end-line="410" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/articles/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.0" vertical-offset="594" max-vertical-offset="1440">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/user/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.555555" vertical-offset="957" max-vertical-offset="1872">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -833,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031141868" vertical-offset="108" max-vertical-offset="1242">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.096885815" vertical-offset="178" max-vertical-offset="756">
           <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.074074" vertical-offset="1870" max-vertical-offset="2448">
           <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5916955" vertical-offset="0" max-vertical-offset="1656">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,15 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.060913704" vertical-offset="0" max-vertical-offset="900">
           <caret line="2" column="25" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7777777" vertical-offset="93" max-vertical-offset="684">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062283736" vertical-offset="0" max-vertical-offset="1404">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,30 +840,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2456747" vertical-offset="810" max-vertical-offset="3582">
           <caret line="85" column="86" selection-start-line="85" selection-start-column="86" selection-end-line="85" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/pkw.function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="1926">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1926">
           <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/vereadores/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21319798" vertical-offset="0" max-vertical-offset="591">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48730963" vertical-offset="0" max-vertical-offset="684">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/articles/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="324">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/site/widgets/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="612">
+        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="612">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1872">
+          <caret line="65" column="84" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/widgets/rodape.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.407408" vertical-offset="2032" max-vertical-offset="2772">
+          <caret line="142" column="7" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/user/pages/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/user/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5951557" vertical-offset="1852" max-vertical-offset="2430">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/articles/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="540" max-vertical-offset="1440">
+          <caret line="50" column="133" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/articles/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12456747" vertical-offset="162" max-vertical-offset="3924">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14720812" vertical-offset="291" max-vertical-offset="3528">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        <state vertical-scroll-proportion="-11.888889" vertical-offset="1767" max-vertical-offset="4086">
+          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/vereadores/pages/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="0" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/vereadores/pages/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.333334" vertical-offset="162" max-vertical-offset="936">
+          <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/pkw.db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="1080" max-vertical-offset="2484">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="32" />
+          <folding>
+            <marker date="1432830023039" expanded="true" signature="697:831" placeholder="SELECT id, n..usuarios..." />
+            <marker date="1432830023039" expanded="true" signature="1114:1222" placeholder="INSERT INTO ..." />
+            <marker date="1432830023039" expanded="true" signature="1526:1690" placeholder="UPDATE usuar..." />
+            <marker date="1432830023039" expanded="true" signature="1799:1934" placeholder="UPDATE usuar..." />
+            <marker date="1432830023039" expanded="true" signature="2194:2235" placeholder="DELETE FROM ..." />
+            <marker date="1432830023039" expanded="true" signature="2509:2610" placeholder="SELECT *, DA..allusers..." />
+            <marker date="1432830023039" expanded="true" signature="2838:2967" placeholder="SELECT name,..usuarios..." />
+            <marker date="1432830023039" expanded="true" signature="3261:3280" placeholder="SELECT * FRO..tipos..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/vereadores/model/vereador.db.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="234">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding>
+            <marker date="1432830503595" expanded="true" signature="115:139" placeholder="select * fro..vereadores..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/admin/vereadores/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43598616" vertical-offset="108" max-vertical-offset="864">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
