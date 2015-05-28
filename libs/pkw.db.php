@@ -5,10 +5,11 @@ class DB{
     private $host = 'localhost';
     private $bdname = 'cms';
     private $socket = 'mysql';
-    private $conn;
+    protected $conn;
 
 
     public function __construct(){
+
         try{
             $this->conn = new PDO($this->socket.":host=".$this->host.";dbname=".$this->bdname, $this->user, $this->pass);
         }catch(Exception $e){

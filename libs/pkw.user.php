@@ -8,6 +8,14 @@ class USER extends control{
         $this->fcn = parent::_ACTIONS();
     }
 
+    public function selectAllUser(){
+        return $this->bd->selectAllUser();
+    }
+
+    public function selectUser($id){
+        return $this->bd->selectUser($id);
+    }
+
     public function newUser($args){
         $array = $this->fcn->prepareArrayDoublePointer($args);
         $array[':pass'] = $this->bd->segPassEncript($array[':pass']);
@@ -15,21 +23,12 @@ class USER extends control{
         return $this->bd->insertUser($array);
     }
 
-
     public function updateUser($array, $id){
         return $this->bd->updateUser($this->fcn->prepareArrayDoublePointer($array), $id);
     }
 
     public function deleteUser($id){
         return $this->bd->deleteUser($id);
-    }
-
-    public function selectAllUser(){
-        return $this->bd->selectAllUser();
-    }
-
-    public function selectUser($id){
-        return $this->bd->selectUser($id);
     }
 
     public function selectAllCategory(){

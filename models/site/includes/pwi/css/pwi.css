@@ -59,6 +59,7 @@
 	text-align: center;
 	color: #000000;
 	cursor: pointer;
+	display: inline-table;
 }
 
 .pwi_album_backlink{
@@ -76,6 +77,7 @@
 	margin: 1em;
 	text-align: center;
 	border: 0px dotted white;
+    display: inline-table;
 }
 .pwi_photo img{
 	border: 0px solid #7F7F7F;

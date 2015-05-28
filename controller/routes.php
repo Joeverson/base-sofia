@@ -133,13 +133,6 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
 /*---------------- end ------------------------*/
 
 
-
-
-
-
-
-
-
 //&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
 //*&*&*&*&*&*&*&*&   POST's  enviados por ajax  *&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
@@ -168,8 +161,8 @@ $app->post('/user/delete/:id', function($id) use ($user, $app){
 });
 
 
-$app->post('/user/edit/:id', function($id) use ($user, $app){
-    $user->updateUser($_POST, $id);
+$app->post('/articles/new', function() use ($user, $app){
+    $app->render('admin/articles/controllers/new.php');
 });
 
 

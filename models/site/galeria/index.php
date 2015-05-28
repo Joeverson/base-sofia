@@ -41,12 +41,12 @@ include "models/site/widgets/rodape.php";
         albumThumbSize: 160, //-- specify thumbnail size of albumthumbs (default: 72, supported cropped/uncropped: 32, 48, 64, 72, 104, 144, 150, 160 and uncropped only: 94, 110, 128, 200, 220, 288, 320, 400, 512, 576, 640, 720, 800, 912, 1024, 1152, 1280, 1440, 1600)
         albumThumbAlign: true, //-- Allign thumbs vertically between rows
         albumMaxResults: 999, //-- load only the first X albums
-        albumsPerPage: 12, //-- show X albums per page (activates paging on albums when this amount is less then the available albums)
+        albumsPerPage: 15, //-- show X albums per page (activates paging on albums when this amount is less then the available albums)
         albumPage: 1, //-- force load on specific album
         albumTypes: "public", //-- load public albums, not used for now
         page: 1, //-- initial page for an photo page
         photoSize: "auto", //-- size of large photo loaded in slimbox, fancybox or other. Allowed sizes: auto, 94, 110, 128, 200, 220, 288, 320, 400, 512, 576, 640, 720, 800, 912, 1024, 1152, 1280, 1440, 1600
-        maxResults: 30, //-- photos per page
+        maxResults: 20, //-- photos per page
         showPager: 'bottom', //'top', 'bottom', 'both' (for both albums and album paging)
         thumbSize: 160,  //-- specify thumbnail size of photos (default: 72, cropped not supported, supported cropped/uncropped: 32, 48, 64, 72, 104, 144, 150, 160 and uncropped only: 94, 110, 128, 200, 220, 288, 320, 400, 512, 576, 640, 720, 800, 912, 1024, 1152, 1280, 1440, 1600)
         thumbCrop: false, //-- force crop on photo thumbnails (see thumbSize for supported sized)
@@ -79,7 +79,7 @@ include "models/site/widgets/rodape.php";
         mapSize: 0.75,      // 75% of the window
         useQueryParameters: true,
         loadingImage: "",
-        videoBorder: "images/video.jpg",
+        videoBorder: "images/video.jpg"
         };
         $("#galeria").pwi(settings);
       });
