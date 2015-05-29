@@ -1,6 +1,7 @@
 <?php
 include_once "models/widgets/topo.php";
 include_once "models/widgets/sidebar.php";
+include_once "libs/pkw.db.php";
 include_once "models/admin/vereadores/model/vereador.db.inc";
 $vereador = new dbVereador();
 
@@ -17,7 +18,7 @@ $vereador = new dbVereador();
         <div class="row">
             <div class="container">
                 <?php foreach ($vereador->selectAllVereadores() as $v){ ?>
-                    <div class="col-md-2 nopadding ">
+                    <div class="col-md-3 ">
                         <div class="thumbnail">
                             <img class="img-rounded" src="<?= $actions->urlModels() ?>admin/vereadores/uploads/<?= empty($v['img'])? 'exp.png' : $v['img']; ?>">
 
