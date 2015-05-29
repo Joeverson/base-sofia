@@ -50,7 +50,7 @@
 
         // responsavel por carregar na pagina as pages...
         $('a').click(function(){
-            ajaxUrl($(this).data('link'));
+            //ajaxUrl($(this).data('link'));
         });
 
 
@@ -98,7 +98,7 @@
             var url = $(this).data('url');
             var title = $(this).data('title');
             var id = $(this).data('id');
-            console.log("<?=$actions->baseUrlAjax()?>");
+
 
             $.ajax({
                 url: '<?=$actions->baseUrlAjax()?>'+url,
@@ -123,13 +123,20 @@
     $("#formEditUser").on("submit",function(){
         event.preventDefault();
         var url = $(".editForm").data('url');
-        console.log('<?=$actions->baseUrlAjax()?>'+url);
+
+        if($(".editForm").data('url') != null)
+            url = '<?=$actions->baseUrlAjax()?>'+$(".editForm").data('url');
+        else if($(".urlTrasiction").data('url') != null)
+            url = $(".urlTrasiction").data('url');
 
         $.ajax({
-            url: '<?=$actions->baseUrlAjax()?>'+url,
+            url: url,
             type: 'post',
-            data: $(this).serialize(),
+            data:  new FormData(this),
             datatype: 'html',
+            cache: false,
+            contentType: false,
+            processData: false,
             beforeSend: function(){
                 $('.progress-bar').show();
             },
@@ -138,6 +145,8 @@
             },
             success: function(e){
                 window.location.reload();
+                //console.log(e);
+
             }
         });
     });
