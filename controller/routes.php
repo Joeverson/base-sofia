@@ -77,6 +77,9 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 //*&*&*&*&*&*&*&*&*&*  quatro bases de rotas principais dentro do fluxo   *&*&*&*&*&*&*&*&*&*&*&*&**&*&*&&*//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
 
+//%%%%%%%%//
+//  base  //
+//%%%%%%%//
 
 // rota inicial - direcionada para o site (preferencialmente);
 $app->get('/' , function () use($app, $data) {
@@ -99,6 +102,9 @@ $app->get('/:page', $authentication, function ($page) use($app, $data) {
 })->conditions(array('page' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
 
+//%%%%//
+// 2  //
+//%%%%//
 
 
 // rota entre pacotes (site, admin... por exemplo) - recebe pacote e pagina.
@@ -120,6 +126,9 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
 /*---------------- end ------------------------*/
 
 
+//%%%%//
+// 3  //
+//%%%%//
 
 
 // rota que leva a subModulos de um determinado pacote.
@@ -133,11 +142,22 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
 /*---------------- end ------------------------*/
 
 
+
+
+
+
+
+
+
+
+
+
 //&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
 //*&*&*&*&*&*&*&*&   POST's  enviados por ajax  *&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
 
 
+// users ajax -- user
 $app->post('/user/create', function() use($user){
     echo $user->newUser($_POST);
 });
@@ -159,16 +179,16 @@ $app->post('/user/delete/:id', function($id) use ($user, $app){
     $user->deleteUser($id);
 });
 
-$app->post('/articles/newcategory', function() use ($user, $app){
-    include "models/admin/articles/models/db.articles.php";
-    $DBArticles = new DBArticles();
-    echo $DBArticles->newCat($_POST['novacategoria']);
-    //echo var_dump($_POST);
+
+$app->post('/user/edit/:id', function($id) use ($user, $app){
+    $user->updateUser($_POST, $id);
 });
 
 $app->post('/articles/new', function() use ($user, $app){
     $app->render('admin/articles/controllers/new.php');
 });
+
+
 
 
 //&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
