@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 4.3.11
+-- version 4.4.3
 -- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: 22-Maio-2015 às 19:48
+-- Host: localhost
+-- Generation Time: 29-Maio-2015 às 21:27
 -- Versão do servidor: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -106,7 +106,7 @@ CREATE TABLE IF NOT EXISTS `pdf` (
 CREATE TABLE IF NOT EXISTS `tipos` (
   `id_tipo` int(11) NOT NULL,
   `name_cat` varchar(200) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `tipos`
@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `tipos` (
 
 INSERT INTO `tipos` (`id_tipo`, `name_cat`) VALUES
 (0, 'Administrador'),
-(2, 'Artigos');
+(1, 'Artigos');
 
 -- --------------------------------------------------------
 
@@ -129,16 +129,17 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `email` text NOT NULL,
   `id_tipo` int(11) NOT NULL,
   `last_login` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `name`, `pass`, `email`, `id_tipo`, `last_login`) VALUES
-(3, 'marcos', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'antonio@g.com', 2, '2015-05-04 00:00:00'),
 (4, 'marieta', '6116afedcb0bc31083935c1c262ff4c9', 'marieta@g.com', 0, '2015-05-06 00:00:00'),
-(11, 'Joerverson Barbosa Santos', 'd1205746e3192ca4641605d9f67cc897', 'info@unisigma.com.br', 0, '2015-05-13 00:00:00');
+(11, 'Joerverson Santos', 'd1205746e3192ca4641605d9f67cc897', 'info@unisigma.com.br', 0, '2015-05-13 00:00:00'),
+(12, 'mateus', '6116afedcb0bc31083935c1c262ff4c9', 'mateus@a.com', 0, '2015-05-25 21:38:29'),
+(13, 'anita', '6116afedcb0bc31083935c1c262ff4c9', 'anita@ops.com', 0, '2015-05-25 21:39:25');
 
 -- --------------------------------------------------------
 
@@ -148,13 +149,28 @@ INSERT INTO `usuarios` (`id`, `name`, `pass`, `email`, `id_tipo`, `last_login`) 
 
 CREATE TABLE IF NOT EXISTS `vereadores` (
   `id_vereador` int(11) NOT NULL,
-  `name` int(11) NOT NULL,
-  `dt_birth` int(11) NOT NULL,
-  `formacao` int(11) NOT NULL,
-  `email` int(11) NOT NULL,
-  `atividade` int(11) NOT NULL,
-  `partido` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `name` varchar(244) NOT NULL,
+  `dt_birth` date NOT NULL,
+  `formacao` text NOT NULL,
+  `email` varchar(233) NOT NULL,
+  `atividade` text NOT NULL,
+  `partido` text NOT NULL,
+  `img` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `vereadores`
+--
+
+INSERT INTO `vereadores` (`id_vereador`, `name`, `dt_birth`, `formacao`, `email`, `atividade`, `partido`, `img`) VALUES
+(1, 'joerverson', '2015-08-28', 'nada', 'joerversons@g.com', 'asasasdasdasd', 'sei lá', '11159216_735313696591866_1985617370_o.jpg'),
+(5, 'Marieta Nobrega', '2015-09-23', 'asdas', 'info@unisigma.com.br', 'asdasdasdasdasda', 'Nada', ''),
+(6, 'anitasssss', '2015-05-03', 'ssssssssss', 'bautry2000@hotmail.com', 'ssssssssssss', 'aaaaaaaa', '1789594.jpg'),
+(7, 'marieta', '2015-05-21', 'asdasd', 'dom@domagencia.com', 'asdasdasdasd', 'asdasd', '1800389.jpg'),
+(8, 'carlos Santos', '2015-05-14', 'sssssssssssss', 'dom@domagencia.com', 'sssssssssssssssssss', 'sss', ''),
+(10, 'Joeverson Santos', '2015-05-08', 'GraduaÃ§Ã£o em sistemas', 'bautry2000@hotmail.com', 'varias coisas viu fi', 'play', ''),
+(12, 'asdasdsad', '2015-05-12', 'asdasd', 'brunno.hoffman@hotmail.com', 'asdasds', 'asdasdsd', 'stalker-wallpaper-1366x768.jpg'),
+(13, 'marcos', '2015-05-08', 'asdasd', 'dom@domagencia.com', 'asdasdas', 'asdasdsd', 'S02E22 - And Straight On ''Til Morning.mp4_snapshot_42.54_[2015.05.11_01.47.29].jpg');
 
 -- --------------------------------------------------------
 
@@ -266,17 +282,17 @@ ALTER TABLE `pdf`
 -- AUTO_INCREMENT for table `tipos`
 --
 ALTER TABLE `tipos`
-  MODIFY `id_tipo` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id_tipo` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `vereadores`
 --
 ALTER TABLE `vereadores`
-  MODIFY `id_vereador` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_vereador` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

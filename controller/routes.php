@@ -55,16 +55,18 @@ $app->post('/login', function () use($signIn, $app, $data) {
         if($info = $signIn->singIn($_POST)){
             $_SESSION["user"] = $info; // guardando dados do usuario
             $_SESSION["auth"] = true;
-            $app->render('admin/index.php', $data);
         }else{
             $data['notAceppt'] = true;
             $app->render('admin/login/index.php', $data);
         }
+
+    $app->redirect("admin");
 });
 
 $app->get('/logout', function () use($signIn, $app, $data) {
     unset($_SESSION["user"]);
     unset($_SESSION["auth"]);
+    session_destroy();
     $app->render('admin/login/index.php', $data);
 
 });
@@ -127,9 +129,7 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
              $app->render('404.html');
          }
     }catch (\Exception $e){
-        $data['path'] = $action->BPath($page);
-        $app->render($caminho . '/index.php', $data);
-        //$app->render('404.html');
+        $app->render('404.html');
     }
 })->conditions(array('page' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/

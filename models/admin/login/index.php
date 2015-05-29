@@ -1,6 +1,6 @@
 <?php
-$file->includeModel("widgets/topo.php");
-
+include "models/widgets/topo.php";
+var_dump(session_status());
 $endereco = $actions->urlPath();
 
 ?>
@@ -46,5 +46,5 @@ $endereco = $actions->urlPath();
 
 </body>
 <?php
-$file->includeModel("widgets/rodape.php");
+include "models/widgets/rodape.php";
 ?>
