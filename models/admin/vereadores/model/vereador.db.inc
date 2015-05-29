@@ -1,6 +1,4 @@
 <?php
-include_once "libs/pkw.db.php";
-
 class dbVereador extends DB{
 
     public function selectAllVereadores(){
@@ -23,7 +21,11 @@ class dbVereador extends DB{
 
     public function updateVereador($array, $id){
         try{
-            $stmt = $this->conn->prepare("UPDATE vereadores set name = '".$array[':name']."', dt_birth = '".$array[':dt_birth']."', formacao = '".$array[':formacao']."',  email = '".$array[':email']."',  atividade = '".$array[':atividade']."',  partido = '".$array[':partido']."',  img = '".$array[':img']."' WHERE id_vereador = '".$id."'");
+            if(array_key_exists(":img", $array))
+                $stmt = $this->conn->prepare("UPDATE vereadores set name = '".$array[':name']."', dt_birth = '".$array[':dt_birth']."', formacao = '".$array[':formacao']."',  email = '".$array[':email']."',  atividade = '".$array[':atividade']."',  partido = '".$array[':partido']."',  img = '".$array[':img']."' WHERE id_vereador = '".$id."'");
+            else
+                $stmt = $this->conn->prepare("UPDATE vereadores set name = '".$array[':name']."', dt_birth = '".$array[':dt_birth']."', formacao = '".$array[':formacao']."',  email = '".$array[':email']."',  atividade = '".$array[':atividade']."',  partido = '".$array[':partido']."' WHERE id_vereador = '".$id."'");
+
             return $stmt->execute($array);
         }catch(Exception $e){
             return $e->getMessage();

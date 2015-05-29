@@ -1,4 +1,5 @@
 <?php
+include_once "../../../../libs/pkw.db.php";
 include "../model/vereador.db.inc";
 $db = new dbVereador();
 $user = $db->selectVereador($_POST['id']);

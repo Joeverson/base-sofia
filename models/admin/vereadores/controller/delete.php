@@ -1,8 +1,9 @@
 <?php
-
+include_once "../../../../libs/pkw.db.php";
 include_once "../model/vereador.db.inc";
 include_once "../../../../controller/cms.control.php";
 include_once "../../../../libs/pkw.function.php";
+
 
 $db = new dbVereador();
 $fn = new ACTIONS();
