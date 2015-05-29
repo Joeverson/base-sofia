@@ -4,13 +4,21 @@ include "models/admin/articles/models/db.articles.php";
 $DBArticles = new DBArticles();
 
 try{
-    $nome_arquivo = $actions->_FILE()->upload($_FILES['image'], "models/site/includes/images/noticias/");
+    if (isset($_FILES['image']) && !empty($_FILES['image'])){
+        $nome_arquivo = $actions->_FILE()->upload($_FILES['image'], "models/site/includes/images/noticias/");
+        $_POST['image'] = $nome_arquivo;
+    }
+
+    if (isset($_FILES['pdf']) && !empty($_FILES['pdf'])){
+        $nome_pdf = $actions->_FILE()->upload($_FILES['pdf'], "models/site/includes/pdf/", ".pdf");
+        $_POST['pdf'] = $nome_pdf;
+    }
+
     $_POST['id_membro'] = $_SESSION['user']['id'];
-    $_POST['image'] = $nome_arquivo;
 
 
     if($DBArticles->insertArticle($actions->_ACTIONS()->prepareArrayDoublePointer($_POST))){
-
+        header("location: ".$actions->_ACTIONS()->siteUrl()."admin/articles");
     }
 }catch (Exception $e){
     echo $e->getMessage();

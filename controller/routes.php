@@ -138,7 +138,6 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
 
 
-// users ajax
 $app->post('/user/create', function() use($user){
     echo $user->newUser($_POST);
 });
@@ -160,12 +159,16 @@ $app->post('/user/delete/:id', function($id) use ($user, $app){
     $user->deleteUser($id);
 });
 
+$app->post('/articles/newcategory', function() use ($user, $app){
+    include "models/admin/articles/models/db.articles.php";
+    $DBArticles = new DBArticles();
+    echo $DBArticles->newCat($_POST['novacategoria']);
+    //echo var_dump($_POST);
+});
 
 $app->post('/articles/new', function() use ($user, $app){
     $app->render('admin/articles/controllers/new.php');
 });
-
-
 
 
 //&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*

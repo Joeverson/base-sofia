@@ -131,4 +131,19 @@ class DB{
        }
    }*/
 
+    public function getXFromTable( $tabela, $order_by, $ascendency, $quantidade = "all"){
+        try{
+            $limit = ($quantidade == "all")? "" : "LIMIT ".$quantidade;
+            $order = (!empty($order_by)) ? " ORDER BY ".$order_by." ".$ascendency : "";
+            $rs = $this->conn->query("SELECT * FROM ".$tabela." ".$limit." ".$order );
+
+            if(($rs == false) || ($rs == NULL))
+                return false;
+            return $rs->fetchAll();
+        }catch(Exception $e){
+            echo $e->getMessage();
+        }
+
+    }
+
 }

@@ -23,7 +23,7 @@
 
         // responsavel por carregar na pagina as pages...
         $('a').click(function(){
-            ajaxUrl($(this).data('link'));
+           // ajaxUrl($(this).data('link'));
         });
 
 

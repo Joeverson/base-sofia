@@ -38,11 +38,14 @@ class FILES{
     }
 
 
-    public function upload($arquivoTmp, $caminho, $typo = array('image/jpeg', 'image/pjpeg', 'image/jpg', 'image/png')){
+    public function upload($arquivoTmp, $caminho, $extensao = array('image/jpeg', 'image/pjpeg', 'image/jpg', 'image/png')){
         try{
-            $tipo_img = $arquivoTmp['type'];
-            if (!in_array($tipo_img, $typo)) throw new Exception("Formato de arquivo não permitido. Formato utilizado: " . $tipo_img);
-            $extensao = ($arquivoTmp['type'] == 'image/png') ? ".png" : ".jpg";
+            if (is_array($extensao)){
+                $tipo_img = $arquivoTmp['type'];
+                if (!in_array($tipo_img, $extensao)) throw new Exception("Formato de arquivo não permitido. Formato utilizado: " . $tipo_img);
+                $extensao = ($tipo_img == 'image/png') ? ".png" : ".jpg";
+            }
+
             $nome_arquivo = md5(time()) . $extensao;
             if (move_uploaded_file($arquivoTmp['tmp_name'], $caminho . $nome_arquivo)){
                 return $nome_arquivo;
