@@ -38,28 +38,20 @@ class FILES{
     }
 
 
-    public function upload($arquivoCliente){  // recebe o  $_FILES['file'];
-        /*
-            este arquivo e para guardar qualquer arquivo no servidor
-            booleanos (por problemas tive que usar esta nomeclatura de booleanos)
-                2 = false
-                1 = true
-        */
-        //session_start();
-
-        if($arquivoCliente['error'] == 0){ // se não ocorrer nenhum erro ae ele grava no servidor
-            if(move_uploaded_file($arquivoCliente['tmp_name'], '../arquivos/'.$arquivoCliente['name'])){
-                $_SESSION['confirm'] = 'noError'; // me retorna quando for tudo ok
-                header('location: ../index.php');
-            }else{ // error no upload entrada no servidor
-                $_SESSION['confirm'] = 'errorUpload';
-                header('location: ../index.php');
+    public function upload($arquivoTmp, $caminho, $typo = array('image/jpeg', 'image/pjpeg', 'image/jpg', 'image/png')){
+        try{
+            $tipo_img = $arquivoTmp['type'];
+            if (!in_array($tipo_img, $typo)) throw new Exception("Formato de arquivo não permitido. Formato utilizado: " . $tipo_img);
+            $extensao = ($arquivoTmp['type'] == 'image/png') ? ".png" : ".jpg";
+            $nome_arquivo = md5(time()) . $extensao;
+            if (move_uploaded_file($arquivoTmp['tmp_name'], $caminho . $nome_arquivo)){
+                return $nome_arquivo;
+            }else{
+                throw new Exception("Arquivo não enviado");
             }
-        }else{ // error no upload(saida do pc client)
-            $_SESSION['confirm'] = 'errorFile';
-            header('location: ../index.php');
+        }catch (Exception $e){
+            throw new Exception($e->getMessage());
         }
-        //var_dump($arquivoCliente['tmp_name']);
 
     }
 }

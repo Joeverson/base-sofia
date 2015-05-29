@@ -9,6 +9,7 @@ class DB{
 
 
     public function __construct(){
+
         try{
             $this->conn = new PDO($this->socket.":host=".$this->host.";dbname=".$this->bdname, $this->user, $this->pass);
         }catch(Exception $e){

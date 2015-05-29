@@ -75,19 +75,19 @@
         });
     });
 
-    function ajaxUrl(url){ // usado para trazer as paginas
-        $.ajax({
-            url:url,
-            type:'post',
-            data:'',
-            datatype:'html',
-            success:function(e){
-                $('.pages').html(e);
-            }
-        }).fail(function(e){
-            $('.pages').html(e.responseText);
-        })
-    }
+//    function ajaxUrl(url){ // usado para trazer as paginas
+//        $.ajax({
+//            url:url,
+//            type:'post',
+//            data:'',
+//            datatype:'html',
+//            success:function(e){
+//                $('.pages').html(e);
+//            }
+//        }).fail(function(e){
+//            $('.pages').html(e.responseText);
+//        })
+//    }
 </script>
 <script>
 
