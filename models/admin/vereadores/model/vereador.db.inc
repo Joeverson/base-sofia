@@ -1,5 +1,5 @@
 <?php
-include_once "../../../../libs/pkw.db.php";
+include_once "libs/pkw.db.php";
 
 class dbVereador extends DB{
 

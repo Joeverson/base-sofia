@@ -55,21 +55,29 @@ $app->post('/login', function () use($signIn, $app, $data) {
         if($info = $signIn->singIn($_POST)){
             $_SESSION["user"] = $info; // guardando dados do usuario
             $_SESSION["auth"] = true;
-            $app->render('admin/index.php', $data);
         }else{
             $data['notAceppt'] = true;
             $app->render('admin/login/index.php', $data);
         }
+
+    $app->redirect("admin");
 });
 
 $app->get('/logout', function () use($signIn, $app, $data) {
     unset($_SESSION["user"]);
     unset($_SESSION["auth"]);
+    session_destroy();
     $app->render('admin/login/index.php', $data);
 
 });
 
 /*---------------- end ------------------------*/
+
+
+
+
+
+
 
 
 
@@ -91,7 +99,9 @@ $app->get('/' , function () use($app, $data) {
 });
 /*---------------- end ------------------------*/
 
-
+  //%%%%//
+ // 1  //
+//%%%%//
 // segunda nivel de rota - ideal para navegar entre paginas ( rota voltada para o site )
 $app->get('/:page', $authentication, function ($page) use($app, $data) {
     try{
@@ -106,7 +116,6 @@ $app->get('/:page', $authentication, function ($page) use($app, $data) {
 // 2  //
 //%%%%//
 
-
 // rota entre pacotes (site, admin... por exemplo) - recebe pacote e pagina.
 $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($app, $data, $action) {
     $caminho = $page.'/'.$subpage;
@@ -120,7 +129,7 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
              $app->render('404.html');
          }
     }catch (\Exception $e){
-       $app->render('404.html');
+        $app->render('404.html');
     }
 })->conditions(array('page' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
@@ -129,7 +138,6 @@ $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($ap
 //%%%%//
 // 3  //
 //%%%%//
-
 
 // rota que leva a subModulos de um determinado pacote.
 $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, $data) {
@@ -187,7 +195,6 @@ $app->post('/user/edit/:id', function($id) use ($user, $app){
 $app->post('/articles/new', function() use ($user, $app){
     $app->render('admin/articles/controllers/new.php');
 });
-
 
 
 
