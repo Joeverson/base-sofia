@@ -27,9 +27,11 @@ $artigos = $actions->_DB()->getXFromTable("noticias", "date_register", "ASC");
                     <img class="img-rounded" src="<?= $endereco ?>site/includes/images/noticias/<?= $artigo['image'] ?>">
                     <div class="caption text-center">
                         <h3><?= $artigo['title'] ?></h3>
-                        <p><?= $artigo['subtitle'] ?></p>
-                        <p><a href="#" class="btn btn-warning" role="button">Editar</a>
-                            <a href="#" class="btn btn-default" role="button">Excluir</a></p>
+                         <p><?= $artigo['subtitle'] ?></p>
+                        <p>
+
+                            <a href="#" data-toggle="modal" data-target="#editarartigo" data-id="<?= $artigo['id'] ?>" data-titulo="<?= $artigo['title']  ?>" class="btn fn btn-warning btn-editar" role="button">Editar</a>
+                           <a href="#"  data-id="<?= $artigo['id'] ?>" data-titulo="<?= $artigo['title']  ?>" class="btn btn-default btn-excluir"  role="button">Excluir</a></p>
                     </div>
                 </div>
             </div>
@@ -48,7 +50,7 @@ $artigos = $actions->_DB()->getXFromTable("noticias", "date_register", "ASC");
                                     </div>
                                     <div class="col-xs-6">
                                         <!--label>Email</label-->
-                                        <input type="text" name="subtitle" class="form-control" placeholder="Subtitulo" required="required">
+                                        <input type="text" name="subtitle" class="form-control" maxlength="200" placeholder="Subtitulo" required="required">
                                     </div>
                                 </div>
                                 <div class="row" style="padding: 10px 0 0 0;">
@@ -60,7 +62,7 @@ $artigos = $actions->_DB()->getXFromTable("noticias", "date_register", "ASC");
                                 <div class="row" style="padding: 10px 0 0 0;">
                                     <div class="col-xs-6">
                                         <label>Upload de PDF(opcional)</label>
-                                        <input type="file" name="pdf" class="form-control" placeholder="Subtitulo">
+                                        <input type="file" name="pdf" class="form-control" >
                                     </div>
                                     <div class="col-xs-6">
                                         <input type="text" name="pdftitulo" class="form-control" placeholder="Título do PDF">
@@ -99,7 +101,7 @@ $artigos = $actions->_DB()->getXFromTable("noticias", "date_register", "ASC");
                                 <div class="row" style="padding: 30px 0 50px 0;">
                                     <div class="col-xs-12">
                                         <label>Noticia</label>
-                                        <textarea class="form-control textEdit col-md-12" rows="13" name="text" placeholder="Notícia" required=""></textarea>
+                                        <textarea class="form-control textEdit col-md-12" rows="13" name="text" placeholder="Notícia" ></textarea>
                                     </div>
                                 </div>
                     </div>
@@ -109,13 +111,51 @@ $artigos = $actions->_DB()->getXFromTable("noticias", "date_register", "ASC");
 
         <div class="row novoartigo" style="display: none">
             <div class="modal-footer save-in-footer col-md-12">
-                <a type="button" class="btn btn-default add_noticia" >Cancelar</a>
+                <a type="button" style="display:none" class="btn btn-default add_noticia" >Cancelar</a>
                 <input type="submit" class="btn btn-success" value="Salvar">
             </div>
         </div>
     </form>
     </div>
+<!-- Modal Editar -->
+<div class="modal fade" id="editarartigo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Editar Notícia</h4>
+            </div>
+            <div class="modal-body">
 
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal excluir -->
+<div class="modal fade" id="excluirartigo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <span><b>Tem certeza de que deseja excluir esta notícia?</b></span>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">NÃO</button>
+                <input type="submit" class="btn btn-primary" value="Sim">
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
 </div>
 
 <script>
@@ -123,21 +163,52 @@ $artigos = $actions->_DB()->getXFromTable("noticias", "date_register", "ASC");
         $(".add_noticia").click(function(){
            $(".novoartigo").fadeToggle();
            $(".artigos").fadeToggle();
-           $(this).fadeToggle();
-
+           $(".add_noticia").fadeToggle();
         });
+
+        $(".btn-excluir").click(function(){
+           var id = $(this).data("id");
+           var titulo = $(this).data("titulo");
+
+            $("#excluirartigo .modal-dialog .modal-body ").html(titulo);
+            $("#excluirartigo .modal-dialog form ").attr("action", "<?= $baseUrl ?>articles/delete/"+id);
+            $("#excluirartigo").modal("show");
+        });
+
+         $(".btn-editar").click(function(){
+                   var id = $(this).data("id");
+                   var titulo = $(this).data("titulo");
+             $.ajax({
+                 url: '<?= $actions->baseUrlAjax() ?>articles/edit/'+id,
+                 type: 'post',
+                 datatype: 'html',
+                 beforeSend: function(){
+                     // $('.progress-bar').show();
+                 },
+                 success: function(t){
+                    console.log(t);
+                 },
+                 complete: function() {
+                     //$('.progress-bar').fadeOut();
+                 }
+             });
+
+         });
+
+
         $('#createCategory').on("click", function(){
             var categoria = ($('#category').serialize());
             $.ajax({
                 url: '<?= $actions->baseUrlAjax() ?>articles/newcategory',
                 type: 'post',
                 data: categoria,
-                datatype: 'json',
+                datatype: 'html',
                 beforeSend: function(){
                    // $('.progress-bar').show();
                 },
                 success: function(t){
-                    $('#selectCategory').append('<option value="'+t+'">'+$('#category').val()+'</option>');
+                    if ($('#category').val() != '')
+                         $('#selectCategory').append('<option value="'+t+'">'+$('#category').val()+'</option>');
                 },
                 complete: function() {
                     //$('.progress-bar').fadeOut();

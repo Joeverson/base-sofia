@@ -50,7 +50,7 @@ class FILES{
             if (move_uploaded_file($arquivoTmp['tmp_name'], $caminho . $nome_arquivo)){
                 return $nome_arquivo;
             }else{
-                throw new Exception("Arquivo não enviado");
+                throw new Exception("Arquivo não enviado. Tipo do arquivo: ".$arquivoTmp['type']);
             }
         }catch (Exception $e){
             throw new Exception($e->getMessage());

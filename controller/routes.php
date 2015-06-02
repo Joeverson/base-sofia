@@ -147,6 +147,14 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
             $app->render('404.html');
         }
 })->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+
+$app->get('/:page/page/:id',  function ($page, $id) use($app, $data) {
+        try{
+            echo $id;
+        }catch (\Exception $e){
+            $app->render('404.html');
+        }
+})->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
 /*---------------- end ------------------------*/
 
 
@@ -178,7 +186,10 @@ $app->post('/user/edit', function() use ($user, $app){
 
     $app->render("admin/user/pages/edit.php", $array);
 });
-
+$app->post('/articles/getnoticia', function($id) use ($user, $app){
+    echo var_dump($_POST);
+   // echo $user->_DB()->getNXWhere("noticias", "id = ".$id);
+});
 $app->post('/user/delete', function() use ($user, $app){
     $app->render("admin/user/pages/delete.php", ['id' => $_POST['id']]);
 });
@@ -195,6 +206,17 @@ $app->post('/user/edit/:id', function($id) use ($user, $app){
 $app->post('/articles/new', function() use ($user, $app){
     $app->render('admin/articles/controllers/new.php');
 });
+$app->post('/articles/edit/:id', function($id) use ($user, $app){
+    echo $id;
+});
+
+$app->post('/articles/newcategory', function() use ($user, $app){
+    include_once "models/admin/articles/models/db.articles.php";
+    $DBArticles = new DBArticles();
+    return $DBArticles->newCat($_POST['novacategoria']);
+
+});
+
 
 
 

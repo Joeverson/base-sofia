@@ -135,7 +135,7 @@ class DB{
         try{
             $limit = ($quantidade == "all")? "" : "LIMIT ".$quantidade;
             $order = (!empty($order_by)) ? " ORDER BY ".$order_by." ".$ascendency : "";
-            $rs = $this->conn->query("SELECT * FROM ".$tabela." ".$limit." ".$order );
+            $rs = $this->conn->query("SELECT * FROM ".$tabela." ".$order." ".$limit );
 
             if(($rs == false) || ($rs == NULL))
                 return false;
@@ -145,5 +145,36 @@ class DB{
         }
 
     }
+
+    public function getNXFromTable( $n, $tabela, $order_by, $ascendency, $quantidade = "all"){
+        try{
+            $limit = ($quantidade == "all")? "" : "LIMIT ".$quantidade;
+            $order = (!empty($order_by)) ? " ORDER BY ".$order_by." ".$ascendency : "";
+            $rs = $this->conn->query("SELECT ".$n." FROM ".$tabela." ".$order." ".$limit );
+
+            if(($rs == false) || ($rs == NULL))
+                return false;
+            return $rs->fetchAll();
+        }catch(Exception $e){
+            echo $e->getMessage();
+        }
+
+    }
+    public function getNXWhere($tabela, $where, $order_by = "", $ascendency = "ASC", $quantidade = "all", $campos = " * "){
+        try{
+            $limit = ($quantidade == "all")? "" : "LIMIT ".$quantidade;
+            $order = (!empty($order_by)) ? " ORDER BY ".$order_by." ".$ascendency : "";
+            $rs = $this->conn->query("SELECT ".$campos." FROM ".$tabela." ".$where." ".$order." ".$limit );
+
+            if(($rs == false) || ($rs == NULL))
+                return false;
+            return $rs->fetchAll();
+        }catch(Exception $e){
+            echo $e->getMessage();
+        }
+
+    }
+
+
 
 }

@@ -3,7 +3,11 @@ class DBArticles extends DB{
 
     public function insertArticle($dados){
         $cat = $dados[':categoria']; unset($dados[':categoria']);
-        $pdf= $dados[':pdf']; unset($dados[':pdf']);
+        if (!isset($dados[':pdf'])){
+            $dados[':pdf'] = '';
+            $dados[':pdftitulo'] = '';
+        }
+        $pdf = $dados[':pdf']; unset($dados[':pdf']);
         $pdftitulo = $dados[':pdftitulo']; unset($dados[':pdftitulo']);
 
         $this->conn->beginTransaction();
@@ -14,7 +18,7 @@ class DBArticles extends DB{
         }else{
             $dados[":id_pdf"] = "";
         }
-
+var_dump($dados);
         //agora tentamos inserir a notícia
         try{
             $stmt = $this->conn->prepare("INSERT INTO noticias (title, subtitle, text, resume, image, id_membro, id_pdf) VALUES (:title, :subtitle, :text, :resume, :image, :id_membro, :id_pdf)");

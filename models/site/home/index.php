@@ -1,6 +1,7 @@
 <?php
-include "models/site/widgets/topo.php";
-include "models/site/widgets/menu.php";
+include_once "models/site/widgets/topo.php";
+include_once "models/site/widgets/menu.php";
+
 ?>
     <!-- - - - - - - - - - - - - - - Container - - - - - - - - - - - - - - - - -->
 
@@ -32,18 +33,22 @@ include "models/site/widgets/menu.php";
         <!-- - - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
 
         <section id="content">
+            <?php
+                $noticia1 = $actions->_DB()->getNXFromTable("*, DATE_FORMAT(date_register, '%d-%b-%Y') as data","vnoticias", "date_register", "ASC", 1);
 
+                foreach ($noticia1 as $noticia){
+            ?>
             <article class="post-item clearfix">
 
                 <a href="single-post.html">
                     <h3 class="title">
-                        Suspendisse potenti  nullam consectetur, metus vestibulum urna ipsum fringilla velit felis vitae ante.
+                        <?= $noticia['title'] ?>
                     </h3><!--/ .title -->
                 </a>
 
                 <section class="post-meta clearfix">
 
-                    <div class="post-date"><a href="#">June 15, 2012</a></div><!--/ .post-date-->
+                    <div class="post-date"><a href="#"><?= $noticia['data'] ?></a></div><!--/ .post-date-->
                     <div class="post-tags">
                         <a href="#">News</a>
                         <a href="#">Events</a>
@@ -53,19 +58,19 @@ include "models/site/widgets/menu.php";
                 </section><!--/ .post-meta-->
 
                 <a class="single-image" href="#">
-                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-1.jpg">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/noticias/<?= $noticia['image'] ?>">
                 </a>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing tincidunt malesuada. Aenean metus lorem, lacinia est.
-                    Maecenas sit amet magna eget rhoncus imperdiet. Quisque consectetur lacinia felis, posumassa fermentum vel.
-                    Morbi metus nibh, tincidunt ac luctus hendrerit, iaculis sed velit.
+                    <?= $noticia['resume'] ?>
                 </p>
 
-                <a href="single-post.html" class="button gray">Read More &rarr;</a>
+                <a href="<?= $base_url ?>article/<?= $noticia['id']?>/" class="button gray">Ler Mais &rarr;</a>
 
             </article><!--/ .post-item-->
-
+            <?php
+                }
+            ?>
             <article class="post-item clearfix">
 
                 <a href="single-post.html">
@@ -187,7 +192,6 @@ include "models/site/widgets/menu.php";
             ?>
         </aside>
     </section>
-
     <!-- - - - - - - - - - - - - end Container - - - - - - - - - - - - - - - - -->
 <?php
 include "models/site/widgets/rodape.php";
