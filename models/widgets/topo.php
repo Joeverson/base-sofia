@@ -29,6 +29,8 @@ $endereco = $action->urlModels();
     <script src="<?=$endereco ?>includes/bootflat/js/jquery.fs.selecter.min.js"></script>
     <script src="<?=$endereco ?>includes/bootflat/js/jquery.fs.stepper.min.js"></script>
     <script src="<?=$endereco ?>includes/js/cms.notifications.js"></script>
+    <script src="<?=$endereco ?>includes/js/extends.jquery.js"></script>
+    <script src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
 <!--    <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js"></script>-->
     <!-- Bootstrap >
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>

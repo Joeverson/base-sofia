@@ -58,8 +58,16 @@
 <script>window.jQuery || document.write('<script src="<?= $base_url ?>/models/includes/js/jquery-1.7.1.min.js"><\/script>')</script>
 <!--[if lt IE 9]>
 <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
-<script src="<?= $base_url ?>/models/includes/js/ie.js"></script>
+<script src="<?= $base_url ?>models/includes/js/ie.js"></script>
 <![endif]-->
-<script src="<?= $base_url ?>/models/includes/js/custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script src="<?= $base_url ?>models/includes/js/custom.js"></script>
+<script type="text/javascript" src="<?= $base_url ?>includes/sliders/flexslider/jquery.flexslider-min.js"></script>
+<script>
+    $('.flexslider').flexslider();
+</script>
+
+
 </body>
 </html>

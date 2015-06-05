@@ -57,7 +57,7 @@ include_once "models/site/widgets/menu.php";
                 </section><!--/ .post-meta-->
 
                 <a class="single-image" href="#">
-                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/noticias/<?= $noticia['image'] ?>">
+                    <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>includes/images/noticias/<?= $noticia['image'] ?>">
                 </a>
 
                 <p>
