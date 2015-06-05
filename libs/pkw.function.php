@@ -39,15 +39,17 @@ class ACTIONS extends control{
                 if (is_file($manifest)) {
                    $obj = json_decode(file_get_contents($manifest), true);
 
+
                     if (!empty($obj['acessLevel'])){
                         $autorizacao = explode(',', $obj['acessLevel']);
-                        if (!in_array($acessLevel, $autorizacao)) continue;
+                        //if (!in_array($acessLevel, $autorizacao)) continue;
                     }
 
                     if ($obj['dad'] == "this") {
                         $masters[$obj['dadsName']] = $obj;
                     } else {
                         $subs[$obj['dad']] = $obj;
+
                     }
                 }
             }

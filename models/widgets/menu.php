@@ -16,15 +16,10 @@ $_SESSION['acessLevel'] = 1;
                 MENU
             </a>
         </li>
-        <?php foreach($m->makeMenu() as $k){
-            ?>
-
+        <?php foreach($m->makeMenu() as $k){ ?>
             <li>
                 <a href="<?= $baseUrl.$k['url'] ?>" class="title"><?=$k['title']?></a>
-
-            <?php foreach($k['submenu'] as $v){
-                ?>
-
+            <?php foreach($k['submenu'] as $v){?>
                 <li>
                     <a href="<?php if (!empty($v['url'])) echo $baseUrl.$v['url'] ?> " data-toggle="offcanvas"><?=$v['title']?></a>
                 </li>
