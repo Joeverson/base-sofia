@@ -75,12 +75,6 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 
 
 
-
-
-
-
-
-
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
 //*&*&*&*&*&*&*&*&*&*  quatro bases de rotas principais dentro do fluxo   *&*&*&*&*&*&*&*&*&*&*&*&**&*&*&&*//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
@@ -150,11 +144,23 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
 
 $app->get('/:page/page/:id',  function ($page, $id) use($app, $data) {
         try{
-            echo $id;
+            $data['id'] = $id;
+            $app->render("site/noticias/index.php", $data);
         }catch (\Exception $e){
             $app->render('404.html');
         }
 })->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+
+$app->get('/noticia/:id/:titulo',  function ($id, $titulo) use($app, $data) {
+    try{
+        $data['id'] = $id;
+        $data['titulo'] = $titulo;
+        $app->render("site/noticias/noticia.php", $data);
+    }catch (\Exception $e){
+        $app->render('404.html');
+    }
+})->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+
 /*---------------- end ------------------------*/
 
 
@@ -207,7 +213,8 @@ $app->post('/articles/new', function() use ($user, $app){
     $app->render('admin/articles/controllers/new.php');
 });
 $app->post('/articles/edit/:id', function($id) use ($user, $app){
-    echo $id;
+    $dados =  $user->_DB()->getNXWhere("noticias", "id = ".$id );
+    echo json_encode($dados);
 });
 
 $app->post('/articles/newcategory', function() use ($user, $app){

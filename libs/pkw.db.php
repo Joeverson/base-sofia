@@ -164,8 +164,7 @@ class DB{
         try{
             $limit = ($quantidade == "all")? "" : "LIMIT ".$quantidade;
             $order = (!empty($order_by)) ? " ORDER BY ".$order_by." ".$ascendency : "";
-            $rs = $this->conn->query("SELECT ".$campos." FROM ".$tabela." ".$where." ".$order." ".$limit );
-
+            $rs = $this->conn->query("SELECT ".$campos." FROM ".$tabela." WHERE ".$where." ".$order." ".$limit );
             if(($rs == false) || ($rs == NULL))
                 return false;
             return $rs->fetchAll();

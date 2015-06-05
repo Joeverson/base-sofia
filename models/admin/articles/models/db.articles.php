@@ -79,4 +79,14 @@ var_dump($dados);
             throw new Exception($e->getMessage());
         }
     }
+
+    public function catchSameCategory($id, $limit=""){
+        try{
+            $stmt = $this->conn->query("select * from categoriasnoticias join noticias n on n.id = categoriasnoticias.id_notice where id_category in (select id_category from categoriasnoticias where id_notice = $id) group by id_notice $limit");
+            $stmt->execute();
+            return $stmt->fetchAll();
+        }catch (Exception $e){
+            throw new Exception($e->getMessage());
+        }
+    }
 }
