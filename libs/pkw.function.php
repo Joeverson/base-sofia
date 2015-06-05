@@ -28,7 +28,10 @@ class ACTIONS extends control{
     public function baseUrlAjax(){
         return "http://".$_SERVER['SERVER_NAME']."/cms/";
     }
-
+    public function linkTitle($link){
+        $link = str_replace(" ", "-", $link);
+        return $link;
+    }
 
     public function makeMenu(){
         $acessLevel = $_SESSION['acessLevel'];  //informação necessária para saber o nivel de acesso do usuário logado

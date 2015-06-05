@@ -1,21 +1,38 @@
 <?php
 class DBArticles extends DB{
-    public function insertArticle($dados){
-        $cat = $dados[':categoria'];
-        unset($dados[':categoria']);
-        unset($dados[':pdf']);
-        var_dump($cat);
-        $this->conn->beginTransaction();
 
+    public function insertArticle($dados){
+        $cat = $dados[':categoria']; unset($dados[':categoria']);
+        if (!isset($dados[':pdf'])){
+            $dados[':pdf'] = '';
+            $dados[':pdftitulo'] = '';
+        }
+        $pdf = $dados[':pdf']; unset($dados[':pdf']);
+        $pdftitulo = $dados[':pdftitulo']; unset($dados[':pdftitulo']);
+
+        $this->conn->beginTransaction();
+        // primeiro insere o PDF e descobre o ID inserido, pois ele será inserido na tabela da nova notícia
+        if (isset($pdf) && !empty($pdf)){
+            $pdfInserido = $this->insertPdf($pdf, $pdftitulo);
+            $dados[":id_pdf"] = $pdfInserido; //associando à noticia
+        }else{
+            $dados[":id_pdf"] = "";
+        }
+var_dump($dados);
+        //agora tentamos inserir a notícia
         try{
-            $stmt = $this->conn->prepare("INSERT INTO noticias (title, subtitle, text, resume, image, id_membro) VALUES (:title, :subtitle, :text, :resume, :image, :id_membro)");
+            $stmt = $this->conn->prepare("INSERT INTO noticias (title, subtitle, text, resume, image, id_membro, id_pdf) VALUES (:title, :subtitle, :text, :resume, :image, :id_membro, :id_pdf)");
             $stmt->execute($dados);
             $id_noticia = $this->conn->lastInsertId();
         }catch(Exception $e){
             throw new Exception($e->getMessage());
         }
 
-        $this->insertCat($cat, $id_noticia);
+        //agora associamos a noticia a todas as categorias selecionadas
+        if (isset($cat) && !empty($cat)) {
+            $this->insertCat($cat, $id_noticia);
+        }
+        $this->conn->commit();
 
     }
 
@@ -37,6 +54,37 @@ class DBArticles extends DB{
                    ":id_notice"     => $noticia
                ));
             }
+            return true;
+        }catch (Exception $e){
+            throw new Exception($e->getMessage());
+        }
+    }
+
+    public function newCat($cat){
+        try{
+            $stmt = $this->conn->prepare("INSERT INTO category (name_category) VALUES (:cat)");
+            $stmt->execute(array(":cat" => $cat));
+            return $this->conn->lastInsertId();
+        }catch (Exception $e){
+            throw new Exception($e->getMessage());
+        }
+    }
+
+    public function insertPdf($nomePdf, $pdftitulo){
+        try{
+            $stmt = $this->conn->prepare("INSERT INTO pdf (file, titulo) VALUES (:pdf, :titulo)");
+            $stmt->execute(array(":pdf" => $nomePdf, ":titulo" => $pdftitulo));
+            return $this->conn->lastInsertId();
+        }catch (Exception $e){
+            throw new Exception($e->getMessage());
+        }
+    }
+
+    public function catchSameCategory($id, $limit=""){
+        try{
+            $stmt = $this->conn->query("select * from categoriasnoticias join noticias n on n.id = categoriasnoticias.id_notice where id_category in (select id_category from categoriasnoticias where id_notice = $id) group by id_notice $limit");
+            $stmt->execute();
+            return $stmt->fetchAll();
         }catch (Exception $e){
             throw new Exception($e->getMessage());
         }

@@ -75,12 +75,6 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 
 
 
-
-
-
-
-
-
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
 //*&*&*&*&*&*&*&*&*&*  quatro bases de rotas principais dentro do fluxo   *&*&*&*&*&*&*&*&*&*&*&*&**&*&*&&*//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
@@ -147,6 +141,26 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
             $app->render('404.html');
         }
 })->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+
+$app->get('/:page/page/:id',  function ($page, $id) use($app, $data) {
+        try{
+            $data['id'] = $id;
+            $app->render("site/noticias/index.php", $data);
+        }catch (\Exception $e){
+            $app->render('404.html');
+        }
+})->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+
+$app->get('/noticia/:id/:titulo',  function ($id, $titulo) use($app, $data) {
+    try{
+        $data['id'] = $id;
+        $data['titulo'] = $titulo;
+        $app->render("site/noticias/noticia.php", $data);
+    }catch (\Exception $e){
+        $app->render('404.html');
+    }
+})->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
+
 /*---------------- end ------------------------*/
 
 
@@ -178,7 +192,10 @@ $app->post('/user/edit', function() use ($user, $app){
 
     $app->render("admin/user/pages/edit.php", $array);
 });
-
+$app->post('/articles/getnoticia', function($id) use ($user, $app){
+    echo var_dump($_POST);
+   // echo $user->_DB()->getNXWhere("noticias", "id = ".$id);
+});
 $app->post('/user/delete', function() use ($user, $app){
     $app->render("admin/user/pages/delete.php", ['id' => $_POST['id']]);
 });
@@ -195,6 +212,18 @@ $app->post('/user/edit/:id', function($id) use ($user, $app){
 $app->post('/articles/new', function() use ($user, $app){
     $app->render('admin/articles/controllers/new.php');
 });
+$app->post('/articles/edit/:id', function($id) use ($user, $app){
+    $dados =  $user->_DB()->getNXWhere("noticias", "id = ".$id );
+    echo json_encode($dados);
+});
+
+$app->post('/articles/newcategory', function() use ($user, $app){
+    include_once "models/admin/articles/models/db.articles.php";
+    $DBArticles = new DBArticles();
+    return $DBArticles->newCat($_POST['novacategoria']);
+
+});
+
 
 
 

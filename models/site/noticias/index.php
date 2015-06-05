@@ -1,131 +1,116 @@
 <?php
 include "models/site/widgets/topo.php";
 include "models/site/widgets/menu.php";
+$qtd = 7; //quantos registros existirão por página
+
+//$limite = (!isset($id) || $id <=0) ? 6 : $qtd.$id-1;
+if(!isset($id) || $id <=1){
+    $limite = 7;
+}else{
+    $maximo = $qtd * $id;
+    $minimo = $maximo - $qtd;
+    $limite = $minimo.",".$maximo;
+}
+$noticia = $actions->_DB()->getNXFromTable("*, DATE_FORMAT(date_register, '%d-%b-%Y') as data","vnoticias", "date_register", "DESC", $limite);
+$proxima = (!isset($id) || $id <=0) ? 1 : $id + 1;
+
 ?>
+
     <section class="container clearfix">
         <div class="page-header">
             <h1 class="page-title">Notícias</h1>
-        </div>
+<?php
+/////////////////////////////////////////NOTICIA 1
+if (isset($noticia[0]) && !empty($noticia[0])) {
+    ?>
 
-        <div class="one-third destaque">
-            <a class="single-image" href="#">
-                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
-                <span class="curtain">&nbsp;</span>
-            </a>
-        </div><!--/ .two-thirds-->
+    <div class="one-third destaque">
+        <a class="single-image" href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[0]['id']."/".$actions->linkTitle($noticia[0]['title']) ?>">
+            <img class="custom-frame" alt=""
+                 src="<?= $actions->sitePath() ?>/includes/images/noticias/<?= $noticia[0]['image'] ?>">
+            <span class="curtain">&nbsp;</span>
+        </a>
+    </div><!--/ .two-thirds-->
 
-        <div class="two-third last">
-            <a href="single-post.html">
-                <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
-            </a>
-            <p>
-                Lorem ipsum dolor amet, consectetur adipidunt malesuada. Aenean metus lorem, cus imperdiet.
-                Quisque consectetur lacinia felis.
-            </p>
-            <a href="single-post.html" class="button gray">Read More →</a>
-        </div><!--/ .one-third .last-->
+    <div class="two-third last">
+        <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[0]['id']."/".$actions->linkTitle($noticia[0]['title']) ?>">
+            <h3 class="title"><?= $noticia[0]['title'] ?></h3><!--/ .title -->
+        </a>
 
+        <p>
+            <?= $noticia[0]['resume'] ?>
+        </p>
+        <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[0]['id']."/".$actions->linkTitle($noticia[0]['title']) ?>" class="button gray">Leia mais →</a>
+    </div><!--/ .one-third .last-->
+    <div class="sep"></div>
+<?php
+}
+ /////////////////////////////////////////FIM NOTICIA1
 
+                 for ($a = 1; $a<=2; $a++){
+                     if (isset($noticia[$a]) && !empty($noticia[$a])) {
+            ?>
+                <div class="one-fourth">
+                        <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[$a]['id']."/".$actions->linkTitle($noticia[$a]['title']) ?>">
+                            <h3 class="title"><?= $noticia[$a]['title'] ?></h3><!--/ .title -->
+                        </a>
+                    <a class="single-image" href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[$a]['id']."/".$actions->linkTitle($noticia[$a]['title']) ?>">
+                        <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/noticias/<?= $noticia[$a]['image'] ?>">
+                        <span class="curtain">&nbsp;</span></a>
 
-        <div class="sep"></div>
-
-        <div class="one-fourth">
-                <a href="single-post.html">
-                    <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
-                </a>
-            <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
-                <span class="curtain">&nbsp;</span></a>
-
-            <p>
-                    Lorem ipsum dolor amet, consectetur adipidunt malesuada. Aenean metus lorem, cus imperdiet.
-                    Quisque consectetur lacinia felis.
-                </p>
-                <a href="single-post.html" class="button gray">Read More →</a>
-        </div><!--/ .one-fourth-->
-
-        <div class="one-fourth">
-            <a href="single-post.html">
-                <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
-            </a>
-            <a class="single-image" href="#">
-                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
-                <span class="curtain">&nbsp;</span></a>
-
-            <p>
-                Lorem ipsum dolor amet, consectetur adipidunt malesuada. Aenean metus lorem, cus imperdiet.
-                Quisque consectetur lacinia felis.
-            </p>
-            <a href="single-post.html" class="button gray">Read More →</a>
-        </div><!--/ .one-fourth-->
-
+                    <p>
+                        <?= $noticia[$a]['resume'] ?>
+                        </p>
+                        <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[$a]['id']."/".$actions->linkTitle($noticia[$a]['title']) ?>" class="button gray">Leia Mais →</a>
+                </div><!--/ .one-fourth-->
+            <?php } }
+            if (isset($noticia[3]) && !empty($noticia[3])) {
+            ?>
         <div class="one-half last">
-            <a href="single-post.html">
-                <h3 class="title">Potenti  nullam consectetur urna</h3><!--/ .title -->
+            <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[3]['id']."/".$actions->linkTitle($noticia[3]['title']) ?>">
+                <h3 class="title"><?= $noticia[3]['title'] ?></h3><!--/ .title -->
             </a>
-            <a class="single-image" href="images/gallery/fullscreen/06.jpg">
-                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/blog/post-4.jpg">
+            <a class="single-image" href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[3]['id']."/".$actions->linkTitle($noticia[3]['title']) ?>">
+                <img class="custom-frame" alt="" src="<?= $actions->sitePath() ?>/includes/images/noticias/<?= $noticia[3]['image'] ?>">
                 <span class="curtain">&nbsp;</span></a>
             <p>
-                Lorem ipsum dolor amet, consectetur adipidunt malesuada. Aenean metus lorem, cus imperdiet.
-                Quisque consectetur lacinia felis.
+                <?= $noticia[3]['resume'] ?>
             </p>
-            <a href="single-post.html" class="button gray">Read More →</a>
+            <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[3]['id']."/".$actions->linkTitle($noticia[3]['title']) ?>" class="button gray">Leia Mais →</a>
         </div><!--/ .one-fourth-->
+                <div class="sep"></div>
+        <?php
+         }
 
-
-
-        <div class="sep"></div>
-
+        for ($a = 4; $a<=5; $a++){
+            if (isset($noticia[$a]) && !empty($noticia[$a])) {
+            $texto = $noticia[$a]['resume'];
+    ?>
         <div class="one-fourth">
-
-            <h4>One fourth column</h4>
-            <span class="dropcap">1</span>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et tempor dolore tempor magna adipisicing aliqua.
-            </p>
-
+            <a href="<?= $actions->siteUrl() ?>noticia/<?= $noticia[$a]['id']."/".$actions->linkTitle($noticia[$a]['title']) ?>"><h4><?= $noticia[$a]['title']; ?></h4></a>
+            <span class="dropcap"><?= substr($texto, 0,1) ?></span>
+            <p><?= substr($texto, 1) ?></p>
         </div><!--/ .one-fourth-->
-
-        <div class="one-fourth">
-
-            <h4>One fourth column</h4>
-            <span class="dropcap">2</span>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna adipisicing aliqua.
-            </p>
-
-        </div><!--/ .one-fourth-->
-
+<?php }}
+if (isset($noticia[6]) && !empty($noticia[6])) {
+    $texto = $noticia[6]['resume'];
+    ?>
         <div class="one-half last">
-
-            <h4>One half column</h4>
-            <span class="dropcap">3</span>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-
+            <a href=<?= $actions->siteUrl() ?>noticia/<?= $noticia[6]['id']."/".$actions->linkTitle($noticia[6]['title']) ?>""><h4><?= $noticia[6]['title']; ?></h4></a>
+            <span class="dropcap"><?= substr($texto, 0,1) ?></span>
+            <p><?= substr($texto, 1) ?></p>
         </div><!--/ .one-half .last-->
-
+<?php } ?>
         <ul class="pagination aligncenter">
-
-            <li><a class="prevpostslink" href="#">&larr; Anterior</a></li>
-            <li><a href="#">1</a></li>
-            <li><a class="current" href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a class="nextpostslink" href="#">Próxima&rarr;</a></li>
-
+            <?php
+            if ($id > 1) echo "<li><a href='".$actions->siteUrl()."noticias/page/".($proxima-2)."'>&larr; Anterior</a></li>";
+//<!--            <li><a href="#">1</a></li>-->
+//<!--            <li><a class="current" href="#">2</a></li>-->
+//<!--            <li><a href="#">3</a></li>-->
+            if (count($noticia) == 7) echo "<li><a href='".$actions->siteUrl()."noticias/page/".$proxima."'>Próxima &rarr;</a></li>";
+            ?>
         </ul><!--/ .pagination-->
-
-        <!-- - - - - - - - - - - - - - end Columns - - - - - - - - - - - - - - - -->
-
-    </section><!--/.container -->
+    </section>
 <?php
 include "models/site/widgets/rodape.php";
 ?>

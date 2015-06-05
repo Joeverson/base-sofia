@@ -1,8 +1,10 @@
 <?php
-$app = new \Slim\Slim();
-$control = new control();
-$base_url = $control->_ACTIONS()->sitePath();
-$endereco = $control->_ACTIONS()->urlPath();
+//$app = new \Slim\Slim();
+//$control = new control();
+$base_url = $actions->_ACTIONS()->sitePath();
+$base_url = $actions->_ACTIONS()->sitePath();
+
+//$endereco = $action->_ACTIONS()->urlPath();
 ?>
 <!DOCTYPE html>
 <!--[if IE 7]>					<html class="ie7 no-js" lang="en">     <![endif]-->
@@ -28,3 +30,4 @@ $endereco = $control->_ACTIONS()->urlPath();
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 <div id="fb-root"></div>
+
