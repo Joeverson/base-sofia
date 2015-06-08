@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 4.3.11
+-- version 4.4.3
 -- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: 05-Jun-2015 às 02:50
+-- Host: localhost
+-- Generation Time: 08-Jun-2015 às 15:44
 -- Versão do servidor: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -145,6 +145,28 @@ CREATE TABLE IF NOT EXISTS `pdf` (
   `id_pdf` int(11) NOT NULL,
   `file` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `slider`
+--
+
+CREATE TABLE IF NOT EXISTS `slider` (
+  `id_slider` int(11) NOT NULL,
+  `title` varchar(233) NOT NULL,
+  `text` text NOT NULL,
+  `img` varchar(233) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `slider`
+--
+
+INSERT INTO `slider` (`id_slider`, `title`, `text`, `img`) VALUES
+(6, 'GTA 5', 'OPS', '1789594.jpg'),
+(7, 'Rayssa Legalzin', 'coisa scrta kkk kk k k k kk kkkk k  k', 'legal cara.jpg'),
+(8, 'mantenha a calma', 'Ta vendo?', 'keep-calm-it-s-today.png');
 
 -- --------------------------------------------------------
 
@@ -307,6 +329,12 @@ ALTER TABLE `pdf`
   ADD PRIMARY KEY (`id_pdf`);
 
 --
+-- Indexes for table `slider`
+--
+ALTER TABLE `slider`
+  ADD PRIMARY KEY (`id_slider`);
+
+--
 -- Indexes for table `tipos`
 --
 ALTER TABLE `tipos`
@@ -348,6 +376,11 @@ ALTER TABLE `noticias`
 --
 ALTER TABLE `pdf`
   MODIFY `id_pdf` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `slider`
+--
+ALTER TABLE `slider`
+  MODIFY `id_slider` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `tipos`
 --
