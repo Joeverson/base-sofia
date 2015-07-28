@@ -9,18 +9,35 @@
 session_cache_limiter(false);
 session_start();
 
-include_once "controller/cms.control.php";
-$class = new control(); // instancia da classe de controle
+require 'Slim/Slim.php';
+include_once "controller/Run.inc";
+\Slim\Slim::registerAutoloader();
+
+$app = new \Slim\Slim(array('templates.path' => 'modules')); // retorna a instancia
+
+$app->add(new \Slim\Middleware\SessionCookie(array(
+    'expires' => '20 minutes',
+    'path' => '/',
+    'domain' => null,
+    'secure' => false,
+    'httponly' => false,
+    'name' => 'slim_session',
+    'secret' => 'CHANGE_ME',
+    'cipher' => MCRYPT_RIJNDAEL_256,
+    'cipher_mode' => MCRYPT_MODE_CBC
+)));
+
+$app->config(array('debug'=>'true'));
+
 
 // instanciações de libs
-$app = $class->_SLIM();
-$signIn = $class->_LOGIN();
-$user = $class->_USER();
-$action = $class->_ACTIONS();
+$signIn = new \libs\login;
+$user = new \libs\user;
+$action = new \libs\functions;
 
 
 // dados que é enviado comummente para todos as paginas renderizadas
-$data = array('actions' => $action, 'file'=>$class->_FILE(), "user" => $user);
+$data = array('actions' => $action, 'file'=>new \libs\file, "user" => $user);
 
 // funções anonymas para as rotas:.
 
@@ -36,7 +53,7 @@ $authentication = function(\Slim\Route $route) use ($data, $action){
             $app->render("admin/login/index.php", $data);
             exit;
         }else if(!array_key_exists('subpage', $route->getParams())){
-            $app->render("admin/index.php", $data);
+            $app->render("admin/dashboard/index.php", $data);
             exit;
         }
     }
@@ -44,10 +61,7 @@ $authentication = function(\Slim\Route $route) use ($data, $action){
 
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&//
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&//
-//*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&//
 
-
-//// mandados por post pelos formularios e enviado as informações p seus controllers.
 
 // methodos que resolvem o login
 $app->post('/login', function () use($signIn, $app, $data) {
@@ -74,10 +88,10 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 /*---------------- end ------------------------*/
 
 
-
+//                         ROTAS GENERICAS
 //*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
-//*&*&*&*&*&*&*&*&*&*  quatro bases de rotas principais dentro do fluxo   *&*&*&*&*&*&*&*&*&*&*&*&**&*&*&&*//
-//*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
+//------------------  Quatro bases de rotas principais dentro do fluxo   ---------------------------------//
+//*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*//
 
 //%%%%%%%%//
 //  base  //
@@ -112,13 +126,12 @@ $app->get('/:page', $authentication, function ($page) use($app, $data) {
 
 // rota entre pacotes (site, admin... por exemplo) - recebe pacote e pagina.
 $app->get('/:page/:subpage', $authentication, function ($page, $subpage) use($app, $data, $action) {
-    $caminho = $page.'/'.$subpage;
     try{
          //if ($action->checkAcess($caminho))
         if(true)
          {
              $data['path'] = $action->BPath($page);
-             $app->render($caminho . '/index.php', $data);
+             $app->render($page.'/'.$subpage . '/index.php', $data);
          }else{
              $app->render('404.html');
          }
@@ -142,32 +155,7 @@ $app->get('/:page/:subpage/:file',  function ($page, $subpage, $file) use($app, 
         }
 })->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
 
-$app->get('/:page/page/:id',  function ($page, $id) use($app, $data) {
-        try{
-            $data['id'] = $id;
-            $app->render("site/noticias/index.php", $data);
-        }catch (\Exception $e){
-            $app->render('404.html');
-        }
-})->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
-
-$app->get('/noticia/:id/:titulo',  function ($id, $titulo) use($app, $data) {
-    try{
-        $data['id'] = $id;
-        $data['titulo'] = $titulo;
-        $app->render("site/noticias/noticia.php", $data);
-    }catch (\Exception $e){
-        $app->render('404.html');
-    }
-})->conditions(array('page' => '[a-z]{2,}', 'subpage' => '[a-z]{2,}', 'file' => '[a-z]{2,}'));
-
 /*---------------- end ------------------------*/
-
-
-
-
-
-
 
 
 
@@ -192,10 +180,6 @@ $app->post('/user/edit', function() use ($user, $app){
 
     $app->render("admin/user/pages/edit.php", $array);
 });
-$app->post('/articles/getnoticia', function($id) use ($user, $app){
-    echo var_dump($_POST);
-   // echo $user->_DB()->getNXWhere("noticias", "id = ".$id);
-});
 $app->post('/user/delete', function() use ($user, $app){
     $app->render("admin/user/pages/delete.php", ['id' => $_POST['id']]);
 });
@@ -209,20 +193,6 @@ $app->post('/user/edit/:id', function($id) use ($user, $app){
     $user->updateUser($_POST, $id);
 });
 
-$app->post('/articles/new', function() use ($user, $app){
-    $app->render('admin/articles/controllers/new.php');
-});
-$app->post('/articles/edit/:id', function($id) use ($user, $app){
-    $dados =  $user->_DB()->getNXWhere("noticias", "id = ".$id );
-    echo json_encode($dados);
-});
-
-$app->post('/articles/newcategory', function() use ($user, $app){
-    include_once "models/admin/articles/models/db.articles.php";
-    $DBArticles = new DBArticles();
-    return $DBArticles->newCat($_POST['novacategoria']);
-
-});
 
 
 
