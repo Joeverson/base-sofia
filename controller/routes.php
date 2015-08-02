@@ -9,8 +9,8 @@
 session_cache_limiter(false);
 session_start();
 
+/// inicialização e configuração do slim
 require 'Slim/Slim.php';
-include_once "controller/Run.inc";
 \Slim\Slim::registerAutoloader();
 
 $app = new \Slim\Slim(array('templates.path' => 'modules')); // retorna a instancia
@@ -28,6 +28,16 @@ $app->add(new \Slim\Middleware\SessionCookie(array(
 )));
 
 $app->config(array('debug'=>'true'));
+
+////
+
+
+//--------------------------------------
+//teste
+
+\libs\autoUpdate::on();
+
+//--------------------------------------
 
 
 // instanciações de libs

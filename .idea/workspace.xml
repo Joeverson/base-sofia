@@ -2,635 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583de490-698c-4e85-8e4f-2d80dc3be607" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/admin/dashboard/controller/arquivo.teste.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentação/auto-include e mapeamento de classes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/base_cms.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/site/home/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/CMS.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/teste.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/models/declaracao/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/models/gp/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/models/protocolo/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Estruturas de pastas - codeBase/teste.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/Run.inc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/controller/cms.control.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/cms.session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/pkw.db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/pkw.links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/pkw.tst.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/articles/controllers/new.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/articles/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/articles/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/articles/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/articles/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/articles/models/db.articles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/camara/controller/save.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/camara/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/camara/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/camara/model/camara.db.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/login/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/login/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/controller/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/controller/delete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/controller/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/models/slider.db.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/pages/delete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/slider/pages/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/js/actions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/models/db.user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/pages/delete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/user/pages/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/controller/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/controller/delete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/controller/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/model/vereador.db.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/pages/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/pages/delete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/pages/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/11159216_735313696591866_1985617370_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/1789594.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/1800389.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/Captura de tela de 2015-05-18 10:43:12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/Captura de tela de 2015-05-29 12:15:37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/S02E22 - And Straight On 'Til Morning.mp4_snapshot_42.54_[2015.05.11_01.47.29].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/exp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/stalker-wallpaper-1366x768.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/admin/vereadores/uploads/uploads1789594.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/This_Font_is_Stressed_Bold/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/This_Font_is_Stressed_Bold/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/admin_side_menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/angularicons/angularicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/angularicons/angularicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/angularicons/angularicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/angularicons/angularicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/css/bootflat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/css/bootflat.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/css/bootflat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/img/check_flat/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/img/check_flat/default.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/js/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/js/jquery.fs.selecter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/js/jquery.fs.stepper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_accordion.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_button_group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_calendar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_checkbox_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_label_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_media_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_pager.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_pill.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_pricing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_selecter.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_stepper.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_tab.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_thumbnail.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_timeline.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bootflat/scss/bootflat/_well.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-blue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-gray.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-green.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-pink.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-purple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-red.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker-yellow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/color-picker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/site.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/fancy_sidebar_navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/favicon_16.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/free-psd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/google45b338b882fada75.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/Jumbotron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/ascii-logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/bootflat-ui-kit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/bootstrap-masonry-template.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/design.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/fast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/feature-bootstrap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/feature-css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/feature-lightweight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/feature-mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/footer-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/logo-index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/marca.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/photo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/photo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/photo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/photo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/prototyping.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/share.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/thumbnail-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/thumbnail-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/thumbnail-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/thumbnail-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/together.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/img/wild_flowers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/cms.notifications.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/extends.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/jquery-1.10.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/site.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/site.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/js/tinymce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/includes/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/MafiaShare.net.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/README.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/blog-style-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/blog-style-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/fancybox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/arrow-comments-entry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/arrowclass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/bgs/bg-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/birds.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/event-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/blog/post-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/fullscreen/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gallery/thumb/thumb-4col-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/gravatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/post-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/prevnext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/icons/zoom-style-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/quotes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sliders/slide-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sprite-block-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/sprite-style.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/images/stars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.cycle.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.gmap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.isotope.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.jigowatt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/jquery.touchSwipe-1.2.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/selectivizr-and-extra-selectors.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/js/twitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/capcha_page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/contact-send.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/php/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sidebar-left.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/single-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/single-post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/direction-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/loadidfng.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/images/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/sliders/flexslider/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/Politician-HTML5-CSS-Template/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/camara/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/contato/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/controller/control.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/controller/routes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/dashboard/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/galeria/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/galeria/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/home/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/home/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/home/slider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/fancybox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/arrow-comments-entry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/arrowclass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/bgs/bg-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/birds.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/event-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/blog/post-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/fullscreen/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gallery/thumb/thumb-4col-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/governo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/gravatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/post-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/prevnext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/icons/zoom-style-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/quotes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/1789594.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/keep-calm-it-s-today.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/legal cara.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sliders/slide-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sprite-block-icons - Copia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sprite-block-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/sprite-style.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/images/stars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery.cycle.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery.gmap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery.isotope.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery.jigowatt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/jquery.touchSwipe-1.2.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/selectivizr-and-extra-selectors.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/js/twitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/css/pwi.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/demo9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/images/icon-earth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/images/video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.blockUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/colorbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderBottomCenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderBottomLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderBottomRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderMiddleLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderMiddleRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderTopCenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderTopLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/ie6/borderTopRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/loading_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/images/overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.colorbox/jquery.colorbox-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.easing-1.3.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.fancybox/jquery.mousewheel-3.0.6.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.pwi-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.pwi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/closelabel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/jquery.slimbox2-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/jquery.slimbox2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/jquery.slimbox2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/nextlabel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/pwi/js/jquery.slimbox2/prevlabel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/direction-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/loadidfng.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/images/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/includes/sliders/flexslider/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/noticias/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/noticias/noticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/noticias/widgets/noticiassimilares.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/MafiaShare.net.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/README.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/blog-style-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/blog-style-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/fancybox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/arrow-comments-entry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/arrowclass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/bgs/bg-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/birds.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/event-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/blog/post-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/fullscreen/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gallery/thumb/thumb-4col-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/gravatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/post-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/prevnext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/icons/zoom-style-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/quotes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sliders/slide-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sprite-block-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/sprite-style.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/images/stars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/index.PHP" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery.cycle.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery.gmap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery.isotope.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery.jigowatt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/jquery.touchSwipe-1.2.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/selectivizr-and-extra-selectors.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/js/twitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/php/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/php/capcha_page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/php/contact-send.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/php/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sidebar-left.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/single-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/single-post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/direction-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/loadidfng.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/images/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/sliders/flexslider/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/tema/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/usuarios/articles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/usuarios/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/usuarios/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/categorias.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/eventos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/facebook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/rodape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/topo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/site/widgets/videos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/widgets/menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/widgets/rodape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/widgets/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/widgets/topo.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/pkw.file.php" afterPath="$PROJECT_DIR$/libs/file.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/pkw.function.php" afterPath="$PROJECT_DIR$/libs/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/pkw.login.php" afterPath="$PROJECT_DIR$/libs/login.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/libs/pkw.user.php" afterPath="$PROJECT_DIR$/libs/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/This_Font_is_Stressed_Bold/This_Font_is_Stressed.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/This_Font_is_Stressed_Bold/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/This_Font_is_Stressed_Bold/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/admin_side_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-blue.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-gray.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-green.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-pink.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-purple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-red.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker-yellow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/color-picker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/fancy_sidebar_navigation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/favicon_16.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/free-psd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/google45b338b882fada75.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/includes/sitemap.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/base_cms.iml" afterPath="$PROJECT_DIR$/.idea/sofia.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/database.php" afterPath="$PROJECT_DIR$/models/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/includes/js/extends.jquery.js" afterPath="$PROJECT_DIR$/modules/includes/js/extends.jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/routes.php" afterPath="$PROJECT_DIR$/controller/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="base_cms.iws" />
@@ -656,51 +75,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/user/index.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5555553" vertical-offset="237" max-vertical-offset="1872">
-              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4104">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/user.php">
+      <file leaf-file-name="autoUpdate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/autoUpdate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.037037" vertical-offset="260" max-vertical-offset="828">
-              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44864866" vertical-offset="1461" max-vertical-offset="3366">
-              <caret line="95" column="55" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.7001795" vertical-offset="906" max-vertical-offset="1548">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
               <folding>
-                <marker date="1437588605835" expanded="true" signature="728:862" placeholder="SELECT id, n..usuarios..." />
-                <marker date="1437588605835" expanded="true" signature="1145:1253" placeholder="INSERT INTO ..." />
-                <marker date="1437588605835" expanded="true" signature="1561:1725" placeholder="UPDATE usuar..." />
-                <marker date="1437588605835" expanded="true" signature="1834:1969" placeholder="UPDATE usuar..." />
-                <marker date="1437588605835" expanded="true" signature="2233:2274" placeholder="DELETE FROM ..." />
-                <marker date="1437588605835" expanded="true" signature="2552:2653" placeholder="SELECT *, DA..allusers..." />
-                <marker date="1437588605835" expanded="true" signature="2881:3010" placeholder="SELECT name,..usuarios..." />
-                <marker date="1437588605835" expanded="true" signature="3306:3325" placeholder="select * fro..tipos..." />
-                <marker date="1437588605835" expanded="true" signature="4935:4972" placeholder="SELECT * FRO..." />
+                <element signature="e#6#48#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/admin/user/create.php">
+      <file leaf-file-name="file.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/file.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5555553" vertical-offset="489" max-vertical-offset="2448">
-              <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1170">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="2070">
+              <caret line="60" column="13" selection-start-line="41" selection-start-column="8" selection-end-line="60" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -745,6 +156,10 @@
         <option value="$PROJECT_DIR$/modules/admin/user/create.php" />
         <option value="$PROJECT_DIR$/libs/user.php" />
         <option value="$PROJECT_DIR$/models/database.php" />
+        <option value="$PROJECT_DIR$/models/database.php" />
+        <option value="$PROJECT_DIR$/controller/Run.inc" />
+        <option value="$PROJECT_DIR$/controller/routes.php" />
+        <option value="$PROJECT_DIR$/libs/autoUpdate.php" />
       </list>
     </option>
   </component>
@@ -781,167 +196,41 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
+              <option name="myItemId" value="sofia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
+              <option name="myItemId" value="sofia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
+              <option name="myItemId" value="sofia-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
+              <option name="myItemId" value="sofia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
+              <option name="myItemId" value="sofia-base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="configs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1001,14 +290,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20543806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17900302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1042,19 +331,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/cms.control.php">
+    <entry file="file://$PROJECT_DIR$/libs/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1152">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="2070">
+          <caret line="60" column="13" selection-start-line="41" selection-start-column="8" selection-end-line="60" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Run.inc">
+    <entry file="file://$PROJECT_DIR$/libs/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1152">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="2070">
+          <caret line="60" column="13" selection-start-line="41" selection-start-column="8" selection-end-line="60" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/user/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="2448">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1062,7 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="954">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="990">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="936">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="342">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="954">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,15 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="972">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Run.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="720">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,14 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/cms.control.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1152">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6971831" vertical-offset="0" max-vertical-offset="576">
@@ -1279,19 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Run.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.333334" vertical-offset="432" max-vertical-offset="1152">
-          <caret line="50" column="49" selection-start-line="33" selection-start-column="12" selection-end-line="50" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09507042" vertical-offset="0" max-vertical-offset="568">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2535211" vertical-offset="0" max-vertical-offset="568">
           <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12676056" vertical-offset="0" max-vertical-offset="954">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,23 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06338028" vertical-offset="0" max-vertical-offset="918">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51891893" vertical-offset="378" max-vertical-offset="1170">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4954955" vertical-offset="463" max-vertical-offset="2070">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.049295776" vertical-offset="332" max-vertical-offset="900">
           <caret line="20" column="50" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,15 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="568">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23767605" vertical-offset="1125" max-vertical-offset="3924">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68108106" vertical-offset="108" max-vertical-offset="1116">
           <caret line="27" column="164" selection-start-line="27" selection-start-column="164" selection-end-line="27" selection-end-column="164" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,48 +619,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42162162" vertical-offset="0" max-vertical-offset="576">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/user/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5555553" vertical-offset="237" max-vertical-offset="1872">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/admin/user/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5555553" vertical-offset="489" max-vertical-offset="2448">
-          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.037037" vertical-offset="260" max-vertical-offset="828">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44864866" vertical-offset="1461" max-vertical-offset="3366">
-          <caret line="95" column="55" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="55" />
+        <state vertical-scroll-proportion="2.9189188" vertical-offset="0" max-vertical-offset="1746">
+          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/user/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1027027" vertical-offset="0" max-vertical-offset="2448">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1725352" vertical-offset="0" max-vertical-offset="828">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41621622" vertical-offset="183" max-vertical-offset="1872">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="2070">
+          <caret line="60" column="13" selection-start-line="41" selection-start-column="8" selection-end-line="60" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1170">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bloco1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.routes.protect.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4104">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/autoUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7001795" vertical-offset="906" max-vertical-offset="1548">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
           <folding>
-            <marker date="1437588605835" expanded="true" signature="728:862" placeholder="SELECT id, n..usuarios..." />
-            <marker date="1437588605835" expanded="true" signature="1145:1253" placeholder="INSERT INTO ..." />
-            <marker date="1437588605835" expanded="true" signature="1561:1725" placeholder="UPDATE usuar..." />
-            <marker date="1437588605835" expanded="true" signature="1834:1969" placeholder="UPDATE usuar..." />
-            <marker date="1437588605835" expanded="true" signature="2233:2274" placeholder="DELETE FROM ..." />
-            <marker date="1437588605835" expanded="true" signature="2552:2653" placeholder="SELECT *, DA..allusers..." />
-            <marker date="1437588605835" expanded="true" signature="2881:3010" placeholder="SELECT name,..usuarios..." />
-            <marker date="1437588605835" expanded="true" signature="3306:3325" placeholder="select * fro..tipos..." />
-            <marker date="1437588605835" expanded="true" signature="4935:4972" placeholder="SELECT * FRO..." />
+            <element signature="e#6#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

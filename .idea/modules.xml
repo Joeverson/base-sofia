@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/base_cms.iml" filepath="$PROJECT_DIR$/.idea/base_cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sofia-base/.idea/sofia.iml" filepath="$PROJECT_DIR$/../sofia-base/.idea/sofia.iml" />
     </modules>
   </component>
 </project>
