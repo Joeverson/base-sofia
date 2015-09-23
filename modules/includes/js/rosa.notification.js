@@ -1,6 +1,3 @@
-$(function(){
-    $('body').prepend('<!-- div de notificações --><div class="alert alert-success alert-dismissable notification"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><strong></strong></div><!-- /div de notificações -->');
-});
 var notification = {
     "ok": function(sms){
         $('.notification').css({backgroundColor: '#b9df90', color: 'white'}).fadeIn('slow');

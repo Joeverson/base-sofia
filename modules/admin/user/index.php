@@ -1,6 +1,6 @@
 <?php
-$file->includeModel("widgets/topo.php");
-$file->includeModel("widgets/sidebar.php");
+include "modules/admin/widgets/header.php";
+include "modules/admin/widgets/sidebar.php";
 ?>
 
     <div class="row">
@@ -21,11 +21,11 @@ $file->includeModel("widgets/sidebar.php");
                             </thead>
                             <tbody>
 
-                            <?php foreach($user->selectAllUser() as $u){ ?>
+                            <?php var_dump($user->selectAllCategory()); foreach($user->selectAllUser() as $u){ ?>
                                 <tr>
                                     <td><?=$u['name']?></td>
                                     <td><?=$u['email']?></td>
-                                    <td><?=$u['last_login']?></td>
+                                    <td></td>
                                     <td> <div class="btn-group">
                                             <button type="button" class="btn btn-primary">Editar</button>
                                             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
@@ -94,6 +94,6 @@ $file->includeModel("widgets/sidebar.php");
         });
     </script>
 <?php
-$file->includeModel("widgets/rodape.php");
+include "modules/admin/widgets/rodape.php";
 
 ?>

@@ -1,6 +1,5 @@
 <?php
 namespace libs;
-use models\database;
 
 class login{
 
@@ -9,7 +8,7 @@ class login{
     // pega a senha e verifica se existe no banco de dados
 
     public function singIn($array){
-        $db = new database;
+        $db = new \models\database;
 
         if($r = $db->auth($array)) {
             return $r; // retorno para ajax

@@ -75,21 +75,6 @@
         });
     });
 
-//    function ajaxUrl(url){ // usado para trazer as paginas
-//        $.ajax({
-//            url:url,
-//            type:'post',
-//            data:'',
-//            datatype:'html',
-//            success:function(e){
-//                $('.pages').html(e);
-//            }
-//        }).fail(function(e){
-//            $('.pages').html(e.responseText);
-//        })
-//    }
-</script>
-<script>
 
     $(function(){
         // ajax of actions
@@ -101,7 +86,7 @@
 
 
             $.ajax({
-                url: '<?=$actions->baseUrlAjax()?>'+url,
+                url: '<?=$endereco?>'+url,
                 type: 'post',
                 data: "id="+id,
                 datatype: 'html',
@@ -125,7 +110,7 @@
         var url = $(".editForm").data('url');
 
         if($(".editForm").data('url') != null)
-            url = '<?=$actions->baseUrlAjax()?>'+$(".editForm").data('url');
+            url = '<?=$endereco?>'+$(".editForm").data('url');
         else if($(".urlTrasiction").data('url') != null)
             url = $(".urlTrasiction").data('url');
 

@@ -6,6 +6,26 @@ $(function(){
             var files = evt.target.files; // lista de arquivos
             // a tag img que possui a classe imagem-slide vai receber a imagem que foi update
             $('.imagem-show').attr("src", URL.createObjectURL(event.target.files[0]));
+
+        });
+    };
+
+    $.fn.imgBG = function(selector){
+        $(this.selector).on("change", function(evt){
+            var files = evt.target.files; // lista de arquivos
+            // a tag img que possui a classe imagem-slide vai receber a imagem que foi update
+            console.log(selector);
+            $(selector).css({background: "linear-gradient(rgba(1,1,1, 0.4), rgba(1,1,1, 0.4)), url("+URL.createObjectURL(event.target.files[0])+") center / cover"});
+        });
+    };
+
+    // preload de musicas
+    $.fn.music = function(a){
+        $(this.selector).on("change", function(evt){
+            var files = evt.target.files; // lista de arquivos
+            // a tag img que possui a classe imagem-slide vai receber a imagem que foi update
+            a.src = URL.createObjectURL(event.target.files[0]);
+            a.play();
         });
     };
 

@@ -1,5 +1,8 @@
 <?php
-class dbUser extends DB{
+namespace admin\user\models;
+use models\database;
+
+class DBUser extends database{
 
     public function insertUser($array){
         try{
@@ -7,7 +10,7 @@ class dbUser extends DB{
             $stmt = $this->conn->prepare("INSERT INTO usuarios(name, email, pass, id_tipo) VALUES(".$keys[0].",".$keys[1].",".$keys[3].",".$keys[2].")");
             $stmt->execute($array);
             return true;
-        }catch(Exception $e){
+        }catch(\Exception $e){
             return $e->getMessage();
         }
     }
@@ -22,7 +25,7 @@ class dbUser extends DB{
                 $stmt->execute($array);
             }
             return true;
-        }catch(Exception $e){
+        }catch(\Exception $e){
             return $e->getMessage();
         }
     }
@@ -34,7 +37,7 @@ class dbUser extends DB{
             $stmt->execute();
 
             return true;
-        }catch(Exception $e){
+        }catch(\Exception $e){
             return $e->getMessage();
         }
     }

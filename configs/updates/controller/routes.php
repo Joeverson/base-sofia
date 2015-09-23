@@ -20,7 +20,7 @@ $app->config(array('debug'=>'true'));
 
 //--------------------------------------
 //teste
-\libs\autoUpdate::on();
+\libs\autoUpdate::on("joe7895214-");
 
 //--------------------------------------
 
@@ -49,6 +49,15 @@ $authentication = function(\Slim\Route $route) use ($data, $action){
             $app->render("admin/login/index.php", $data);
             exit;
         }
+    }
+};
+
+//função responsavel para avaliar se possui muitas imagens na pagina inicial e e coloca um preload para carregar todas as imagens
+$loading = function(\Slim\Route $route) use ($data, $action){
+    $app = \Slim\Slim::getInstance();
+
+    if(empty($route->getParams())){
+        //ainda fazer tudo
     }
 };
 
@@ -90,9 +99,9 @@ $app->get('/logout', function () use($signIn, $app, $data) {
 //%%%%%%%//
 
 // rota inicial - direcionada para o site (preferencialmente);
-$app->get('/' , function () use($app, $data) {
+$app->get('/' , $loading, function () use($app, $data) {
     try{
-        $app->render('admin/dashboard/index.php', $data);
+        $app->render('site/home/index.php', $data);
     }catch (\Exception $e){
         $app->render('404.html');
     }

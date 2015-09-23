@@ -21,7 +21,7 @@ $name = $_SESSION['user']['name'];
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand nopadding" href="<?=$endereco?>"><img src="<?=$endereco?>includes/img/logoUni.png" style="width: 60%; padding-left: 15px;" alt=""/></a>
+                    <a class="navbar-brand nopadding" href="<?=$endereco?>../admin"><img src="<?=$endereco?>includes/img/anony.png" style="width: 18%; margin-top:-20px; padding: -15px 0 0 0 ;" alt=""/></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

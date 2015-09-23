@@ -2,7 +2,6 @@
 namespace libs;
 
 class functions{
-
     public function __construct(){ }
 
     public function BPath($page = ''){
@@ -33,7 +32,7 @@ class functions{
     }
 
 
-    //#hall da fama ... @makeMenu
+    //#hall da fama ... @makeMenu -- então né
     public function makeMenu(){
         //$acessLevel = $_SESSION['acessLevel'];  //informação necessária para saber o nivel de acesso do usuário logado
         if(!empty($_SESSION['makeMenu'])) return $_SESSION['makeMenu'];
@@ -70,23 +69,94 @@ class functions{
         return $_SESSION["makeMenu"] = $masters;
     }
 
+    public static function findFilesNamesByDir($dir){
+        $path = array();
+        foreach(scandir(__dir__.'/../modules/site/'.$dir) as $k)
+            if(($k != '.') && ($k != '..')) {
+                if($str = explode(' ', $k)){
+                    $c = implode('', $str);
+
+                    if(rename(__dir__.'/../modules/site/'.$dir.'/'.$k, __dir__.'/../modules/site/'.$dir.'/'.$c))
+                        $path[] = $dir.'/'.$c;
+                }else
+                    $path[] = $dir.'/'.$k;
+
+
+            }
+
+
+        return $path;
+    }
+
 
 
     /**
      * @param $array
      * @return null
      */
-    public function prepareArrayDoublePointer($array){
+    public function prepareArrayDoublePointer($array, $flag = true){
         if(!is_array($array) || empty($array))
             return null;
 
         foreach($array as $key => $val){
-            if( $val === "" ) continue;
+            if( $val == "" and $flag) continue;
+            if( $key == 'pass' ){
+                $newArray[':'.$key] = $this->segPassEncript($val);
+                continue;
+            }
 
             $newArray[':'.$key] = $val;
         }
 
         return $newArray;
+    }
+
+    /*
+     * esse metodo gera um query update para passar para o pdo ou para qualquer
+     * lugar.
+     * atributos que o metodo recebe:
+     * $table => tabela que deseja atualizar
+     * $array => dados que iram ser atualizados onde a chave e o coluna e o valor e o valor kk
+     * $id => id que ira identificar a tupla para ser atualizada
+     * $where=> condiçao para ser buscado junto com $id ex: $where = $id;
+     */
+    public function generateQuerySqlUpdatePDO($table, $array, $id, $where){
+        $str = "UPDATE ".$table." SET";
+        unset($array['id_user']);
+
+        foreach($array as $key => $val){
+            if($val == '' || $key == "id_user") continue;
+
+
+            if(end($array) == $val)
+                $str .= " $key = '".$val."' ";
+            else
+                $str .= " $key = '".$val."', ";
+        }
+
+        $str .= "WHERE ".$where." = '$id'";
+
+        return $str;
+    }
+
+    /*
+     * função para formatar o timestamp do bando de dados, ela reebe uma parametro extra caso deseje saber quantos
+     * dias se passaram entre duas datas...
+     * - se quiser só formatar apenas passe a data em formato timestamp do DB
+     * - mas caso queira que apenas retorne a qantidade de dias corrido, passe a data e true
+     *
+     */
+    public function dateTimeStampConsertAndOrganize($str, $timeCurrent=false){
+        $strs = explode(" ", $str);
+        $date = explode("-", $strs[0]);
+
+        if($timeCurrent)
+            return $date[2];
+
+        if(@$date[2] == "00" or $date[0] == "0000" or $str === NULL)
+            return "---";
+
+        return $date[2]."/".$date[1]."/".$date[0];
     }
 
     public function checkAcess($caminho){
@@ -107,4 +177,5 @@ class functions{
                 return true;
         return false;
     }
+
 }

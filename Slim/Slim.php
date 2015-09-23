@@ -33,6 +33,8 @@
 namespace Slim;
 
 // Ensure mcrypt constants are defined even if mcrypt extension is not loaded
+use libs\autoUpdate;
+
 if (!extension_loaded('mcrypt')) {
     define('MCRYPT_MODE_CBC', 0);
     define('MCRYPT_RIJNDAEL_256', 0);
@@ -230,6 +232,11 @@ class Slim
         if (is_null(static::getInstance())) {
             $this->setName('default');
         }
+    }
+
+    public function __destruct(){
+        //chamada para a atualização de arquivos do sofia;
+        //autoUpdate::push();
     }
 
     public function __get($name)

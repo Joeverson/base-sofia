@@ -6,8 +6,6 @@ $(function(){
         event.preventDefault();
         var url = $(".urlForm").data('url');
         var redirect = $(".urlForm").data('redirect');
-        var redirectBlank = $(".urlForm").data('redirectBlank');
-        var consolel = $(".urlForm").data('console');
 
         $.ajax({
             url: url,
@@ -18,18 +16,15 @@ $(function(){
                 notification.loading("Trabalhando...");
             },
             success: function(e){
-                if(redirect != undefined){
-                    window.location.href = redirect;
-                }else if(redirectBlank != undefined){
-                    window.open(redirectBlank, '_blank');
-                }else if(consolel != undefined){
-                    console.log(e);
+                console.log(e);
+                alert('asdsd');
+                if(redirect == undefined){
+                    //window.location.reload();
                 }else{
-                    window.location.reload();
+                    //window.location.href = redirect;
                 }
             },
             error: function(e){
-                notification.loading("Houve algum erro, Tente de novo...");
                 console.log(e);
             }
         });

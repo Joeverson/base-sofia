@@ -5,7 +5,7 @@ class database{
     private $user = 'root';
     private $pass = '';
     private $host = 'localhost';
-    private $bdname = 'cms';
+    private $bdname = '314';
     private $socket = 'mysql';
     protected $conn;
 
@@ -24,19 +24,14 @@ class database{
     }
 
     public function auth($array){ // Busca a senha no bd e retorna true se tiver ou retorna false caso não tenha
-        $rs = $this->conn->query("SELECT id, name, email, id_tipo FROM usuarios WHERE pass = '".$this->segPassEncript($array['pass'])."' and name = '".$array['name']."'");
-        if(($rs == false) || ($rs == NULL))
-            return false;
-
-        foreach($rs as $k)
-            return $k;
+        return $this->conn->query("SELECT * FROM user WHERE pass = '".$this->segPassEncript($array['pass'])."' and name = '".$array['name']."'")->fetchAll(\PDO::FETCH_ASSOC);
     }
 
 // crud User:::
     public function insertUser($array){
         try{
             $keys = array_keys($array);
-            $stmt = $this->conn->prepare("INSERT INTO usuarios(name, email, pass, id_tipo) VALUES(".$keys[0].",".$keys[1].",".$keys[3].",".$keys[2].")");
+            $stmt = $this->conn->prepare("INSERT INTO user(name, email, pass, id_tipo) VALUES(".$keys[0].",".$keys[1].",".$keys[3].",".$keys[2].")");
             $stmt->execute($array);
             return true;
         }catch(\PDOException $e){
@@ -47,10 +42,10 @@ class database{
     public function updateUser($array, $id){
         try{
             if(array_key_exists(":pass", $array)){
-                $stmt = $this->conn->prepare("UPDATE usuarios set name = '".$array[':name']."', pass = '".$array[':pass']."', email = '".$array[':email']."',  id_tipo = '".$array[':cat']."' WHERE id = '".$id."'");
+                $stmt = $this->conn->prepare("UPDATE user set name = '".$array[':name']."', pass = '".$array[':pass']."', email = '".$array[':email']."',  id_tipo = '".$array[':cat']."' WHERE id_user = '".$id."'");
                 $stmt->execute($array);
             }else{
-                $stmt = $this->conn->prepare("UPDATE usuarios set name = '".$array[':name']."',  email = '".$array[':email']."',  id_tipo = '".$array[':cat']."' WHERE id = '".$id."'");
+                $stmt = $this->conn->prepare("UPDATE user set name = '".$array[':name']."',  email = '".$array[':email']."',  id_tipo = '".$array[':cat']."' WHERE id_user = '".$id."'");
                 $stmt->execute($array);
             }
             return true;
@@ -62,7 +57,7 @@ class database{
 
     public function deleteUser($id){
         try{
-            $stmt = $this->conn->prepare("DELETE FROM usuarios WHERE id = '".$id."'");
+            $stmt = $this->conn->prepare("DELETE FROM user WHERE id_user = '".$id."'");
             $stmt->execute();
 
             return true;
@@ -81,7 +76,7 @@ class database{
    }
 
     public function selectUser($id){ // retorna um array com as informações de acordo com o mês
-        $rs = $this->conn->query("SELECT name, id, email, name_cat FROM usuarios inner JOIN tipos on usuarios.id_tipo = tipos.id_tipo WHERE usuarios.id = '".$id."'");
+        $rs = $this->conn->query("SELECT name, id_user, email, name_cat FROM user inner JOIN tipos on user.id_tipo = tipos.id_tipo WHERE user.id_user = '".$id."'");
         if(($rs == false) || ($rs == NULL))
             return false;
 
