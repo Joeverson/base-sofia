@@ -1,0 +1,7 @@
+{
+    "name": "Base-Sofia/Sofia",
+    "description": "This project is a base for create new system with CMS or System same.",
+    "require": {
+        "php": ">=5.4.0"
+    }
+}

@@ -155,6 +155,9 @@ class Slim
         //assinatura
         $this->handJoe();
 
+        //criação de indentificação de app-sofia
+        $this->IDApp();
+
         // Setup IoC container
         $this->container = new \Slim\Helper\Set();
         $this->container['settings'] = array_merge(static::getDefaultSettings(), $userSettings);
@@ -1007,6 +1010,21 @@ class Slim
     public function root()
     {
         return rtrim($_SERVER['DOCUMENT_ROOT'], '/') . rtrim($this->request->getRootUri(), '/') . '/';
+    }
+
+    /**
+     * essa função é responsavel por dar um ID para a aplicação e com ela ter o controle de
+     * onde e quantos apps com sofia estão rodando.
+     */
+    public function IDApp(){
+        $path = __DIR__.'/Helper/ID';
+
+        if(!file_exists($path)){
+            mkdir($path,0777);
+            $f = fopen($path.'/key.id','a');
+            fwrite($f,time());
+            fclose($f);
+        }
     }
 
     public function handJoe(){

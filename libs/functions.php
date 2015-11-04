@@ -25,10 +25,10 @@ class functions{
     private function adapterURI(){
         $subpath = explode("/",$_SERVER['REQUEST_URI']);
 
-        if($_SERVER['SERVER_NAME'] == "localhost")
+        if(!preg_match("/([.])/",explode('/', $_SERVER['PHP_SELF'])[1]))//pega a primeira chamada padrão do apache e vé se eum a rquivo  ou um diretorio se dor um diretorio ele coloca no nome do diretorio como base apdrão
             return $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/".$subpath[1]."/";
 
-        return $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME']."/";
+        return  $_SERVER['REQUEST_SCHEME']."://".$_SERVER['SERVER_NAME'] . '/';
     }
 
 
@@ -88,7 +88,9 @@ class functions{
         return $path;
     }
 
-
+    public function segPassEncript($pass){
+        return md5(sha1($pass));
+    }
 
     /**
      * @param $array

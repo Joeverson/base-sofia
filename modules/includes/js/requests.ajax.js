@@ -1,7 +1,7 @@
 $(function(){
 
 
-    //formulario de edição de usuario
+//formulario de edição de usuario
     $("#formEditUser").on("submit",function(){
         event.preventDefault();
         var url = $(".urlForm").data('url');
@@ -10,18 +10,29 @@ $(function(){
         $.ajax({
             url: url,
             type: 'post',
-            data: $(this).serialize(),
+            data: new FormData(this),
             datatype: 'html',
             beforeSend: function(){
                 notification.loading("Trabalhando...");
             },
+            cache: false,
+            contentType: false,
+            processData: false,
+            xhr: function() {  // Custom XMLHttpRequest
+                var myXhr = $.ajaxSettings.xhr();
+                if (myXhr.upload) { // Avalia se tem suporte a propriedade upload
+                    myXhr.upload.addEventListener('progress', function () {
+                        /* faz alguma coisa durante o progresso do upload */
+                    }, false);
+                }
+                return myXhr;
+            },
             success: function(e){
                 console.log(e);
-                alert('asdsd');
                 if(redirect == undefined){
-                    //window.location.reload();
+                    window.location.reload();
                 }else{
-                    //window.location.href = redirect;
+                    window.location.href = redirect;
                 }
             },
             error: function(e){
@@ -29,7 +40,6 @@ $(function(){
             }
         });
     });
-
     //pedidos de modal generico - carregar conteudo no modal
 
     $(".fn").on("click", function(){

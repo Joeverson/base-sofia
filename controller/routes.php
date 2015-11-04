@@ -20,7 +20,7 @@ $app->config(array('debug'=>'true'));
 
 //--------------------------------------
 //teste
-\libs\autoUpdate::on();
+//\libs\autoUpdate::on();
 
 //--------------------------------------
 

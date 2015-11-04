@@ -9,12 +9,9 @@ class autoUpdate{
     private static $badPath = ["Slim","modules"];
     private static $path = "configs/auto.update.xml";
     private static $list;
-    private static $pass;
 
 
-
-    public static function on($pass){
-        self::$pass = $pass;
+    public static function on(){
         self::config();
         self::copy();
     }
@@ -89,7 +86,7 @@ class autoUpdate{
             if(!copy(__dir__."/../".$l,__dir__."/../configs/updates/".$l))
                 return false;
 
-            chmod (__dir__."/../configs/updates/".$l, 0755);
+            chmod (__dir__."/../configs/updates/".$l, 0777);
         }
     }
 }

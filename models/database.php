@@ -2,10 +2,10 @@
 namespace models;
 
 class database{
-    private $user = 'root';
+    private $user = '';
     private $pass = '';
-    private $host = 'localhost';
-    private $bdname = '314';
+    private $host = '';
+    private $bdname = '';
     private $socket = 'mysql';
     protected $conn;
 
