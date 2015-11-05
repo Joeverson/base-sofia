@@ -1,5 +1,5 @@
 {
-    "name": "Base-Sofia/Sofia",
+    "name": "base-sofia/sofia",
     "type": "Base System",
     "description": "This project is a base for create new system with CMS or System same.",
     "keywords": ["System","sofia","base","fast Developer","developer","base sofia","framework php","joe"],
@@ -10,7 +10,6 @@
             "name": "Joerverson Santos",
             "email": "joerverson.santos@gmail.com",
             "homepage": "http://314.bl.ee",
-            "role": "Developer"
         }
     ],
     "require": {
