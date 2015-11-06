@@ -1,7 +1,6 @@
 {
     "name": "base-sofia/sofia",
-    "type": "Base System",
-    "description": "This project is a base for create new system with CMS or System same.",
+    "description": "This project is a base for create new system with CMS or System same. him is between framework and CMS",
     "keywords": ["System","sofia","base","fast Developer","developer","base sofia","framework php","joe"],
     "homepage": "",
     "license": "GPL",
