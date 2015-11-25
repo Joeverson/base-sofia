@@ -29,8 +29,8 @@ $user = new \modules\admin\user\models\DBUser;
     .card-create-user > .mdl-card__title {
         color: #000;
         height: 176px;
-        background: url('<?=$endereco?>includes/img/LOGO.png') no-repeat center;
-        background-size: 60%;
+        background: url('<?=$endereco?>includes/img/logopl.png') no-repeat center;
+        background-size: 30%;
     }
     .card-create-user > .mdl-card__menu {
         color: #fff;
@@ -62,7 +62,6 @@ $user = new \modules\admin\user\models\DBUser;
                         <input class='col-md-12' type="email" id="email" name="email" placeholder="E-mail" required="">
                         <input class='col-md-12' type="password" id='pass' name="pass" placeholder="Senha" required="">
                         <input class='col-md-12' type="password" id='pass2' placeholder="re-Senha" required="">
-                        <input class='col-md-12' type="number" id='id_multiplicador' name="id_multiplicador" placeholder="Codigo do Multiplicador" required="">
                         <select name="id_tipo" class="col-md-12" style="border:none; background-color: transparent;">
                             <option value="-1">Defina os privilegios do usuário</option>
                             <?php foreach($user->selectCat() as $c){?>
@@ -129,8 +128,9 @@ $user = new \modules\admin\user\models\DBUser;
                     data: data,
                     datatype: 'html',
                     success: function(t){
+                        console.log(t);
                         notification.ok('Enviado com Sucesso!!');
-                        window.location.reload();
+                        //window.location.reload();
                     },
                     error: function(){
                         notification.ok('Error ao salvar o usuário!!');

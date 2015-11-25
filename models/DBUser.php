@@ -6,7 +6,7 @@ class DBUser extends database{
 
     public function insertUser($array){
         try{
-            $stmt = $this->conn->prepare("INSERT INTO user(name, email, pass, id_tipo, id_multiplicador) VALUES(:name, :email, :pass, :id_tipo, :id_multiplicador)");
+            $stmt = $this->conn->prepare("INSERT INTO user(name, email, pass, id_tipo) VALUES(:name, :email, :pass, :id_tipo)");
             $stmt->execute($array);
             var_dump($stmt->errorInfo());
         }catch(\Exception $e){
