@@ -1,6 +1,16 @@
 {
-    "name": "Base-Sofia/Sofia",
-    "description": "This project is a base for create new system with CMS or System same.",
+    "name": "base-sofia/sofia",
+    "description": "This project is a base for create new system with CMS or System same. In fact is a system hibrid, him is between framework and CMS",
+    "keywords": ["System","sofia","base","fast Developer","developer","base sofia","framework php","joe"],
+    "homepage": "",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Joerverson Santos",
+            "email": "joerverson.santos@gmail.com",
+            "homepage": "http://314.bl.ee"
+        }
+    ],
     "require": {
         "php": ">=5.4.0"
     }
