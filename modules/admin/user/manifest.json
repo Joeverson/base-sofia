@@ -1,9 +1,9 @@
 {
   "dad": "this",
   "dadsName": "master",
-  "acessLevel": "0,1",
+  "acessLevel": "0",
   "title": "Usuários",
-  "url": "admin/user/create",
+  "url": "admin/user",
   "submenu": []
 
 }

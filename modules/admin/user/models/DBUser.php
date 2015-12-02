@@ -1,15 +1,14 @@
 <?php
-namespace admin\user\models;
+namespace modules\admin\user\models;
 use models\database;
 
 class DBUser extends database{
 
     public function insertUser($array){
         try{
-            $keys = array_keys($array);
-            $stmt = $this->conn->prepare("INSERT INTO usuarios(name, email, pass, id_tipo) VALUES(".$keys[0].",".$keys[1].",".$keys[3].",".$keys[2].")");
+            $stmt = $this->conn->prepare("INSERT INTO user(name, email, pass, id_tipo) VALUES(:name, :email, :pass, :id_tipo)");
             $stmt->execute($array);
-            return true;
+            var_dump($stmt->errorInfo());
         }catch(\Exception $e){
             return $e->getMessage();
         }
@@ -44,7 +43,7 @@ class DBUser extends database{
 
 
     public function selectAllUser(){ // retorna um array com as informações de acordo com o mês
-        $rs = $this->conn->query("SELECT *, DATE_FORMAT(last_login,'%d.%m.%Y - %h.%i.%s') as last_login FROM allusers order by name ASC");
+        $rs = $this->conn->query("SELECT * FROM user join tipos on user.id_tipo=tipos.id_tipo order by name ASC");
         if(($rs == false) || ($rs == NULL))
             return false;
 
@@ -59,6 +58,13 @@ class DBUser extends database{
         foreach($rs as $k)
             return $k;
 
+    }
+
+    public function selectCat(){ // retorna um array com as informações de acordo com o mês
+        $stmt = $this->conn->prepare("SELECT * FROM tipos");
+        $stmt->execute();
+
+        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 //:: crud user finished::
 

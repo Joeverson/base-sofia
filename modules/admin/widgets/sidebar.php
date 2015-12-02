@@ -25,7 +25,7 @@ $name = $_SESSION['user']['name'];
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <p class="navbar-text navbar-right"><span class="text-success">Gerenciador de Conteúdo </span> <?=$name?> logado - <a class="navbar-link" href="logout"><b>Sair</b></a></p>
+                    <p class="navbar-text navbar-right"><span class="text-success">Gerenciador de Conteúdo </span> <?=$name?> logado - <a class="navbar-link" href="<?=$endereco?>../logout"><b>Sair</b></a></p>
 
                     <!--form class="navbar-form navbar-right" role="search">
                           <div class="form-search search-only">
