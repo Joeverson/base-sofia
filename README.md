@@ -8,5 +8,7 @@
 #Why this name Sofia??
 - I don't know... just like this name kkk
 
-#System with him.
-[3.14 / DUP-developer](http://314.bl.ee)
+#Who it use?.
+ - [3.14 / DUP-developer](http://314.bl.ee)
+ - [IENA - JP / Igreja Evangélica Nova Aliança](http://ienajp.hol.es/)
+ - [PL / Portal Livre](http://portallivrepb.com.br)
